@@ -1,0 +1,37 @@
+{
+  "widths": [
+    80
+  ],
+  "offsets": [
+    -10,
+    11
+  ],
+  "intensities": [
+    0,
+    1
+  ],
+  "speeds": [
+    51.724137931034484
+  ],
+  "height": 80,
+  "bar_loc_horizontal": 0.0,
+  "shuffle_offsets": false,
+  "post_pad_mode": "continue",
+  "t_pre": 1.0,
+  "t_post": 1.0,
+  "dt": 0.005,
+  "angles": [
+    0,
+    30,
+    60,
+    90,
+    120,
+    150,
+    180,
+    210,
+    240,
+    270,
+    300,
+    330
+  ]
+}

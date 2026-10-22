@@ -1,0 +1,56 @@
+{
+  "model": "000",
+  "utc_start": "2026-10-16T09:29:57Z",
+  "nodes": 45669,
+  "edges": 1513231,
+  "structural_zero_types": [
+    "Mi11",
+    "Tm30"
+  ],
+  "types_simulated": 63,
+  "stimuli": {
+    "dev_fast": {
+      "causal_frames": 86,
+      "baseline_max_abs_difference": 2.980232238769531e-07,
+      "zero_tangent_seconds": 67.49699546098418,
+      "gradient_max_abs_difference": 2.5035261949080123e-06,
+      "gradient_gate_pass_fraction": 1.0,
+      "gradient_gate_failures": [],
+      "mean_output_summary": {
+        "min": 0.0,
+        "max": 3.523736000061035,
+        "fraction_zero": 0.056340184062719345
+      },
+      "replacement_checks": {
+        "zero_replacement_Mi1_max_abs_difference_vs_ai06": 2.384185791015625e-07,
+        "zero_replacement_Tm3_max_abs_difference_vs_ai06": 3.5762786865234375e-07,
+        "mean_replacement_strength0_max_abs_difference_vs_baseline": 2.384185791015625e-07
+      },
+      "mean_tangent_seconds": 67.7970662009975,
+      "mean_exact_one_strength_seconds": 29.506891865981743
+    },
+    "final_slow": {
+      "causal_frames": 344,
+      "baseline_max_abs_difference": 3.3155083656311035e-07,
+      "zero_tangent_seconds": 269.8855601419855,
+      "gradient_max_abs_difference": 1.576736383679389e-06,
+      "gradient_gate_pass_fraction": 1.0,
+      "gradient_gate_failures": [],
+      "mean_output_summary": {
+        "min": 0.0,
+        "max": 3.4098899364471436,
+        "fraction_zero": 0.05614311620593071
+      },
+      "replacement_checks": {
+        "zero_replacement_Mi1_max_abs_difference_vs_ai06": 2.980232238769531e-07,
+        "zero_replacement_Tm3_max_abs_difference_vs_ai06": 2.980232238769531e-07,
+        "mean_replacement_strength0_max_abs_difference_vs_baseline": 3.5762786865234375e-07
+      },
+      "mean_tangent_seconds": 271.13195663497027,
+      "mean_exact_one_strength_seconds": 117.93833664898557
+    }
+  },
+  "peak_gpu_allocated_mib": 2482.3896484375,
+  "peak_gpu_reserved_mib": 2722.0,
+  "utc_end": "2026-10-16T09:43:55Z"
+}

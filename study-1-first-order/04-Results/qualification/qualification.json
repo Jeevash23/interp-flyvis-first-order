@@ -1,0 +1,100 @@
+{
+  "model": "flow/0000/000",
+  "status": "pass",
+  "elapsed_seconds": 102.43613326800187,
+  "max_rss_kib": 2117688,
+  "torch": "2.5.1+cpu",
+  "flyvis": "1.2.0",
+  "finite": true,
+  "target_dsi": 0.63,
+  "target_pd_degrees": 56.24,
+  "dsi_error": 0.0026384816371338715,
+  "pd_error_degrees": 0.004206726109970305,
+  "rows": [
+    {
+      "cell_type": "T4a",
+      "intensity": 1,
+      "dsi": 0.4297800910639062,
+      "pd_degrees": 176.47592150162615
+    },
+    {
+      "cell_type": "T4b",
+      "intensity": 1,
+      "dsi": 0.5379665158509512,
+      "pd_degrees": -9.27238438590717
+    },
+    {
+      "cell_type": "T4c",
+      "intensity": 1,
+      "dsi": 0.6273615183628661,
+      "pd_degrees": 56.235793273890025
+    },
+    {
+      "cell_type": "T4d",
+      "intensity": 1,
+      "dsi": 0.09875701792914655,
+      "pd_degrees": -86.33555107626006
+    },
+    {
+      "cell_type": "T5a",
+      "intensity": 0,
+      "dsi": 0.7783228061341887,
+      "pd_degrees": -174.3093570378297
+    },
+    {
+      "cell_type": "T5b",
+      "intensity": 0,
+      "dsi": 0.7488025463648692,
+      "pd_degrees": -10.855531158006622
+    },
+    {
+      "cell_type": "T5c",
+      "intensity": 0,
+      "dsi": 0.5792285776284953,
+      "pd_degrees": 104.39747945488318
+    },
+    {
+      "cell_type": "T5d",
+      "intensity": 0,
+      "dsi": 0.5296319354659044,
+      "pd_degrees": -111.54310903017335
+    }
+  ],
+  "config": {
+    "widths": [
+      80
+    ],
+    "offsets": [
+      -10,
+      11
+    ],
+    "intensities": [
+      0,
+      1
+    ],
+    "speeds": [
+      19
+    ],
+    "height": 80,
+    "bar_loc_horizontal": 0.0,
+    "shuffle_offsets": false,
+    "post_pad_mode": "continue",
+    "t_pre": 1.0,
+    "t_post": 1.0,
+    "dt": 0.005,
+    "angles": [
+      "0",
+      "30",
+      "60",
+      "90",
+      "120",
+      "150",
+      "180",
+      "210",
+      "240",
+      "270",
+      "300",
+      "330"
+    ]
+  }
+}

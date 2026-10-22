@@ -1,0 +1,4750 @@
+{
+ "macros": {
+  "AbolishedByLOne": {
+   "value": "79",
+   "study": "1"
+  },
+  "AbolishedByMiFour": {
+   "value": "45",
+   "study": "1"
+  },
+  "AbolishedByMiOne": {
+   "value": "152",
+   "study": "1"
+  },
+  "AbolishedByTmThree": {
+   "value": "39",
+   "study": "1"
+  },
+  "AbolishedFull": {
+   "value": "723",
+   "study": "1"
+  },
+  "AbolishedFullPct": {
+   "value": "1.6",
+   "study": "1"
+  },
+  "AbolishedHalf": {
+   "value": "254",
+   "study": "1"
+  },
+  "AbolishedNoPreferred": {
+   "value": "46",
+   "study": "1"
+  },
+  "AbolishedSelectiveFull": {
+   "value": "524",
+   "study": "1"
+  },
+  "AbolishedSelectiveHalf": {
+   "value": "178",
+   "study": "1"
+  },
+  "AbolitionReadoutsFull": {
+   "value": "275",
+   "study": "1"
+  },
+  "AbsPredAboveOneFull": {
+   "value": "722",
+   "study": "1"
+  },
+  "AbsPredAboveOneHalf": {
+   "value": "277",
+   "study": "1"
+  },
+  "AmpLimit": {
+   "value": "100",
+   "study": "both"
+  },
+  "AmpLimitHigh": {
+   "value": "1000",
+   "study": "1"
+  },
+  "AmpLimitLow": {
+   "value": "10",
+   "study": "1"
+  },
+  "AmpRatioAboveTwoPct": {
+   "value": "5.8",
+   "study": "1"
+  },
+  "AmpRatioBelowHalfPct": {
+   "value": "4.8",
+   "study": "1"
+  },
+  "AmpRatioHighQ": {
+   "value": "2.23",
+   "study": "1"
+  },
+  "AmpRatioLargeDecMedian": {
+   "value": "1.39",
+   "study": "1"
+  },
+  "AmpRatioLargeIncMedian": {
+   "value": "0.58",
+   "study": "1"
+  },
+  "AmpRatioLargeMedian": {
+   "value": "1.19",
+   "study": "1"
+  },
+  "AmpRatioLargeQOne": {
+   "value": "0.65",
+   "study": "1"
+  },
+  "AmpRatioLargeQThree": {
+   "value": "2.12",
+   "study": "1"
+  },
+  "AmpRatioLowQ": {
+   "value": "0.51",
+   "study": "1"
+  },
+  "AmpRatioMedian": {
+   "value": "1.00",
+   "study": "1"
+  },
+  "AmpRatioQOne": {
+   "value": "0.97",
+   "study": "1"
+  },
+  "AmpRatioQThree": {
+   "value": "1.04",
+   "study": "1"
+  },
+  "AmplifiedCasesFull": {
+   "value": "154",
+   "study": "1"
+  },
+  "AmplifiedCasesHalf": {
+   "value": "24",
+   "study": "1"
+  },
+  "AmplifiedInterventionsFull": {
+   "value": "21",
+   "study": "1"
+  },
+  "AmplifiedInterventionsHalf": {
+   "value": "3",
+   "study": "1"
+  },
+  "AmplifiedSelectiveFull": {
+   "value": "61",
+   "study": "1"
+  },
+  "AmplifiedSelectiveHalf": {
+   "value": "8",
+   "study": "1"
+  },
+  "AnatABCFull": {
+   "value": "0.454",
+   "study": "2"
+  },
+  "AnatABCHalf": {
+   "value": "0.270",
+   "study": "2"
+  },
+  "AnatABFull": {
+   "value": "0.454",
+   "study": "2"
+  },
+  "AnatABHalf": {
+   "value": "0.270",
+   "study": "2"
+  },
+  "AnatACFull": {
+   "value": "0.468",
+   "study": "2"
+  },
+  "AnatACHalf": {
+   "value": "0.272",
+   "study": "2"
+  },
+  "AnatAFull": {
+   "value": "0.468",
+   "study": "2"
+  },
+  "AnatAHalf": {
+   "value": "0.272",
+   "study": "2"
+  },
+  "AnatBCFull": {
+   "value": "0.620",
+   "study": "2"
+  },
+  "AnatBCHalf": {
+   "value": "0.485",
+   "study": "2"
+  },
+  "AnatBFull": {
+   "value": "0.620",
+   "study": "2"
+  },
+  "AnatBHalf": {
+   "value": "0.485",
+   "study": "2"
+  },
+  "AnatCFull": {
+   "value": "0.646",
+   "study": "2"
+  },
+  "AnatCHalf": {
+   "value": "0.507",
+   "study": "2"
+  },
+  "AnatCfNetFull": {
+   "value": "0.646",
+   "study": "2"
+  },
+  "AnatCfNetHalf": {
+   "value": "0.507",
+   "study": "2"
+  },
+  "AnatCfReadFull": {
+   "value": "0.646",
+   "study": "2"
+  },
+  "AnatCfReadHalf": {
+   "value": "0.507",
+   "study": "2"
+  },
+  "AnatMisMeanFull": {
+   "value": "0.468",
+   "study": "2"
+  },
+  "AnatMisMeanHalf": {
+   "value": "0.272",
+   "study": "2"
+  },
+  "AnatMisZeroFull": {
+   "value": "0.646",
+   "study": "2"
+  },
+  "AnatMisZeroHalf": {
+   "value": "0.507",
+   "study": "2"
+  },
+  "AnatRefFull": {
+   "value": "0.646",
+   "study": "2"
+  },
+  "AnatRefHalf": {
+   "value": "0.507",
+   "study": "2"
+  },
+  "AnatSplitRatioFull": {
+   "value": "0.646",
+   "study": "2"
+  },
+  "AnatSplitRatioHalf": {
+   "value": "0.507",
+   "study": "2"
+  },
+  "AnatSplitRespFull": {
+   "value": "0.646",
+   "study": "2"
+  },
+  "AnatSplitRespHalf": {
+   "value": "0.507",
+   "study": "2"
+  },
+  "BackwardOverType": {
+   "value": "8",
+   "study": "1"
+  },
+  "BatchSize": {
+   "value": "48",
+   "study": "1"
+  },
+  "BelowOneA": {
+   "value": "24",
+   "study": "2"
+  },
+  "BelowOneB": {
+   "value": "8",
+   "study": "2"
+  },
+  "BelowOneCfRead": {
+   "value": "45",
+   "study": "2"
+  },
+  "BelowOneRef": {
+   "value": "7",
+   "study": "2"
+  },
+  "BelowOneSplitRatio": {
+   "value": "45",
+   "study": "2"
+  },
+  "BiasABCFull": {
+   "value": "\\ensuremath{+}0.731",
+   "study": "2"
+  },
+  "BiasABCHalf": {
+   "value": "\\ensuremath{+}0.186",
+   "study": "2"
+  },
+  "BiasABFull": {
+   "value": "\\ensuremath{+}0.022",
+   "study": "2"
+  },
+  "BiasABHalf": {
+   "value": "\\ensuremath{+}0.008",
+   "study": "2"
+  },
+  "BiasACFull": {
+   "value": "\\ensuremath{+}0.459",
+   "study": "2"
+  },
+  "BiasACHalf": {
+   "value": "\\ensuremath{+}0.117",
+   "study": "2"
+  },
+  "BiasAFull": {
+   "value": "\\ensuremath{+}0.022",
+   "study": "2"
+  },
+  "BiasAHalf": {
+   "value": "\\ensuremath{+}0.008",
+   "study": "2"
+  },
+  "BiasBCFull": {
+   "value": "\\ensuremath{+}1.131",
+   "study": "2"
+  },
+  "BiasBCHalf": {
+   "value": "\\ensuremath{+}0.293",
+   "study": "2"
+  },
+  "BiasBFull": {
+   "value": "\\ensuremath{-}0.002",
+   "study": "2"
+  },
+  "BiasBHalf": {
+   "value": "\\ensuremath{+}0.006",
+   "study": "2"
+  },
+  "BiasCFull": {
+   "value": "\\ensuremath{+}1.074",
+   "study": "2"
+  },
+  "BiasCHalf": {
+   "value": "\\ensuremath{+}0.277",
+   "study": "2"
+  },
+  "BiasCIABCFull": {
+   "value": "[0.085, 2.007]",
+   "study": "2"
+  },
+  "BiasCIABCHalf": {
+   "value": "[0.024, 0.503]",
+   "study": "2"
+  },
+  "BiasCIABFull": {
+   "value": "[0.016, 0.028]",
+   "study": "2"
+  },
+  "BiasCIABHalf": {
+   "value": "[0.005, 0.011]",
+   "study": "2"
+  },
+  "BiasCIACFull": {
+   "value": "[0.071, 1.211]",
+   "study": "2"
+  },
+  "BiasCIACHalf": {
+   "value": "[0.020, 0.303]",
+   "study": "2"
+  },
+  "BiasCIAFull": {
+   "value": "[0.014, 0.029]",
+   "study": "2"
+  },
+  "BiasCIAHalf": {
+   "value": "[0.004, 0.011]",
+   "study": "2"
+  },
+  "BiasCIBCFull": {
+   "value": "[0.789, 1.555]",
+   "study": "2"
+  },
+  "BiasCIBCHalf": {
+   "value": "[0.209, 0.398]",
+   "study": "2"
+  },
+  "BiasCIBFull": {
+   "value": "[\\ensuremath{-}0.014, 0.010]",
+   "study": "2"
+  },
+  "BiasCIBHalf": {
+   "value": "[0.000, 0.011]",
+   "study": "2"
+  },
+  "BiasCICFull": {
+   "value": "[0.533, 1.917]",
+   "study": "2"
+  },
+  "BiasCICHalf": {
+   "value": "[0.144, 0.483]",
+   "study": "2"
+  },
+  "BiasCICfNetFull": {
+   "value": "[\\ensuremath{-}0.053, 0.017]",
+   "study": "2"
+  },
+  "BiasCICfNetHalf": {
+   "value": "[0.004, 0.021]",
+   "study": "2"
+  },
+  "BiasCICfReadFull": {
+   "value": "[\\ensuremath{-}0.011, \\ensuremath{-}0.003]",
+   "study": "2"
+  },
+  "BiasCICfReadHalf": {
+   "value": "[\\ensuremath{-}0.010, \\ensuremath{-}0.004]",
+   "study": "2"
+  },
+  "BiasCIFull": {
+   "value": "[\\ensuremath{-}0.019, 0.011]",
+   "study": "1"
+  },
+  "BiasCIHalf": {
+   "value": "[\\ensuremath{-}0.002, 0.012]",
+   "study": "1"
+  },
+  "BiasCIMisMeanFull": {
+   "value": "[\\ensuremath{-}0.031, \\ensuremath{-}0.008]",
+   "study": "2"
+  },
+  "BiasCIMisMeanHalf": {
+   "value": "[\\ensuremath{-}0.019, \\ensuremath{-}0.008]",
+   "study": "2"
+  },
+  "BiasCIMisZeroFull": {
+   "value": "[0.053, 0.074]",
+   "study": "2"
+  },
+  "BiasCIMisZeroHalf": {
+   "value": "[0.029, 0.043]",
+   "study": "2"
+  },
+  "BiasCIRefFull": {
+   "value": "[\\ensuremath{-}0.019, 0.011]",
+   "study": "2"
+  },
+  "BiasCIRefHalf": {
+   "value": "[\\ensuremath{-}0.002, 0.012]",
+   "study": "2"
+  },
+  "BiasCISplitRatioFull": {
+   "value": "[0.036, 0.048]",
+   "study": "2"
+  },
+  "BiasCISplitRatioHalf": {
+   "value": "[0.018, 0.026]",
+   "study": "2"
+  },
+  "BiasCISplitRespFull": {
+   "value": "[\\ensuremath{-}1.443, \\ensuremath{-}0.384]",
+   "study": "2"
+  },
+  "BiasCISplitRespHalf": {
+   "value": "[\\ensuremath{-}0.530, \\ensuremath{-}0.145]",
+   "study": "2"
+  },
+  "BiasCfNetFull": {
+   "value": "\\ensuremath{-}0.014",
+   "study": "2"
+  },
+  "BiasCfNetHalf": {
+   "value": "\\ensuremath{+}0.013",
+   "study": "2"
+  },
+  "BiasCfReadFull": {
+   "value": "\\ensuremath{-}0.007",
+   "study": "2"
+  },
+  "BiasCfReadHalf": {
+   "value": "\\ensuremath{-}0.007",
+   "study": "2"
+  },
+  "BiasFull": {
+   "value": "\\ensuremath{-}0.002",
+   "study": "1"
+  },
+  "BiasHalf": {
+   "value": "0.006",
+   "study": "1"
+  },
+  "BiasMaxFull": {
+   "value": "0.073",
+   "study": "1"
+  },
+  "BiasMaxHalf": {
+   "value": "0.042",
+   "study": "1"
+  },
+  "BiasMinFull": {
+   "value": "\\ensuremath{-}0.276",
+   "study": "1"
+  },
+  "BiasMinHalf": {
+   "value": "\\ensuremath{-}0.119",
+   "study": "1"
+  },
+  "BiasMisMeanFull": {
+   "value": "\\ensuremath{-}0.019",
+   "study": "2"
+  },
+  "BiasMisMeanHalf": {
+   "value": "\\ensuremath{-}0.013",
+   "study": "2"
+  },
+  "BiasMisZeroFull": {
+   "value": "\\ensuremath{+}0.063",
+   "study": "2"
+  },
+  "BiasMisZeroHalf": {
+   "value": "\\ensuremath{+}0.035",
+   "study": "2"
+  },
+  "BiasPositiveFull": {
+   "value": "25",
+   "study": "1"
+  },
+  "BiasPositiveHalf": {
+   "value": "32",
+   "study": "1"
+  },
+  "BiasRefFull": {
+   "value": "\\ensuremath{-}0.002",
+   "study": "2"
+  },
+  "BiasRefHalf": {
+   "value": "\\ensuremath{+}0.006",
+   "study": "2"
+  },
+  "BiasSplitRatioFull": {
+   "value": "\\ensuremath{+}0.042",
+   "study": "2"
+  },
+  "BiasSplitRatioHalf": {
+   "value": "\\ensuremath{+}0.022",
+   "study": "2"
+  },
+  "BiasSplitRespFull": {
+   "value": "\\ensuremath{-}0.842",
+   "study": "2"
+  },
+  "BiasSplitRespHalf": {
+   "value": "\\ensuremath{-}0.310",
+   "study": "2"
+  },
+  "BioCTOneTFiveDSI": {
+   "value": "\\ensuremath{-}0.07",
+   "study": "1"
+  },
+  "BioCTOneTFiveRatio": {
+   "value": "2.00",
+   "study": "1"
+  },
+  "BioCTOneTFourDSI": {
+   "value": "\\ensuremath{-}0.27",
+   "study": "1"
+  },
+  "BioCTOneTFourRatio": {
+   "value": "1.81",
+   "study": "1"
+  },
+  "BioMiFourTFourDSI": {
+   "value": "\\ensuremath{-}0.50",
+   "study": "1"
+  },
+  "BioMiFourTFourRatio": {
+   "value": "1.70",
+   "study": "1"
+  },
+  "BioMiNineTFourDSI": {
+   "value": "\\ensuremath{-}0.44",
+   "study": "1"
+  },
+  "BioMiNineTFourRatio": {
+   "value": "3.23",
+   "study": "1"
+  },
+  "BioMiOneTFourConditions": {
+   "value": "16",
+   "study": "1"
+  },
+  "BioMiOneTFourDefined": {
+   "value": "2",
+   "study": "1"
+  },
+  "BioTmThreeTFourRatio": {
+   "value": "0.60",
+   "study": "1"
+  },
+  "BootReps": {
+   "value": "5,000",
+   "study": "2"
+  },
+  "BootstrapReps": {
+   "value": "5,000",
+   "study": "1"
+  },
+  "BootstrapSeed": {
+   "value": "20261007",
+   "study": "1"
+  },
+  "Budget": {
+   "value": "10",
+   "study": "1"
+  },
+  "CPUThreads": {
+   "value": "2",
+   "study": "1"
+  },
+  "ChangeAFull": {
+   "value": "\\ensuremath{-}0.42",
+   "study": "2"
+  },
+  "ChangeAHalf": {
+   "value": "\\ensuremath{-}0.29",
+   "study": "2"
+  },
+  "ChangeBFull": {
+   "value": "\\ensuremath{+}0.01",
+   "study": "2"
+  },
+  "ChangeBHalf": {
+   "value": "\\ensuremath{-}0.03",
+   "study": "2"
+  },
+  "ChangeCFull": {
+   "value": "\\ensuremath{+}8.63",
+   "study": "2"
+  },
+  "ChangeCHalf": {
+   "value": "\\ensuremath{+}2.86",
+   "study": "2"
+  },
+  "ChangeCIAFull": {
+   "value": "[\\ensuremath{-}0.59, \\ensuremath{-}0.25]",
+   "study": "2"
+  },
+  "ChangeCIAHalf": {
+   "value": "[\\ensuremath{-}0.40, \\ensuremath{-}0.18]",
+   "study": "2"
+  },
+  "ChangeCIBFull": {
+   "value": "[\\ensuremath{-}0.14, 0.15]",
+   "study": "2"
+  },
+  "ChangeCIBHalf": {
+   "value": "[\\ensuremath{-}0.12, 0.06]",
+   "study": "2"
+  },
+  "ChangeCICFull": {
+   "value": "[4.54, 14.69]",
+   "study": "2"
+  },
+  "ChangeCICHalf": {
+   "value": "[1.49, 4.89]",
+   "study": "2"
+  },
+  "CheckedFilesConf": {
+   "value": "12,144",
+   "study": "1"
+  },
+  "CheckedFilesDev": {
+   "value": "2,620",
+   "study": "1"
+  },
+  "ClipABCFull": {
+   "value": "1.06",
+   "study": "2"
+  },
+  "ClipABCHalf": {
+   "value": "0.78",
+   "study": "2"
+  },
+  "ClipABFull": {
+   "value": "0.82",
+   "study": "2"
+  },
+  "ClipABHalf": {
+   "value": "0.63",
+   "study": "2"
+  },
+  "ClipACFull": {
+   "value": "1.05",
+   "study": "2"
+  },
+  "ClipACHalf": {
+   "value": "0.74",
+   "study": "2"
+  },
+  "ClipAFull": {
+   "value": "0.84",
+   "study": "2"
+  },
+  "ClipAHalf": {
+   "value": "0.64",
+   "study": "2"
+  },
+  "ClipBCFull": {
+   "value": "1.34",
+   "study": "2"
+  },
+  "ClipBCHalf": {
+   "value": "1.18",
+   "study": "2"
+  },
+  "ClipBFull": {
+   "value": "0.79",
+   "study": "2"
+  },
+  "ClipBHalf": {
+   "value": "0.67",
+   "study": "2"
+  },
+  "ClipBetterFull": {
+   "value": "40",
+   "study": "1"
+  },
+  "ClipBetterHalf": {
+   "value": "43",
+   "study": "1"
+  },
+  "ClipCFull": {
+   "value": "1.30",
+   "study": "2"
+  },
+  "ClipCHalf": {
+   "value": "1.09",
+   "study": "2"
+  },
+  "ClipCfNetFull": {
+   "value": "0.68",
+   "study": "2"
+  },
+  "ClipCfNetHalf": {
+   "value": "0.58",
+   "study": "2"
+  },
+  "ClipCfReadFull": {
+   "value": "0.55",
+   "study": "2"
+  },
+  "ClipCfReadHalf": {
+   "value": "0.48",
+   "study": "2"
+  },
+  "ClipDiffCIFull": {
+   "value": "[\\ensuremath{-}0.024, \\ensuremath{-}0.015]",
+   "study": "1"
+  },
+  "ClipDiffCIHalf": {
+   "value": "[\\ensuremath{-}0.022, \\ensuremath{-}0.016]",
+   "study": "1"
+  },
+  "ClipDiffFull": {
+   "value": "\\ensuremath{-}0.019",
+   "study": "1"
+  },
+  "ClipDiffHalf": {
+   "value": "\\ensuremath{-}0.019",
+   "study": "1"
+  },
+  "ClipMisMeanFull": {
+   "value": "1.87",
+   "study": "2"
+  },
+  "ClipMisMeanHalf": {
+   "value": "2.18",
+   "study": "2"
+  },
+  "ClipMisZeroFull": {
+   "value": "1.02",
+   "study": "2"
+  },
+  "ClipMisZeroHalf": {
+   "value": "1.00",
+   "study": "2"
+  },
+  "ClipRefFull": {
+   "value": "0.82",
+   "study": "2"
+  },
+  "ClipRefHalf": {
+   "value": "0.72",
+   "study": "2"
+  },
+  "ClipSplitRatioFull": {
+   "value": "0.76",
+   "study": "2"
+  },
+  "ClipSplitRatioHalf": {
+   "value": "0.64",
+   "study": "2"
+  },
+  "ClipSplitRespFull": {
+   "value": "0.68",
+   "study": "2"
+  },
+  "ClipSplitRespHalf": {
+   "value": "0.69",
+   "study": "2"
+  },
+  "ClusterDownMaeFO": {
+   "value": "0.197",
+   "study": "1"
+  },
+  "ClusterDownMaeZero": {
+   "value": "0.104",
+   "study": "1"
+  },
+  "ClusterDownModels": {
+   "value": "5",
+   "study": "1"
+  },
+  "ClusterDownPrec": {
+   "value": "0.833",
+   "study": "1"
+  },
+  "ClusterUpMaeFO": {
+   "value": "0.129",
+   "study": "1"
+  },
+  "ClusterUpMaeFOHalf": {
+   "value": "0.057",
+   "study": "1"
+  },
+  "ClusterUpMaeZero": {
+   "value": "0.101",
+   "study": "1"
+  },
+  "ClusterUpMaeZeroHalf": {
+   "value": "0.062",
+   "study": "1"
+  },
+  "ClusterUpModels": {
+   "value": "29",
+   "study": "1"
+  },
+  "ClusterUpPrec": {
+   "value": "0.830",
+   "study": "1"
+  },
+  "ClusterWeakMaeFO": {
+   "value": "0.198",
+   "study": "1"
+  },
+  "ClusterWeakMaeZero": {
+   "value": "0.100",
+   "study": "1"
+  },
+  "ClusterWeakModels": {
+   "value": "12",
+   "study": "1"
+  },
+  "ClusterWeakPrec": {
+   "value": "0.770",
+   "study": "1"
+  },
+  "CompositeFOFull": {
+   "value": "0.837",
+   "study": "1"
+  },
+  "ConfirmationDoneTime": {
+   "value": "11:35",
+   "study": "1"
+  },
+  "DSIThresholdsOther": {
+   "value": "0, 0.1, 0.3",
+   "study": "1"
+  },
+  "DecBiasAFull": {
+   "value": "biased upwards",
+   "study": "2"
+  },
+  "DecBiasAHalf": {
+   "value": "biased upwards",
+   "study": "2"
+  },
+  "DecBiasBFull": {
+   "value": "no detectable bias",
+   "study": "2"
+  },
+  "DecBiasBHalf": {
+   "value": "no detectable bias",
+   "study": "2"
+  },
+  "DecBiasCFull": {
+   "value": "biased upwards",
+   "study": "2"
+  },
+  "DecBiasCHalf": {
+   "value": "biased upwards",
+   "study": "2"
+  },
+  "DecChangeAFull": {
+   "value": "improves on the reference",
+   "study": "2"
+  },
+  "DecChangeAHalf": {
+   "value": "improves on the reference",
+   "study": "2"
+  },
+  "DecChangeBFull": {
+   "value": "no detectable change",
+   "study": "2"
+  },
+  "DecChangeBHalf": {
+   "value": "no detectable change",
+   "study": "2"
+  },
+  "DecChangeCFull": {
+   "value": "worse than the reference",
+   "study": "2"
+  },
+  "DecChangeCHalf": {
+   "value": "worse than the reference",
+   "study": "2"
+  },
+  "DecMechMMFull": {
+   "value": "readout dominates",
+   "study": "2"
+  },
+  "DecMechMMHalf": {
+   "value": "readout dominates",
+   "study": "2"
+  },
+  "DecMechMPFull": {
+   "value": "readout dominates",
+   "study": "2"
+  },
+  "DecMechMPHalf": {
+   "value": "readout dominates",
+   "study": "2"
+  },
+  "DecMechZMFull": {
+   "value": "readout dominates",
+   "study": "2"
+  },
+  "DecMechZMHalf": {
+   "value": "readout dominates",
+   "study": "2"
+  },
+  "DecMechZPFull": {
+   "value": "readout dominates",
+   "study": "2"
+  },
+  "DecMechZPHalf": {
+   "value": "readout dominates",
+   "study": "2"
+  },
+  "DecScreenAFull": {
+   "value": "screen kept",
+   "study": "2"
+  },
+  "DecScreenAHalf": {
+   "value": "screen kept",
+   "study": "2"
+  },
+  "DecScreenBFull": {
+   "value": "screen kept",
+   "study": "2"
+  },
+  "DecScreenBHalf": {
+   "value": "screen kept",
+   "study": "2"
+  },
+  "DecScreenCFull": {
+   "value": "screen kept",
+   "study": "2"
+  },
+  "DecScreenCHalf": {
+   "value": "screen kept",
+   "study": "2"
+  },
+  "DecSplitMMFull": {
+   "value": "ratio dominates",
+   "study": "2"
+  },
+  "DecSplitMMHalf": {
+   "value": "ratio dominates",
+   "study": "2"
+  },
+  "DecSplitMPFull": {
+   "value": "ratio dominates",
+   "study": "2"
+  },
+  "DecSplitMPHalf": {
+   "value": "ratio dominates",
+   "study": "2"
+  },
+  "DecSplitZMFull": {
+   "value": "ratio dominates",
+   "study": "2"
+  },
+  "DecSplitZMHalf": {
+   "value": "ratio dominates",
+   "study": "2"
+  },
+  "DecSplitZPFull": {
+   "value": "ratio dominates",
+   "study": "2"
+  },
+  "DecSplitZPHalf": {
+   "value": "ratio dominates",
+   "study": "2"
+  },
+  "DecWrongAFull": {
+   "value": "more wrong signs",
+   "study": "2"
+  },
+  "DecWrongAHalf": {
+   "value": "no detectable change",
+   "study": "2"
+  },
+  "DecWrongBFull": {
+   "value": "fewer wrong signs",
+   "study": "2"
+  },
+  "DecWrongBHalf": {
+   "value": "fewer wrong signs",
+   "study": "2"
+  },
+  "DecWrongCFull": {
+   "value": "more wrong signs",
+   "study": "2"
+  },
+  "DecWrongCHalf": {
+   "value": "more wrong signs",
+   "study": "2"
+  },
+  "DecZeroAFull": {
+   "value": "not distinguishable from zero",
+   "study": "2"
+  },
+  "DecZeroAHalf": {
+   "value": "beats zero",
+   "study": "2"
+  },
+  "DecZeroBFull": {
+   "value": "worse than zero",
+   "study": "2"
+  },
+  "DecZeroBHalf": {
+   "value": "not distinguishable from zero",
+   "study": "2"
+  },
+  "DecZeroCFull": {
+   "value": "worse than zero",
+   "study": "2"
+  },
+  "DecZeroCHalf": {
+   "value": "worse than zero",
+   "study": "2"
+  },
+  "DenomThreshold": {
+   "value": "\\ensuremath{10^{-8}}",
+   "study": "1"
+  },
+  "DevAFull": {
+   "value": "1.09",
+   "study": "2"
+  },
+  "DevAHalf": {
+   "value": "0.73",
+   "study": "2"
+  },
+  "DevAPointOne": {
+   "value": "0.31",
+   "study": "2"
+  },
+  "DevAQuarter": {
+   "value": "0.50",
+   "study": "2"
+  },
+  "DevAThreeQ": {
+   "value": "0.93",
+   "study": "2"
+  },
+  "DevBFull": {
+   "value": "1.84",
+   "study": "2"
+  },
+  "DevBHalf": {
+   "value": "1.20",
+   "study": "2"
+  },
+  "DevBPointOne": {
+   "value": "0.51",
+   "study": "2"
+  },
+  "DevBQuarter": {
+   "value": "0.83",
+   "study": "2"
+  },
+  "DevBThreeQ": {
+   "value": "1.58",
+   "study": "2"
+  },
+  "DevBetterFull": {
+   "value": "0",
+   "study": "1"
+  },
+  "DevBetterHalf": {
+   "value": "3",
+   "study": "1"
+  },
+  "DevBetterMaxStrength": {
+   "value": "0.25",
+   "study": "1"
+  },
+  "DevBetterOneTenth": {
+   "value": "4",
+   "study": "1"
+  },
+  "DevBetterQuarter": {
+   "value": "3",
+   "study": "1"
+  },
+  "DevBetterThreeQuarter": {
+   "value": "0",
+   "study": "1"
+  },
+  "DevCFull": {
+   "value": "11.65",
+   "study": "2"
+  },
+  "DevCHalf": {
+   "value": "4.21",
+   "study": "2"
+  },
+  "DevCPointOne": {
+   "value": "0.90",
+   "study": "2"
+  },
+  "DevCQuarter": {
+   "value": "2.03",
+   "study": "2"
+  },
+  "DevCThreeQ": {
+   "value": "7.68",
+   "study": "2"
+  },
+  "DevCfReadFull": {
+   "value": "0.49",
+   "study": "2"
+  },
+  "DevCfReadHalf": {
+   "value": "0.38",
+   "study": "2"
+  },
+  "DevCfReadPointOne": {
+   "value": "0.31",
+   "study": "2"
+  },
+  "DevCfReadQuarter": {
+   "value": "0.35",
+   "study": "2"
+  },
+  "DevCfReadThreeQ": {
+   "value": "0.47",
+   "study": "2"
+  },
+  "DevMaeClipFull": {
+   "value": "0.094",
+   "study": "1"
+  },
+  "DevMaeClipHalf": {
+   "value": "0.054",
+   "study": "1"
+  },
+  "DevMaeClipOneTenth": {
+   "value": "0.010",
+   "study": "1"
+  },
+  "DevMaeClipQuarter": {
+   "value": "0.029",
+   "study": "1"
+  },
+  "DevMaeClipThreeQuarter": {
+   "value": "0.076",
+   "study": "1"
+  },
+  "DevMaeFOFull": {
+   "value": "0.174",
+   "study": "1"
+  },
+  "DevMaeFOHalf": {
+   "value": "0.079",
+   "study": "1"
+  },
+  "DevMaeFOOneTenth": {
+   "value": "0.011",
+   "study": "1"
+  },
+  "DevMaeFOQuarter": {
+   "value": "0.036",
+   "study": "1"
+  },
+  "DevMaeFOThreeQuarter": {
+   "value": "0.126",
+   "study": "1"
+  },
+  "DevMaeZeroFull": {
+   "value": "0.105",
+   "study": "1"
+  },
+  "DevMaeZeroHalf": {
+   "value": "0.068",
+   "study": "1"
+  },
+  "DevMaeZeroOneTenth": {
+   "value": "0.017",
+   "study": "1"
+  },
+  "DevMaeZeroQuarter": {
+   "value": "0.040",
+   "study": "1"
+  },
+  "DevMaeZeroThreeQuarter": {
+   "value": "0.088",
+   "study": "1"
+  },
+  "DevModelList": {
+   "value": "000, 001, 004 and 005",
+   "study": "1"
+  },
+  "DevPrecAnatFull": {
+   "value": "0.642",
+   "study": "1"
+  },
+  "DevPrecAnatHalf": {
+   "value": "0.522",
+   "study": "1"
+  },
+  "DevPrecAnatOneTenth": {
+   "value": "0.119",
+   "study": "1"
+  },
+  "DevPrecAnatQuarter": {
+   "value": "0.295",
+   "study": "1"
+  },
+  "DevPrecAnatThreeQuarter": {
+   "value": "0.599",
+   "study": "1"
+  },
+  "DevPrecFOFull": {
+   "value": "0.820",
+   "study": "1"
+  },
+  "DevPrecFOHalf": {
+   "value": "0.754",
+   "study": "1"
+  },
+  "DevPrecFOOneTenth": {
+   "value": "0.222",
+   "study": "1"
+  },
+  "DevPrecFOQuarter": {
+   "value": "0.556",
+   "study": "1"
+  },
+  "DevPrecFOThreeQuarter": {
+   "value": "0.791",
+   "study": "1"
+  },
+  "DevRefFull": {
+   "value": "1.56",
+   "study": "2"
+  },
+  "DevRefHalf": {
+   "value": "1.07",
+   "study": "2"
+  },
+  "DevRefPointOne": {
+   "value": "0.57",
+   "study": "2"
+  },
+  "DevRefQuarter": {
+   "value": "0.81",
+   "study": "2"
+  },
+  "DevRefThreeQ": {
+   "value": "1.33",
+   "study": "2"
+  },
+  "DevSplitRatioFull": {
+   "value": "0.68",
+   "study": "2"
+  },
+  "DevSplitRatioHalf": {
+   "value": "0.57",
+   "study": "2"
+  },
+  "DevSplitRatioPointOne": {
+   "value": "0.39",
+   "study": "2"
+  },
+  "DevSplitRatioQuarter": {
+   "value": "0.50",
+   "study": "2"
+  },
+  "DevSplitRatioThreeQ": {
+   "value": "0.65",
+   "study": "2"
+  },
+  "DominanceFull": {
+   "value": "(a) dominates",
+   "study": "2"
+  },
+  "DominanceHalf": {
+   "value": "(a) dominates",
+   "study": "2"
+  },
+  "DsiRecomputeMaxErr": {
+   "value": "\\ensuremath{2.3\\times 10^{-7}}",
+   "study": "1"
+  },
+  "EdgesFlyVis": {
+   "value": "1,513,231",
+   "study": "2"
+  },
+  "ExactTieReadouts": {
+   "value": "3",
+   "study": "1"
+  },
+  "ExhaustivePerSec": {
+   "value": "0.0069",
+   "study": "2"
+  },
+  "ExtraStrengths": {
+   "value": "0.1, 0.25, 0.75",
+   "study": "1"
+  },
+  "FlagBudgetPrimary": {
+   "value": "10",
+   "study": "2"
+  },
+  "FlagPaysFiveClip": {
+   "value": "no",
+   "study": "2"
+  },
+  "FlagPaysFiveZero": {
+   "value": "no",
+   "study": "2"
+  },
+  "FlagPaysTenClip": {
+   "value": "no",
+   "study": "2"
+  },
+  "FlagPaysTenZero": {
+   "value": "no",
+   "study": "2"
+  },
+  "FlagPaysTwentyClip": {
+   "value": "no",
+   "study": "2"
+  },
+  "FlagPaysTwentyZero": {
+   "value": "no",
+   "study": "2"
+  },
+  "FlagPerSecFiveClip": {
+   "value": "0.0021",
+   "study": "2"
+  },
+  "FlagPerSecFiveZero": {
+   "value": "0.0015",
+   "study": "2"
+  },
+  "FlagPerSecTenClip": {
+   "value": "0.0029",
+   "study": "2"
+  },
+  "FlagPerSecTenZero": {
+   "value": "0.0024",
+   "study": "2"
+  },
+  "FlagPerSecTwentyClip": {
+   "value": "0.0039",
+   "study": "2"
+  },
+  "FlagPerSecTwentyZero": {
+   "value": "0.0036",
+   "study": "2"
+  },
+  "FlagRecFiveClip": {
+   "value": "35",
+   "study": "2"
+  },
+  "FlagRecFiveZero": {
+   "value": "25",
+   "study": "2"
+  },
+  "FlagRecTenClip": {
+   "value": "53",
+   "study": "2"
+  },
+  "FlagRecTenZero": {
+   "value": "44",
+   "study": "2"
+  },
+  "FlagRecTwentyClip": {
+   "value": "79",
+   "study": "2"
+  },
+  "FlagRecTwentyZero": {
+   "value": "73",
+   "study": "2"
+  },
+  "FlagSecFiveClip": {
+   "value": "170",
+   "study": "2"
+  },
+  "FlagSecFiveZero": {
+   "value": "170",
+   "study": "2"
+  },
+  "FlagSecTenClip": {
+   "value": "181",
+   "study": "2"
+  },
+  "FlagSecTenZero": {
+   "value": "181",
+   "study": "2"
+  },
+  "FlagSecTwentyClip": {
+   "value": "204",
+   "study": "2"
+  },
+  "FlagSecTwentyZero": {
+   "value": "204",
+   "study": "2"
+  },
+  "FramesFast": {
+   "value": "86",
+   "study": "1"
+  },
+  "FramesSlow": {
+   "value": "344",
+   "study": "1"
+  },
+  "FreezeAISixInputs": {
+   "value": "8",
+   "study": "2"
+  },
+  "FreezeFiles": {
+   "value": "20",
+   "study": "2"
+  },
+  "FreezeTime": {
+   "value": "04:48",
+   "study": "1"
+  },
+  "FreezeTwoFiles": {
+   "value": "24",
+   "study": "2"
+  },
+  "FreezeTwoRecordModels": {
+   "value": "15",
+   "study": "2"
+  },
+  "FrozenFiles": {
+   "value": "182",
+   "study": "1"
+  },
+  "GateAbsTmThreeMax": {
+   "value": "\\ensuremath{1.8\\times 10^{-4}}",
+   "study": "2"
+  },
+  "GateAbsTmThreeModel": {
+   "value": "039",
+   "study": "2"
+  },
+  "GateNormMax": {
+   "value": "\\ensuremath{1.0\\times 10^{-6}}",
+   "study": "2"
+  },
+  "InclAnatCIFull": {
+   "value": "[0.339, 0.393]",
+   "study": "1"
+  },
+  "InclAnatCIHalf": {
+   "value": "[0.238, 0.285]",
+   "study": "1"
+  },
+  "InclAnatFourFull": {
+   "value": "0.370",
+   "study": "1"
+  },
+  "InclAnatFourHalf": {
+   "value": "0.271",
+   "study": "1"
+  },
+  "InclAnatFull": {
+   "value": "0.367",
+   "study": "1"
+  },
+  "InclAnatHalf": {
+   "value": "0.262",
+   "study": "1"
+  },
+  "InclCurrentFull": {
+   "value": "0.311",
+   "study": "1"
+  },
+  "InclCurrentHalf": {
+   "value": "0.218",
+   "study": "1"
+  },
+  "InclDiffAnatCIFull": {
+   "value": "[0.066, 0.099]",
+   "study": "1"
+  },
+  "InclDiffAnatCIHalf": {
+   "value": "[0.099, 0.131]",
+   "study": "1"
+  },
+  "InclDiffAnatFull": {
+   "value": "0.082",
+   "study": "1"
+  },
+  "InclDiffAnatHalf": {
+   "value": "0.115",
+   "study": "1"
+  },
+  "InclDirectFull": {
+   "value": "0.302",
+   "study": "1"
+  },
+  "InclDirectHalf": {
+   "value": "0.209",
+   "study": "1"
+  },
+  "InclFOCIFull": {
+   "value": "[0.417, 0.481]",
+   "study": "1"
+  },
+  "InclFOCIHalf": {
+   "value": "[0.347, 0.404]",
+   "study": "1"
+  },
+  "InclFOFull": {
+   "value": "0.449",
+   "study": "1"
+  },
+  "InclFOHalf": {
+   "value": "0.376",
+   "study": "1"
+  },
+  "InclLossesAnatFull": {
+   "value": "2",
+   "study": "1"
+  },
+  "InclLossesAnatHalf": {
+   "value": "0",
+   "study": "1"
+  },
+  "InclMaeClipFull": {
+   "value": "0.049",
+   "study": "1"
+  },
+  "InclMaeFOFull": {
+   "value": "0.091",
+   "study": "1"
+  },
+  "InclMaeZeroFull": {
+   "value": "0.055",
+   "study": "1"
+  },
+  "InclRandomFull": {
+   "value": "0.159",
+   "study": "1"
+  },
+  "InclRandomHalf": {
+   "value": "0.103",
+   "study": "1"
+  },
+  "InclRandomLowDSIFull": {
+   "value": "0.044",
+   "study": "1"
+  },
+  "InclRandomLowDSIHalf": {
+   "value": "0.023",
+   "study": "1"
+  },
+  "InclRandomMainDSIFull": {
+   "value": "0.296",
+   "study": "1"
+  },
+  "InclRandomMainDSIHalf": {
+   "value": "0.199",
+   "study": "1"
+  },
+  "InclReadoutsFull": {
+   "value": "697",
+   "study": "1"
+  },
+  "InclReadoutsHalf": {
+   "value": "697",
+   "study": "1"
+  },
+  "InclTiesAnatFull": {
+   "value": "2",
+   "study": "1"
+  },
+  "InclTiesAnatHalf": {
+   "value": "0",
+   "study": "1"
+  },
+  "InclTrainedFull": {
+   "value": "0.330",
+   "study": "1"
+  },
+  "InclTrainedHalf": {
+   "value": "0.230",
+   "study": "1"
+  },
+  "InclWinsAnatFull": {
+   "value": "42",
+   "study": "1"
+  },
+  "InclWinsAnatHalf": {
+   "value": "46",
+   "study": "1"
+  },
+  "IndexedTypePairs": {
+   "value": "604",
+   "study": "1"
+  },
+  "InputDirectCases": {
+   "value": "3,027",
+   "study": "1"
+  },
+  "InputIndirectCases": {
+   "value": "16,798",
+   "study": "1"
+  },
+  "InteractionCIMMFull": {
+   "value": "[0.68, 2.15]",
+   "study": "2"
+  },
+  "InteractionCIMMHalf": {
+   "value": "[0.47, 1.28]",
+   "study": "2"
+  },
+  "InteractionCIMPFull": {
+   "value": "[0.31, 1.00]",
+   "study": "2"
+  },
+  "InteractionCIMPHalf": {
+   "value": "[0.17, 0.58]",
+   "study": "2"
+  },
+  "InteractionCIZMFull": {
+   "value": "[7.29, 51.66]",
+   "study": "2"
+  },
+  "InteractionCIZMHalf": {
+   "value": "[5.41, 38.16]",
+   "study": "2"
+  },
+  "InteractionCIZPFull": {
+   "value": "[1.75, 7.78]",
+   "study": "2"
+  },
+  "InteractionCIZPHalf": {
+   "value": "[1.36, 6.31]",
+   "study": "2"
+  },
+  "InteractionMMFull": {
+   "value": "1.33",
+   "study": "2"
+  },
+  "InteractionMMHalf": {
+   "value": "0.82",
+   "study": "2"
+  },
+  "InteractionMPFull": {
+   "value": "0.61",
+   "study": "2"
+  },
+  "InteractionMPHalf": {
+   "value": "0.35",
+   "study": "2"
+  },
+  "InteractionZMFull": {
+   "value": "25.05",
+   "study": "2"
+  },
+  "InteractionZMHalf": {
+   "value": "18.24",
+   "study": "2"
+  },
+  "InteractionZPFull": {
+   "value": "4.33",
+   "study": "2"
+  },
+  "InteractionZPHalf": {
+   "value": "3.46",
+   "study": "2"
+  },
+  "LargeDecFull": {
+   "value": "4,419",
+   "study": "1"
+  },
+  "LargeDecPredIncPct": {
+   "value": "23.6",
+   "study": "1"
+  },
+  "LargeDecreasePct": {
+   "value": "80",
+   "study": "1"
+  },
+  "LargeFull": {
+   "value": "5,501",
+   "study": "1"
+  },
+  "LargeFullPct": {
+   "value": "27.7",
+   "study": "1"
+  },
+  "LargeHalf": {
+   "value": "3,890",
+   "study": "1"
+  },
+  "LargeIncFull": {
+   "value": "1,082",
+   "study": "1"
+  },
+  "LargeIncPredDecPct": {
+   "value": "13.8",
+   "study": "1"
+  },
+  "LargeThreshold": {
+   "value": "0.1",
+   "study": "both"
+  },
+  "LowDSI": {
+   "value": "383",
+   "study": "1"
+  },
+  "LowDSICasesFull": {
+   "value": "24,696",
+   "study": "1"
+  },
+  "LowerThanRefA": {
+   "value": "41",
+   "study": "2"
+  },
+  "LowerThanRefB": {
+   "value": "25",
+   "study": "2"
+  },
+  "LowerThanRefCfRead": {
+   "value": "45",
+   "study": "2"
+  },
+  "LowerThanRefSplitRatio": {
+   "value": "44",
+   "study": "2"
+  },
+  "MaeABCFull": {
+   "value": "0.748",
+   "study": "2"
+  },
+  "MaeABCHalf": {
+   "value": "0.190",
+   "study": "2"
+  },
+  "MaeABFull": {
+   "value": "0.061",
+   "study": "2"
+  },
+  "MaeABHalf": {
+   "value": "0.024",
+   "study": "2"
+  },
+  "MaeACFull": {
+   "value": "0.477",
+   "study": "2"
+  },
+  "MaeACHalf": {
+   "value": "0.123",
+   "study": "2"
+  },
+  "MaeAFull": {
+   "value": "0.060",
+   "study": "2"
+  },
+  "MaeAHalf": {
+   "value": "0.024",
+   "study": "2"
+  },
+  "MaeBCFull": {
+   "value": "1.327",
+   "study": "2"
+  },
+  "MaeBCHalf": {
+   "value": "0.344",
+   "study": "2"
+  },
+  "MaeBFull": {
+   "value": "0.160",
+   "study": "2"
+  },
+  "MaeBHalf": {
+   "value": "0.071",
+   "study": "2"
+  },
+  "MaeBetterFull": {
+   "value": "7",
+   "study": "1"
+  },
+  "MaeBetterHalf": {
+   "value": "28",
+   "study": "1"
+  },
+  "MaeCFull": {
+   "value": "1.173",
+   "study": "2"
+  },
+  "MaeCHalf": {
+   "value": "0.304",
+   "study": "2"
+  },
+  "MaeCfNetFull": {
+   "value": "0.184",
+   "study": "2"
+  },
+  "MaeCfNetHalf": {
+   "value": "0.060",
+   "study": "2"
+  },
+  "MaeCfReadFull": {
+   "value": "0.054",
+   "study": "2"
+  },
+  "MaeCfReadHalf": {
+   "value": "0.030",
+   "study": "2"
+  },
+  "MaeClipFull": {
+   "value": "0.082",
+   "study": "1"
+  },
+  "MaeClipHalf": {
+   "value": "0.046",
+   "study": "1"
+  },
+  "MaeDiffABCFull": {
+   "value": "\\ensuremath{+}0.695",
+   "study": "2"
+  },
+  "MaeDiffABCHalf": {
+   "value": "\\ensuremath{+}0.161",
+   "study": "2"
+  },
+  "MaeDiffABFull": {
+   "value": "\\ensuremath{+}0.008",
+   "study": "2"
+  },
+  "MaeDiffABHalf": {
+   "value": "\\ensuremath{-}0.005",
+   "study": "2"
+  },
+  "MaeDiffACFull": {
+   "value": "\\ensuremath{+}0.425",
+   "study": "2"
+  },
+  "MaeDiffACHalf": {
+   "value": "\\ensuremath{+}0.094",
+   "study": "2"
+  },
+  "MaeDiffAFull": {
+   "value": "\\ensuremath{+}0.008",
+   "study": "2"
+  },
+  "MaeDiffAHalf": {
+   "value": "\\ensuremath{-}0.005",
+   "study": "2"
+  },
+  "MaeDiffBCFull": {
+   "value": "\\ensuremath{+}1.223",
+   "study": "2"
+  },
+  "MaeDiffBCHalf": {
+   "value": "\\ensuremath{+}0.276",
+   "study": "2"
+  },
+  "MaeDiffBFull": {
+   "value": "\\ensuremath{+}0.056",
+   "study": "2"
+  },
+  "MaeDiffBHalf": {
+   "value": "\\ensuremath{+}0.004",
+   "study": "2"
+  },
+  "MaeDiffCFull": {
+   "value": "\\ensuremath{+}1.072",
+   "study": "2"
+  },
+  "MaeDiffCHalf": {
+   "value": "\\ensuremath{+}0.239",
+   "study": "2"
+  },
+  "MaeDiffCIABCFull": {
+   "value": "[0.049, 1.968]",
+   "study": "2"
+  },
+  "MaeDiffCIABCHalf": {
+   "value": "[0.002, 0.476]",
+   "study": "2"
+  },
+  "MaeDiffCIABFull": {
+   "value": "[\\ensuremath{-}0.001, 0.022]",
+   "study": "2"
+  },
+  "MaeDiffCIABHalf": {
+   "value": "[\\ensuremath{-}0.009, 0.001]",
+   "study": "2"
+  },
+  "MaeDiffCIACFull": {
+   "value": "[0.038, 1.174]",
+   "study": "2"
+  },
+  "MaeDiffCIACHalf": {
+   "value": "[\\ensuremath{-}0.001, 0.278]",
+   "study": "2"
+  },
+  "MaeDiffCIAFull": {
+   "value": "[\\ensuremath{-}0.0003, 0.0199]",
+   "study": "2"
+  },
+  "MaeDiffCIAHalf": {
+   "value": "[\\ensuremath{-}0.0082, \\ensuremath{-}0.0001]",
+   "study": "2"
+  },
+  "MaeDiffCIBCFull": {
+   "value": "[0.820, 1.710]",
+   "study": "2"
+  },
+  "MaeDiffCIBCHalf": {
+   "value": "[0.180, 0.393]",
+   "study": "2"
+  },
+  "MaeDiffCIBFull": {
+   "value": "[0.034, 0.084]",
+   "study": "2"
+  },
+  "MaeDiffCIBHalf": {
+   "value": "[\\ensuremath{-}0.005, 0.015]",
+   "study": "2"
+  },
+  "MaeDiffCICFull": {
+   "value": "[0.523, 1.904]",
+   "study": "2"
+  },
+  "MaeDiffCICHalf": {
+   "value": "[0.106, 0.440]",
+   "study": "2"
+  },
+  "MaeDiffCICfNetFull": {
+   "value": "[0.052, 0.119]",
+   "study": "2"
+  },
+  "MaeDiffCICfNetHalf": {
+   "value": "[\\ensuremath{-}0.011, 0.002]",
+   "study": "2"
+  },
+  "MaeDiffCICfReadFull": {
+   "value": "[\\ensuremath{-}0.054, \\ensuremath{-}0.041]",
+   "study": "2"
+  },
+  "MaeDiffCICfReadHalf": {
+   "value": "[\\ensuremath{-}0.040, \\ensuremath{-}0.030]",
+   "study": "2"
+  },
+  "MaeDiffCIFull": {
+   "value": "[0.034, 0.074]",
+   "study": "1"
+  },
+  "MaeDiffCIHalf": {
+   "value": "[\\ensuremath{-}0.003, 0.013]",
+   "study": "1"
+  },
+  "MaeDiffCIMisMeanFull": {
+   "value": "[0.099, 0.158]",
+   "study": "2"
+  },
+  "MaeDiffCIMisMeanHalf": {
+   "value": "[0.046, 0.075]",
+   "study": "2"
+  },
+  "MaeDiffCIMisZeroFull": {
+   "value": "[0.009, 0.037]",
+   "study": "2"
+  },
+  "MaeDiffCIMisZeroHalf": {
+   "value": "[0.0005, 0.0138]",
+   "study": "2"
+  },
+  "MaeDiffCIRefFull": {
+   "value": "[0.035, 0.075]",
+   "study": "2"
+  },
+  "MaeDiffCIRefHalf": {
+   "value": "[\\ensuremath{-}0.002, 0.013]",
+   "study": "2"
+  },
+  "MaeDiffCISplitRatioFull": {
+   "value": "[\\ensuremath{-}0.030, \\ensuremath{-}0.021]",
+   "study": "2"
+  },
+  "MaeDiffCISplitRatioHalf": {
+   "value": "[\\ensuremath{-}0.028, \\ensuremath{-}0.020]",
+   "study": "2"
+  },
+  "MaeDiffCISplitRespFull": {
+   "value": "[0.326, 1.380]",
+   "study": "2"
+  },
+  "MaeDiffCISplitRespHalf": {
+   "value": "[0.102, 0.483]",
+   "study": "2"
+  },
+  "MaeDiffCfNetFull": {
+   "value": "\\ensuremath{+}0.083",
+   "study": "2"
+  },
+  "MaeDiffCfNetHalf": {
+   "value": "\\ensuremath{-}0.005",
+   "study": "2"
+  },
+  "MaeDiffCfReadFull": {
+   "value": "\\ensuremath{-}0.047",
+   "study": "2"
+  },
+  "MaeDiffCfReadHalf": {
+   "value": "\\ensuremath{-}0.035",
+   "study": "2"
+  },
+  "MaeDiffFull": {
+   "value": "0.054",
+   "study": "1"
+  },
+  "MaeDiffHalf": {
+   "value": "0.005",
+   "study": "1"
+  },
+  "MaeDiffMisMeanFull": {
+   "value": "\\ensuremath{+}0.127",
+   "study": "2"
+  },
+  "MaeDiffMisMeanHalf": {
+   "value": "\\ensuremath{+}0.060",
+   "study": "2"
+  },
+  "MaeDiffMisZeroFull": {
+   "value": "\\ensuremath{+}0.021",
+   "study": "2"
+  },
+  "MaeDiffMisZeroHalf": {
+   "value": "\\ensuremath{+}0.006",
+   "study": "2"
+  },
+  "MaeDiffRefFull": {
+   "value": "\\ensuremath{+}0.054",
+   "study": "2"
+  },
+  "MaeDiffRefHalf": {
+   "value": "\\ensuremath{+}0.005",
+   "study": "2"
+  },
+  "MaeDiffSplitRatioFull": {
+   "value": "\\ensuremath{-}0.025",
+   "study": "2"
+  },
+  "MaeDiffSplitRatioHalf": {
+   "value": "\\ensuremath{-}0.024",
+   "study": "2"
+  },
+  "MaeDiffSplitRespFull": {
+   "value": "\\ensuremath{+}0.781",
+   "study": "2"
+  },
+  "MaeDiffSplitRespHalf": {
+   "value": "\\ensuremath{+}0.266",
+   "study": "2"
+  },
+  "MaeDirectFull": {
+   "value": "0.331",
+   "study": "1"
+  },
+  "MaeFOCIFull": {
+   "value": "[0.132, 0.179]",
+   "study": "1"
+  },
+  "MaeFOCIHalf": {
+   "value": "[0.059, 0.082]",
+   "study": "1"
+  },
+  "MaeFOFull": {
+   "value": "0.155",
+   "study": "1"
+  },
+  "MaeFOHalf": {
+   "value": "0.070",
+   "study": "1"
+  },
+  "MaeIndirectFull": {
+   "value": "0.122",
+   "study": "1"
+  },
+  "MaeLargeFOFull": {
+   "value": "0.466",
+   "study": "1"
+  },
+  "MaeLargeFOHalf": {
+   "value": "0.277",
+   "study": "1"
+  },
+  "MaeLargeWorseFull": {
+   "value": "37",
+   "study": "1"
+  },
+  "MaeLargeWorseHalf": {
+   "value": "17",
+   "study": "1"
+  },
+  "MaeLargeZeroFull": {
+   "value": "0.316",
+   "study": "1"
+  },
+  "MaeLargeZeroHalf": {
+   "value": "0.263",
+   "study": "1"
+  },
+  "MaeLowDSIFull": {
+   "value": "0.035",
+   "study": "1"
+  },
+  "MaeMisMeanFull": {
+   "value": "0.180",
+   "study": "2"
+  },
+  "MaeMisMeanHalf": {
+   "value": "0.088",
+   "study": "2"
+  },
+  "MaeMisZeroFull": {
+   "value": "0.122",
+   "study": "2"
+  },
+  "MaeMisZeroHalf": {
+   "value": "0.071",
+   "study": "2"
+  },
+  "MaeRefFull": {
+   "value": "0.155",
+   "study": "2"
+  },
+  "MaeRefHalf": {
+   "value": "0.070",
+   "study": "2"
+  },
+  "MaeSplitRatioFull": {
+   "value": "0.075",
+   "study": "2"
+  },
+  "MaeSplitRatioHalf": {
+   "value": "0.041",
+   "study": "2"
+  },
+  "MaeSplitRespFull": {
+   "value": "0.882",
+   "study": "2"
+  },
+  "MaeSplitRespHalf": {
+   "value": "0.331",
+   "study": "2"
+  },
+  "MaeWorseFull": {
+   "value": "39",
+   "study": "1"
+  },
+  "MaeWorseHalf": {
+   "value": "18",
+   "study": "1"
+  },
+  "MaeZeroABCFull": {
+   "value": "0.053",
+   "study": "2"
+  },
+  "MaeZeroABCHalf": {
+   "value": "0.029",
+   "study": "2"
+  },
+  "MaeZeroABFull": {
+   "value": "0.053",
+   "study": "2"
+  },
+  "MaeZeroABHalf": {
+   "value": "0.029",
+   "study": "2"
+  },
+  "MaeZeroACFull": {
+   "value": "0.053",
+   "study": "2"
+  },
+  "MaeZeroACHalf": {
+   "value": "0.029",
+   "study": "2"
+  },
+  "MaeZeroAFull": {
+   "value": "0.053",
+   "study": "2"
+  },
+  "MaeZeroAHalf": {
+   "value": "0.029",
+   "study": "2"
+  },
+  "MaeZeroBCFull": {
+   "value": "0.104",
+   "study": "2"
+  },
+  "MaeZeroBCHalf": {
+   "value": "0.067",
+   "study": "2"
+  },
+  "MaeZeroBFull": {
+   "value": "0.104",
+   "study": "2"
+  },
+  "MaeZeroBHalf": {
+   "value": "0.067",
+   "study": "2"
+  },
+  "MaeZeroCFull": {
+   "value": "0.101",
+   "study": "2"
+  },
+  "MaeZeroCHalf": {
+   "value": "0.065",
+   "study": "2"
+  },
+  "MaeZeroCIFull": {
+   "value": "[0.093, 0.109]",
+   "study": "1"
+  },
+  "MaeZeroCIHalf": {
+   "value": "[0.059, 0.071]",
+   "study": "1"
+  },
+  "MaeZeroCfNetFull": {
+   "value": "0.101",
+   "study": "2"
+  },
+  "MaeZeroCfNetHalf": {
+   "value": "0.065",
+   "study": "2"
+  },
+  "MaeZeroCfReadFull": {
+   "value": "0.101",
+   "study": "2"
+  },
+  "MaeZeroCfReadHalf": {
+   "value": "0.065",
+   "study": "2"
+  },
+  "MaeZeroFull": {
+   "value": "0.101",
+   "study": "1"
+  },
+  "MaeZeroHalf": {
+   "value": "0.065",
+   "study": "1"
+  },
+  "MaeZeroLowDSIFull": {
+   "value": "0.017",
+   "study": "1"
+  },
+  "MaeZeroMisMeanFull": {
+   "value": "0.053",
+   "study": "2"
+  },
+  "MaeZeroMisMeanHalf": {
+   "value": "0.029",
+   "study": "2"
+  },
+  "MaeZeroMisZeroFull": {
+   "value": "0.101",
+   "study": "2"
+  },
+  "MaeZeroMisZeroHalf": {
+   "value": "0.065",
+   "study": "2"
+  },
+  "MaeZeroPeakChangedFull": {
+   "value": "0.378",
+   "study": "1"
+  },
+  "MaeZeroPeakSameFull": {
+   "value": "0.088",
+   "study": "1"
+  },
+  "MaeZeroRefFull": {
+   "value": "0.101",
+   "study": "2"
+  },
+  "MaeZeroRefHalf": {
+   "value": "0.065",
+   "study": "2"
+  },
+  "MaeZeroSplitRatioFull": {
+   "value": "0.101",
+   "study": "2"
+  },
+  "MaeZeroSplitRatioHalf": {
+   "value": "0.065",
+   "study": "2"
+  },
+  "MaeZeroSplitRespFull": {
+   "value": "0.101",
+   "study": "2"
+  },
+  "MaeZeroSplitRespHalf": {
+   "value": "0.065",
+   "study": "2"
+  },
+  "MainCasesFull": {
+   "value": "19,825",
+   "study": "1"
+  },
+  "MainCasesHalf": {
+   "value": "20,224",
+   "study": "1"
+  },
+  "MainDSI": {
+   "value": "0.2",
+   "study": "1"
+  },
+  "MainReadouts": {
+   "value": "314",
+   "study": "1"
+  },
+  "MaxAbsPredFull": {
+   "value": "17.4",
+   "study": "1"
+  },
+  "MaxAbsPredHalf": {
+   "value": "8.7",
+   "study": "1"
+  },
+  "MedianErrLargeFull": {
+   "value": "0.243",
+   "study": "1"
+  },
+  "MedianErrSmallFull": {
+   "value": "0.002",
+   "study": "1"
+  },
+  "MisMeanMinusMatchedCIFull": {
+   "value": "[1.82, 2.60]",
+   "study": "2"
+  },
+  "MisMeanMinusMatchedCIHalf": {
+   "value": "[1.88, 2.57]",
+   "study": "2"
+  },
+  "MisMeanMinusMatchedFull": {
+   "value": "\\ensuremath{+}2.21",
+   "study": "2"
+  },
+  "MisMeanMinusMatchedHalf": {
+   "value": "\\ensuremath{+}2.22",
+   "study": "2"
+  },
+  "MisMeanTopAnatCIFull": {
+   "value": "[\\ensuremath{-}0.022, 0.025]",
+   "study": "2"
+  },
+  "MisMeanTopAnatCIHalf": {
+   "value": "[0.025, 0.058]",
+   "study": "2"
+  },
+  "MisMeanTopAnatFull": {
+   "value": "\\ensuremath{+}0.001",
+   "study": "2"
+  },
+  "MisMeanTopAnatHalf": {
+   "value": "\\ensuremath{+}0.041",
+   "study": "2"
+  },
+  "MisZeroMinusRefCIFull": {
+   "value": "[\\ensuremath{-}0.45, \\ensuremath{-}0.14]",
+   "study": "2"
+  },
+  "MisZeroMinusRefCIHalf": {
+   "value": "[\\ensuremath{-}0.05, 0.15]",
+   "study": "2"
+  },
+  "MisZeroMinusRefFull": {
+   "value": "\\ensuremath{-}0.29",
+   "study": "2"
+  },
+  "MisZeroMinusRefHalf": {
+   "value": "\\ensuremath{+}0.05",
+   "study": "2"
+  },
+  "NCasesFull": {
+   "value": "19,825",
+   "study": "2"
+  },
+  "NConfModels": {
+   "value": "46",
+   "study": "both"
+  },
+  "NDevModels": {
+   "value": "4",
+   "study": "both"
+  },
+  "NDirections": {
+   "value": "12",
+   "study": "both"
+  },
+  "NLargeFull": {
+   "value": "5,501",
+   "study": "2"
+  },
+  "NModels": {
+   "value": "50",
+   "study": "both"
+  },
+  "NReadoutTypes": {
+   "value": "8",
+   "study": "1"
+  },
+  "NReadouts": {
+   "value": "8",
+   "study": "2"
+  },
+  "NSimTypes": {
+   "value": "63",
+   "study": "2"
+  },
+  "NTrajectories": {
+   "value": "24",
+   "study": "1"
+  },
+  "NTypes": {
+   "value": "65",
+   "study": "2"
+  },
+  "NUnitsAll": {
+   "value": "736",
+   "study": "2"
+  },
+  "NUnitsEligible": {
+   "value": "314",
+   "study": "2"
+  },
+  "NearTieReadouts": {
+   "value": "45",
+   "study": "1"
+  },
+  "NetEdges": {
+   "value": "1,513,231",
+   "study": "1"
+  },
+  "NetNodes": {
+   "value": "45,669",
+   "study": "1"
+  },
+  "NetTypePairs": {
+   "value": "604",
+   "study": "1"
+  },
+  "NetTypes": {
+   "value": "65",
+   "study": "1"
+  },
+  "NodesFlyVis": {
+   "value": "45,669",
+   "study": "2"
+  },
+  "OriginalFiles": {
+   "value": "3,228",
+   "study": "1"
+  },
+  "OutsideFull": {
+   "value": "8.7",
+   "study": "1"
+  },
+  "OutsideHalf": {
+   "value": "4.4",
+   "study": "1"
+  },
+  "PairMiOneMiFourDSI": {
+   "value": "0.584",
+   "study": "1"
+  },
+  "PairTmCount": {
+   "value": "4",
+   "study": "1"
+  },
+  "PairTmMaxDSI": {
+   "value": "0.020",
+   "study": "1"
+  },
+  "PairTmSubadditiveMajority": {
+   "value": "3",
+   "study": "1"
+  },
+  "PearsonPooledFull": {
+   "value": "0.35",
+   "study": "1"
+  },
+  "PearsonPooledHalf": {
+   "value": "0.46",
+   "study": "1"
+  },
+  "PilotAutoKMax": {
+   "value": "1.1",
+   "study": "2"
+  },
+  "PilotAutodiffMax": {
+   "value": "\\ensuremath{5.9\\times 10^{-8}}",
+   "study": "2"
+  },
+  "PilotFDJMax": {
+   "value": "\\ensuremath{1.0\\times 10^{-4}}",
+   "study": "2"
+  },
+  "PilotFDKMax": {
+   "value": "201",
+   "study": "2"
+  },
+  "PilotFDKMin": {
+   "value": "100",
+   "study": "2"
+  },
+  "PilotGradMax": {
+   "value": "\\ensuremath{2.5\\times 10^{-6}}",
+   "study": "2"
+  },
+  "PostCases": {
+   "value": "19,825",
+   "study": "2"
+  },
+  "PostLargeDenFrac": {
+   "value": "12",
+   "study": "2"
+  },
+  "PostLargeDenShare": {
+   "value": "86",
+   "study": "2"
+  },
+  "PostLargeFirst": {
+   "value": "0.76",
+   "study": "2"
+  },
+  "PostLargeSecond": {
+   "value": "7.8",
+   "study": "2"
+  },
+  "PostLargeZero": {
+   "value": "0.34",
+   "study": "2"
+  },
+  "PostRestFirst": {
+   "value": "0.066",
+   "study": "2"
+  },
+  "PostRestSecond": {
+   "value": "0.082",
+   "study": "2"
+  },
+  "PostRestSecondBelowFirst": {
+   "value": "0",
+   "study": "2"
+  },
+  "PostRestZero": {
+   "value": "0.068",
+   "study": "2"
+  },
+  "PostSecondErrLarge": {
+   "value": "7.85",
+   "study": "2"
+  },
+  "PostSecondErrRest": {
+   "value": "0.082",
+   "study": "2"
+  },
+  "PostShareReadout": {
+   "value": "78",
+   "study": "2"
+  },
+  "PostWrongFirst": {
+   "value": "21.7",
+   "study": "2"
+  },
+  "PostWrongRead": {
+   "value": "9.1",
+   "study": "2"
+  },
+  "PrecAnatCIFull": {
+   "value": "[0.620, 0.673]",
+   "study": "1"
+  },
+  "PrecAnatCIHalf": {
+   "value": "[0.477, 0.539]",
+   "study": "1"
+  },
+  "PrecAnatFourFull": {
+   "value": "0.672",
+   "study": "1"
+  },
+  "PrecAnatFourHalf": {
+   "value": "0.532",
+   "study": "1"
+  },
+  "PrecAnatFull": {
+   "value": "0.646",
+   "study": "1"
+  },
+  "PrecAnatHalf": {
+   "value": "0.507",
+   "study": "1"
+  },
+  "PrecAnatOneFull": {
+   "value": "0.522",
+   "study": "1"
+  },
+  "PrecAnatOneHalf": {
+   "value": "0.411",
+   "study": "1"
+  },
+  "PrecAnatTwoFull": {
+   "value": "0.634",
+   "study": "1"
+  },
+  "PrecAnatTwoHalf": {
+   "value": "0.497",
+   "study": "1"
+  },
+  "PrecCurrentFull": {
+   "value": "0.539",
+   "study": "1"
+  },
+  "PrecCurrentHalf": {
+   "value": "0.432",
+   "study": "1"
+  },
+  "PrecDiffAnatCIFull": {
+   "value": "[0.140, 0.199]",
+   "study": "1"
+  },
+  "PrecDiffAnatCIHalf": {
+   "value": "[0.188, 0.243]",
+   "study": "1"
+  },
+  "PrecDiffAnatFourCIFull": {
+   "value": "[0.116, 0.172]",
+   "study": "1"
+  },
+  "PrecDiffAnatFourFull": {
+   "value": "0.143",
+   "study": "1"
+  },
+  "PrecDiffAnatFull": {
+   "value": "0.169",
+   "study": "1"
+  },
+  "PrecDiffAnatHalf": {
+   "value": "0.214",
+   "study": "1"
+  },
+  "PrecDirectFull": {
+   "value": "0.522",
+   "study": "1"
+  },
+  "PrecDirectHalf": {
+   "value": "0.411",
+   "study": "1"
+  },
+  "PrecDistFull": {
+   "value": "0.520",
+   "study": "1"
+  },
+  "PrecDistHalf": {
+   "value": "0.408",
+   "study": "1"
+  },
+  "PrecFOCIFull": {
+   "value": "[0.784, 0.845]",
+   "study": "1"
+  },
+  "PrecFOCIHalf": {
+   "value": "[0.685, 0.757]",
+   "study": "1"
+  },
+  "PrecFOFull": {
+   "value": "0.815",
+   "study": "1"
+  },
+  "PrecFOHalf": {
+   "value": "0.722",
+   "study": "1"
+  },
+  "PrecLossesAnatFull": {
+   "value": "2",
+   "study": "1"
+  },
+  "PrecLossesAnatHalf": {
+   "value": "0",
+   "study": "1"
+  },
+  "PrecRandomFull": {
+   "value": "0.277",
+   "study": "1"
+  },
+  "PrecRandomHalf": {
+   "value": "0.193",
+   "study": "1"
+  },
+  "PrecTiesAnatFull": {
+   "value": "1",
+   "study": "1"
+  },
+  "PrecTiesAnatHalf": {
+   "value": "0",
+   "study": "1"
+  },
+  "PrecTrainedFull": {
+   "value": "0.592",
+   "study": "1"
+  },
+  "PrecTrainedHalf": {
+   "value": "0.456",
+   "study": "1"
+  },
+  "PrecWinsAnatFourFull": {
+   "value": "43",
+   "study": "1"
+  },
+  "PrecWinsAnatFull": {
+   "value": "43",
+   "study": "1"
+  },
+  "PrecWinsAnatHalf": {
+   "value": "46",
+   "study": "1"
+  },
+  "PredAddendumHeld": {
+   "value": "28",
+   "study": "2"
+  },
+  "PredAddendumTotal": {
+   "value": "29",
+   "study": "2"
+  },
+  "PredPrimaryHeld": {
+   "value": "22",
+   "study": "2"
+  },
+  "PredPrimaryTotal": {
+   "value": "27",
+   "study": "2"
+  },
+  "RatioABCFull": {
+   "value": "9.62",
+   "study": "2"
+  },
+  "RatioABCHalf": {
+   "value": "3.81",
+   "study": "2"
+  },
+  "RatioABFull": {
+   "value": "1.09",
+   "study": "2"
+  },
+  "RatioABHalf": {
+   "value": "0.75",
+   "study": "2"
+  },
+  "RatioACFull": {
+   "value": "6.70",
+   "study": "2"
+  },
+  "RatioACHalf": {
+   "value": "2.71",
+   "study": "2"
+  },
+  "RatioAFull": {
+   "value": "1.09",
+   "study": "2"
+  },
+  "RatioAHalf": {
+   "value": "0.76",
+   "study": "2"
+  },
+  "RatioBCFull": {
+   "value": "11.60",
+   "study": "2"
+  },
+  "RatioBCHalf": {
+   "value": "4.50",
+   "study": "2"
+  },
+  "RatioBFull": {
+   "value": "1.52",
+   "study": "2"
+  },
+  "RatioBHalf": {
+   "value": "1.02",
+   "study": "2"
+  },
+  "RatioCFull": {
+   "value": "10.14",
+   "study": "2"
+  },
+  "RatioCHalf": {
+   "value": "3.91",
+   "study": "2"
+  },
+  "RatioCIABCFull": {
+   "value": "[1.88, 24.79]",
+   "study": "2"
+  },
+  "RatioCIABCHalf": {
+   "value": "[0.99, 9.33]",
+   "study": "2"
+  },
+  "RatioCIABFull": {
+   "value": "[0.96, 1.26]",
+   "study": "2"
+  },
+  "RatioCIABHalf": {
+   "value": "[0.66, 0.88]",
+   "study": "2"
+  },
+  "RatioCIACFull": {
+   "value": "[1.66, 16.34]",
+   "study": "2"
+  },
+  "RatioCIACHalf": {
+   "value": "[0.88, 6.23]",
+   "study": "2"
+  },
+  "RatioCIAFull": {
+   "value": "[0.97, 1.26]",
+   "study": "2"
+  },
+  "RatioCIAHalf": {
+   "value": "[0.67, 0.87]",
+   "study": "2"
+  },
+  "RatioCIBCFull": {
+   "value": "[8.66, 15.02]",
+   "study": "2"
+  },
+  "RatioCIBCHalf": {
+   "value": "[3.50, 5.64]",
+   "study": "2"
+  },
+  "RatioCIBFull": {
+   "value": "[1.34, 1.73]",
+   "study": "2"
+  },
+  "RatioCIBHalf": {
+   "value": "[0.92, 1.14]",
+   "study": "2"
+  },
+  "RatioCICFull": {
+   "value": "[5.93, 16.34]",
+   "study": "2"
+  },
+  "RatioCICHalf": {
+   "value": "[2.47, 5.99]",
+   "study": "2"
+  },
+  "RatioCICfNetFull": {
+   "value": "[1.50, 2.09]",
+   "study": "2"
+  },
+  "RatioCICfNetHalf": {
+   "value": "[0.79, 0.99]",
+   "study": "2"
+  },
+  "RatioCICfReadFull": {
+   "value": "[0.51, 0.60]",
+   "study": "2"
+  },
+  "RatioCICfReadHalf": {
+   "value": "[0.44, 0.53]",
+   "study": "2"
+  },
+  "RatioCIMisMeanFull": {
+   "value": "[2.92, 3.71]",
+   "study": "2"
+  },
+  "RatioCIMisMeanHalf": {
+   "value": "[2.64, 3.32]",
+   "study": "2"
+  },
+  "RatioCIMisZeroFull": {
+   "value": "[1.09, 1.38]",
+   "study": "2"
+  },
+  "RatioCIMisZeroHalf": {
+   "value": "[1.00, 1.21]",
+   "study": "2"
+  },
+  "RatioCIRefFull": {
+   "value": "[1.34, 1.71]",
+   "study": "2"
+  },
+  "RatioCIRefHalf": {
+   "value": "[0.94, 1.16]",
+   "study": "2"
+  },
+  "RatioCISplitRatioFull": {
+   "value": "[0.73, 0.80]",
+   "study": "2"
+  },
+  "RatioCISplitRatioHalf": {
+   "value": "[0.60, 0.69]",
+   "study": "2"
+  },
+  "RatioCISplitRespFull": {
+   "value": "[3.81, 12.02]",
+   "study": "2"
+  },
+  "RatioCISplitRespHalf": {
+   "value": "[2.30, 6.74]",
+   "study": "2"
+  },
+  "RatioCfNetFull": {
+   "value": "1.78",
+   "study": "2"
+  },
+  "RatioCfNetHalf": {
+   "value": "0.88",
+   "study": "2"
+  },
+  "RatioCfReadFull": {
+   "value": "0.55",
+   "study": "2"
+  },
+  "RatioCfReadHalf": {
+   "value": "0.48",
+   "study": "2"
+  },
+  "RatioMinusRespCIMMFull": {
+   "value": "[0.83, 2.28]",
+   "study": "2"
+  },
+  "RatioMinusRespCIMMHalf": {
+   "value": "[0.32, 1.13]",
+   "study": "2"
+  },
+  "RatioMinusRespCIMPFull": {
+   "value": "[0.44, 1.16]",
+   "study": "2"
+  },
+  "RatioMinusRespCIMPHalf": {
+   "value": "[0.18, 0.62]",
+   "study": "2"
+  },
+  "RatioMinusRespCIZMFull": {
+   "value": "[7.44, 51.84]",
+   "study": "2"
+  },
+  "RatioMinusRespCIZMHalf": {
+   "value": "[5.32, 38.05]",
+   "study": "2"
+  },
+  "RatioMinusRespCIZPFull": {
+   "value": "[2.05, 8.05]",
+   "study": "2"
+  },
+  "RatioMinusRespCIZPHalf": {
+   "value": "[1.55, 6.46]",
+   "study": "2"
+  },
+  "RatioMinusRespMMFull": {
+   "value": "1.46",
+   "study": "2"
+  },
+  "RatioMinusRespMMHalf": {
+   "value": "0.67",
+   "study": "2"
+  },
+  "RatioMinusRespMPFull": {
+   "value": "0.76",
+   "study": "2"
+  },
+  "RatioMinusRespMPHalf": {
+   "value": "0.38",
+   "study": "2"
+  },
+  "RatioMinusRespZMFull": {
+   "value": "25.19",
+   "study": "2"
+  },
+  "RatioMinusRespZMHalf": {
+   "value": "18.14",
+   "study": "2"
+  },
+  "RatioMinusRespZPFull": {
+   "value": "4.61",
+   "study": "2"
+  },
+  "RatioMinusRespZPHalf": {
+   "value": "3.62",
+   "study": "2"
+  },
+  "RatioMisMeanFull": {
+   "value": "3.30",
+   "study": "2"
+  },
+  "RatioMisMeanHalf": {
+   "value": "2.98",
+   "study": "2"
+  },
+  "RatioMisZeroFull": {
+   "value": "1.22",
+   "study": "2"
+  },
+  "RatioMisZeroHalf": {
+   "value": "1.09",
+   "study": "2"
+  },
+  "RatioRefFull": {
+   "value": "1.51",
+   "study": "2"
+  },
+  "RatioRefHalf": {
+   "value": "1.05",
+   "study": "2"
+  },
+  "RatioSplitRatioFull": {
+   "value": "0.76",
+   "study": "2"
+  },
+  "RatioSplitRatioHalf": {
+   "value": "0.64",
+   "study": "2"
+  },
+  "RatioSplitRespFull": {
+   "value": "7.39",
+   "study": "2"
+  },
+  "RatioSplitRespHalf": {
+   "value": "4.24",
+   "study": "2"
+  },
+  "ReadMinusNetCIMMFull": {
+   "value": "[0.33, 0.53]",
+   "study": "2"
+  },
+  "ReadMinusNetCIMMHalf": {
+   "value": "[0.16, 0.34]",
+   "study": "2"
+  },
+  "ReadMinusNetCIMPFull": {
+   "value": "[0.32, 0.47]",
+   "study": "2"
+  },
+  "ReadMinusNetCIMPHalf": {
+   "value": "[0.15, 0.34]",
+   "study": "2"
+  },
+  "ReadMinusNetCIZMFull": {
+   "value": "[0.64, 1.14]",
+   "study": "2"
+  },
+  "ReadMinusNetCIZMHalf": {
+   "value": "[0.27, 0.41]",
+   "study": "2"
+  },
+  "ReadMinusNetCIZPFull": {
+   "value": "[0.65, 1.01]",
+   "study": "2"
+  },
+  "ReadMinusNetCIZPHalf": {
+   "value": "[0.28, 0.43]",
+   "study": "2"
+  },
+  "ReadMinusNetMMFull": {
+   "value": "0.42",
+   "study": "2"
+  },
+  "ReadMinusNetMMHalf": {
+   "value": "0.26",
+   "study": "2"
+  },
+  "ReadMinusNetMPFull": {
+   "value": "0.39",
+   "study": "2"
+  },
+  "ReadMinusNetMPHalf": {
+   "value": "0.25",
+   "study": "2"
+  },
+  "ReadMinusNetZMFull": {
+   "value": "0.86",
+   "study": "2"
+  },
+  "ReadMinusNetZMHalf": {
+   "value": "0.34",
+   "study": "2"
+  },
+  "ReadMinusNetZPFull": {
+   "value": "0.82",
+   "study": "2"
+  },
+  "ReadMinusNetZPHalf": {
+   "value": "0.36",
+   "study": "2"
+  },
+  "ReadoutConditions": {
+   "value": "736",
+   "study": "1"
+  },
+  "RecNetMMFull": {
+   "value": "6",
+   "study": "2"
+  },
+  "RecNetMMHalf": {
+   "value": "18",
+   "study": "2"
+  },
+  "RecNetMPFull": {
+   "value": "9",
+   "study": "2"
+  },
+  "RecNetMPHalf": {
+   "value": "17",
+   "study": "2"
+  },
+  "RecNetZMFull": {
+   "value": "\\ensuremath{-}30",
+   "study": "2"
+  },
+  "RecNetZMHalf": {
+   "value": "14",
+   "study": "2"
+  },
+  "RecNetZPFull": {
+   "value": "\\ensuremath{-}24",
+   "study": "2"
+  },
+  "RecNetZPHalf": {
+   "value": "14",
+   "study": "2"
+  },
+  "RecRatioMMFull": {
+   "value": "31",
+   "study": "2"
+  },
+  "RecRatioMMHalf": {
+   "value": "14",
+   "study": "2"
+  },
+  "RecRatioMPFull": {
+   "value": "31",
+   "study": "2"
+  },
+  "RecRatioMPHalf": {
+   "value": "22",
+   "study": "2"
+  },
+  "RecRatioZMFull": {
+   "value": "35",
+   "study": "2"
+  },
+  "RecRatioZMHalf": {
+   "value": "19",
+   "study": "2"
+  },
+  "RecRatioZPFull": {
+   "value": "43",
+   "study": "2"
+  },
+  "RecRatioZPHalf": {
+   "value": "33",
+   "study": "2"
+  },
+  "RecReadMMFull": {
+   "value": "49",
+   "study": "2"
+  },
+  "RecReadMMHalf": {
+   "value": "43",
+   "study": "2"
+  },
+  "RecReadMPFull": {
+   "value": "48",
+   "study": "2"
+  },
+  "RecReadMPHalf": {
+   "value": "42",
+   "study": "2"
+  },
+  "RecReadZMFull": {
+   "value": "56",
+   "study": "2"
+  },
+  "RecReadZMHalf": {
+   "value": "48",
+   "study": "2"
+  },
+  "RecReadZPFull": {
+   "value": "58",
+   "study": "2"
+  },
+  "RecReadZPHalf": {
+   "value": "50",
+   "study": "2"
+  },
+  "RecRespMMFull": {
+   "value": "\\ensuremath{-}115",
+   "study": "2"
+  },
+  "RecRespMMHalf": {
+   "value": "\\ensuremath{-}53",
+   "study": "2"
+  },
+  "RecRespMPFull": {
+   "value": "\\ensuremath{-}45",
+   "study": "2"
+  },
+  "RecRespMPHalf": {
+   "value": "\\ensuremath{-}16",
+   "study": "2"
+  },
+  "RecRespZMFull": {
+   "value": "\\ensuremath{-}2484",
+   "study": "2"
+  },
+  "RecRespZMHalf": {
+   "value": "\\ensuremath{-}1795",
+   "study": "2"
+  },
+  "RecRespZPFull": {
+   "value": "\\ensuremath{-}418",
+   "study": "2"
+  },
+  "RecRespZPHalf": {
+   "value": "\\ensuremath{-}329",
+   "study": "2"
+  },
+  "RecallAnatFourFull": {
+   "value": "0.418",
+   "study": "1"
+  },
+  "RecallAnatFourHalf": {
+   "value": "0.484",
+   "study": "1"
+  },
+  "RecallAnatFull": {
+   "value": "0.407",
+   "study": "1"
+  },
+  "RecallAnatHalf": {
+   "value": "0.473",
+   "study": "1"
+  },
+  "RecallAnatOneFull": {
+   "value": "0.326",
+   "study": "1"
+  },
+  "RecallAnatOneHalf": {
+   "value": "0.384",
+   "study": "1"
+  },
+  "RecallAnatTwoFull": {
+   "value": "0.399",
+   "study": "1"
+  },
+  "RecallAnatTwoHalf": {
+   "value": "0.465",
+   "study": "1"
+  },
+  "RecallCurrentFull": {
+   "value": "0.336",
+   "study": "1"
+  },
+  "RecallCurrentHalf": {
+   "value": "0.403",
+   "study": "1"
+  },
+  "RecallDirectFull": {
+   "value": "0.326",
+   "study": "1"
+  },
+  "RecallDirectHalf": {
+   "value": "0.384",
+   "study": "1"
+  },
+  "RecallDistFull": {
+   "value": "0.323",
+   "study": "1"
+  },
+  "RecallDistHalf": {
+   "value": "0.377",
+   "study": "1"
+  },
+  "RecallFOFull": {
+   "value": "0.502",
+   "study": "1"
+  },
+  "RecallFOHalf": {
+   "value": "0.647",
+   "study": "1"
+  },
+  "RecallRandomFull": {
+   "value": "0.159",
+   "study": "1"
+  },
+  "RecallRandomHalf": {
+   "value": "0.155",
+   "study": "1"
+  },
+  "RecallTrainedFull": {
+   "value": "0.375",
+   "study": "1"
+  },
+  "RecallTrainedHalf": {
+   "value": "0.426",
+   "study": "1"
+  },
+  "RefCheckMax": {
+   "value": "\\ensuremath{6\\times 10^{-17}}",
+   "study": "2"
+  },
+  "RefCheckStatus": {
+   "value": "pass",
+   "study": "2"
+  },
+  "RefCheckValues": {
+   "value": "920",
+   "study": "2"
+  },
+  "ReplayCount": {
+   "value": "50",
+   "study": "1"
+  },
+  "ReplayMaxErr": {
+   "value": "\\ensuremath{8.3\\times 10^{-7}}",
+   "study": "1"
+  },
+  "Responsive": {
+   "value": "697",
+   "study": "1"
+  },
+  "ResponsiveCases": {
+   "value": "45,305",
+   "study": "1"
+  },
+  "RhoAnatFourFull": {
+   "value": "0.559",
+   "study": "1"
+  },
+  "RhoAnatFourHalf": {
+   "value": "0.550",
+   "study": "1"
+  },
+  "RhoAnatFull": {
+   "value": "0.566",
+   "study": "1"
+  },
+  "RhoAnatHalf": {
+   "value": "0.556",
+   "study": "1"
+  },
+  "RhoAnatOneFull": {
+   "value": "0.289",
+   "study": "1"
+  },
+  "RhoAnatOneHalf": {
+   "value": "0.300",
+   "study": "1"
+  },
+  "RhoAnatTwoFull": {
+   "value": "0.447",
+   "study": "1"
+  },
+  "RhoAnatTwoHalf": {
+   "value": "0.447",
+   "study": "1"
+  },
+  "RhoCurrentFull": {
+   "value": "0.321",
+   "study": "1"
+  },
+  "RhoCurrentHalf": {
+   "value": "0.330",
+   "study": "1"
+  },
+  "RhoDiffAnatFull": {
+   "value": "0.329",
+   "study": "1"
+  },
+  "RhoDiffAnatHalf": {
+   "value": "0.369",
+   "study": "1"
+  },
+  "RhoDirectFull": {
+   "value": "0.289",
+   "study": "1"
+  },
+  "RhoDirectHalf": {
+   "value": "0.300",
+   "study": "1"
+  },
+  "RhoDistFull": {
+   "value": "0.373",
+   "study": "1"
+  },
+  "RhoDistHalf": {
+   "value": "0.382",
+   "study": "1"
+  },
+  "RhoFOFull": {
+   "value": "0.894",
+   "study": "1"
+  },
+  "RhoFOHalf": {
+   "value": "0.925",
+   "study": "1"
+  },
+  "RhoLargeAnatFourFull": {
+   "value": "0.362",
+   "study": "1"
+  },
+  "RhoLargeAnatFourHalf": {
+   "value": "0.229",
+   "study": "1"
+  },
+  "RhoLargeAnatFull": {
+   "value": "0.374",
+   "study": "1"
+  },
+  "RhoLargeAnatHalf": {
+   "value": "0.246",
+   "study": "1"
+  },
+  "RhoLargeAnatOneFull": {
+   "value": "0.234",
+   "study": "1"
+  },
+  "RhoLargeAnatOneHalf": {
+   "value": "0.191",
+   "study": "1"
+  },
+  "RhoLargeAnatTwoFull": {
+   "value": "0.343",
+   "study": "1"
+  },
+  "RhoLargeAnatTwoHalf": {
+   "value": "0.222",
+   "study": "1"
+  },
+  "RhoLargeCurrentFull": {
+   "value": "0.259",
+   "study": "1"
+  },
+  "RhoLargeCurrentHalf": {
+   "value": "0.266",
+   "study": "1"
+  },
+  "RhoLargeDiffAnatCIFull": {
+   "value": "[\\ensuremath{-}0.110, 0.003]",
+   "study": "1"
+  },
+  "RhoLargeDiffAnatCIHalf": {
+   "value": "[0.142, 0.280]",
+   "study": "1"
+  },
+  "RhoLargeDiffAnatFull": {
+   "value": "\\ensuremath{-}0.053",
+   "study": "1"
+  },
+  "RhoLargeDiffAnatHalf": {
+   "value": "0.210",
+   "study": "1"
+  },
+  "RhoLargeDiffTrainedCIFull": {
+   "value": "[\\ensuremath{-}0.090, 0.010]",
+   "study": "1"
+  },
+  "RhoLargeDiffTrainedFull": {
+   "value": "\\ensuremath{-}0.039",
+   "study": "1"
+  },
+  "RhoLargeDirectFull": {
+   "value": "0.226",
+   "study": "1"
+  },
+  "RhoLargeDirectHalf": {
+   "value": "0.187",
+   "study": "1"
+  },
+  "RhoLargeDistFull": {
+   "value": "0.209",
+   "study": "1"
+  },
+  "RhoLargeDistHalf": {
+   "value": "0.195",
+   "study": "1"
+  },
+  "RhoLargeFOFull": {
+   "value": "0.322",
+   "study": "1"
+  },
+  "RhoLargeFOHalf": {
+   "value": "0.454",
+   "study": "1"
+  },
+  "RhoLargeModelsAnatFull": {
+   "value": "46",
+   "study": "1"
+  },
+  "RhoLargeModelsAnatHalf": {
+   "value": "46",
+   "study": "1"
+  },
+  "RhoLargeTrainedFull": {
+   "value": "0.358",
+   "study": "1"
+  },
+  "RhoLargeTrainedHalf": {
+   "value": "0.271",
+   "study": "1"
+  },
+  "RhoLargeWinsAnatFull": {
+   "value": "21",
+   "study": "1"
+  },
+  "RhoLargeWinsAnatHalf": {
+   "value": "38",
+   "study": "1"
+  },
+  "RhoLargeWinsTrainedFull": {
+   "value": "18",
+   "study": "1"
+  },
+  "RhoTrainedFull": {
+   "value": "0.528",
+   "study": "1"
+  },
+  "RhoTrainedHalf": {
+   "value": "0.520",
+   "study": "1"
+  },
+  "RhoUnitsFull": {
+   "value": "311",
+   "study": "1"
+  },
+  "ScreenBudget": {
+   "value": "10",
+   "study": "2"
+  },
+  "SelThreshold": {
+   "value": "0.2",
+   "study": "2"
+  },
+  "SelectiveCases": {
+   "value": "20,410",
+   "study": "1"
+  },
+  "SensCombos": {
+   "value": "12",
+   "study": "1"
+  },
+  "SensCombosAll": {
+   "value": "16",
+   "study": "1"
+  },
+  "SensPrecAnatMax": {
+   "value": "0.661",
+   "study": "1"
+  },
+  "SensPrecAnatMin": {
+   "value": "0.602",
+   "study": "1"
+  },
+  "SensPrecFOMax": {
+   "value": "0.821",
+   "study": "1"
+  },
+  "SensPrecFOMin": {
+   "value": "0.776",
+   "study": "1"
+  },
+  "SimulatedTypes": {
+   "value": "63",
+   "study": "1"
+  },
+  "SpeedFast": {
+   "value": "110.2",
+   "study": "1"
+  },
+  "SpeedSlow": {
+   "value": "27.55",
+   "study": "1"
+  },
+  "StrengthsDev": {
+   "value": "0.1, 0.25, 0.5, 0.75, 1",
+   "study": "2"
+  },
+  "TangentMaxErr": {
+   "value": "\\ensuremath{7.4\\times 10^{-7}}",
+   "study": "1"
+  },
+  "TieTolerance": {
+   "value": "\\ensuremath{10^{-12}}",
+   "study": "1"
+  },
+  "TimeBackwardEach": {
+   "value": "19.5",
+   "study": "1"
+  },
+  "TimeDerivAIsix": {
+   "value": "158.2",
+   "study": "2"
+  },
+  "TimeExactAIsix": {
+   "value": "145.5",
+   "study": "2"
+  },
+  "TimeExactBoth": {
+   "value": "291.1",
+   "study": "1"
+  },
+  "TimeExactFull": {
+   "value": "145.5",
+   "study": "1"
+  },
+  "TimeExactMean": {
+   "value": "156",
+   "study": "2"
+  },
+  "TimeForward": {
+   "value": "2.4",
+   "study": "1"
+  },
+  "TimeGradient": {
+   "value": "158.2",
+   "study": "1"
+  },
+  "TimeModels": {
+   "value": "46",
+   "study": "1"
+  },
+  "TimePerType": {
+   "value": "2.3",
+   "study": "1"
+  },
+  "TimeRatioBoth": {
+   "value": "1.84",
+   "study": "1"
+  },
+  "TimeRatioExactMean": {
+   "value": "1.07",
+   "study": "2"
+  },
+  "TimeRatioFull": {
+   "value": "0.92",
+   "study": "1"
+  },
+  "TimeRatioTangents": {
+   "value": "2.37",
+   "study": "2"
+  },
+  "TimeTangentsMean": {
+   "value": "346",
+   "study": "2"
+  },
+  "TimeTangentsZero": {
+   "value": "344",
+   "study": "2"
+  },
+  "TopAnatABCFull": {
+   "value": "\\ensuremath{+}0.117",
+   "study": "2"
+  },
+  "TopAnatABCHalf": {
+   "value": "\\ensuremath{+}0.090",
+   "study": "2"
+  },
+  "TopAnatABFull": {
+   "value": "\\ensuremath{+}0.128",
+   "study": "2"
+  },
+  "TopAnatABHalf": {
+   "value": "\\ensuremath{+}0.103",
+   "study": "2"
+  },
+  "TopAnatACFull": {
+   "value": "\\ensuremath{+}0.121",
+   "study": "2"
+  },
+  "TopAnatACHalf": {
+   "value": "\\ensuremath{+}0.098",
+   "study": "2"
+  },
+  "TopAnatAFull": {
+   "value": "\\ensuremath{+}0.122",
+   "study": "2"
+  },
+  "TopAnatAHalf": {
+   "value": "\\ensuremath{+}0.102",
+   "study": "2"
+  },
+  "TopAnatBCFull": {
+   "value": "\\ensuremath{+}0.172",
+   "study": "2"
+  },
+  "TopAnatBCHalf": {
+   "value": "\\ensuremath{+}0.191",
+   "study": "2"
+  },
+  "TopAnatBFull": {
+   "value": "\\ensuremath{+}0.200",
+   "study": "2"
+  },
+  "TopAnatBHalf": {
+   "value": "\\ensuremath{+}0.247",
+   "study": "2"
+  },
+  "TopAnatCFull": {
+   "value": "\\ensuremath{+}0.145",
+   "study": "2"
+  },
+  "TopAnatCHalf": {
+   "value": "\\ensuremath{+}0.183",
+   "study": "2"
+  },
+  "TopAnatCIABCFull": {
+   "value": "[0.089, 0.145]",
+   "study": "2"
+  },
+  "TopAnatCIABCHalf": {
+   "value": "[0.069, 0.111]",
+   "study": "2"
+  },
+  "TopAnatCIABFull": {
+   "value": "[0.098, 0.158]",
+   "study": "2"
+  },
+  "TopAnatCIABHalf": {
+   "value": "[0.082, 0.126]",
+   "study": "2"
+  },
+  "TopAnatCIACFull": {
+   "value": "[0.095, 0.146]",
+   "study": "2"
+  },
+  "TopAnatCIACHalf": {
+   "value": "[0.076, 0.120]",
+   "study": "2"
+  },
+  "TopAnatCIAFull": {
+   "value": "[0.094, 0.150]",
+   "study": "2"
+  },
+  "TopAnatCIAHalf": {
+   "value": "[0.079, 0.127]",
+   "study": "2"
+  },
+  "TopAnatCIBCFull": {
+   "value": "[0.144, 0.199]",
+   "study": "2"
+  },
+  "TopAnatCIBCHalf": {
+   "value": "[0.161, 0.220]",
+   "study": "2"
+  },
+  "TopAnatCIBFull": {
+   "value": "[0.174, 0.225]",
+   "study": "2"
+  },
+  "TopAnatCIBHalf": {
+   "value": "[0.220, 0.275]",
+   "study": "2"
+  },
+  "TopAnatCICFull": {
+   "value": "[0.114, 0.174]",
+   "study": "2"
+  },
+  "TopAnatCICHalf": {
+   "value": "[0.155, 0.211]",
+   "study": "2"
+  },
+  "TopAnatCICfNetFull": {
+   "value": "[0.195, 0.250]",
+   "study": "2"
+  },
+  "TopAnatCICfNetHalf": {
+   "value": "[0.226, 0.283]",
+   "study": "2"
+  },
+  "TopAnatCICfReadFull": {
+   "value": "[0.165, 0.223]",
+   "study": "2"
+  },
+  "TopAnatCICfReadHalf": {
+   "value": "[0.240, 0.296]",
+   "study": "2"
+  },
+  "TopAnatCIMisMeanFull": {
+   "value": "[\\ensuremath{-}0.022, 0.025]",
+   "study": "2"
+  },
+  "TopAnatCIMisMeanHalf": {
+   "value": "[0.025, 0.058]",
+   "study": "2"
+  },
+  "TopAnatCIMisZeroFull": {
+   "value": "[0.053, 0.103]",
+   "study": "2"
+  },
+  "TopAnatCIMisZeroHalf": {
+   "value": "[0.055, 0.103]",
+   "study": "2"
+  },
+  "TopAnatCIRefFull": {
+   "value": "[0.138, 0.198]",
+   "study": "2"
+  },
+  "TopAnatCIRefHalf": {
+   "value": "[0.186, 0.241]",
+   "study": "2"
+  },
+  "TopAnatCISplitRatioFull": {
+   "value": "[0.128, 0.185]",
+   "study": "2"
+  },
+  "TopAnatCISplitRatioHalf": {
+   "value": "[0.189, 0.244]",
+   "study": "2"
+  },
+  "TopAnatCISplitRespFull": {
+   "value": "[0.169, 0.225]",
+   "study": "2"
+  },
+  "TopAnatCISplitRespHalf": {
+   "value": "[0.205, 0.263]",
+   "study": "2"
+  },
+  "TopAnatCfNetFull": {
+   "value": "\\ensuremath{+}0.223",
+   "study": "2"
+  },
+  "TopAnatCfNetHalf": {
+   "value": "\\ensuremath{+}0.255",
+   "study": "2"
+  },
+  "TopAnatCfReadFull": {
+   "value": "\\ensuremath{+}0.195",
+   "study": "2"
+  },
+  "TopAnatCfReadHalf": {
+   "value": "\\ensuremath{+}0.268",
+   "study": "2"
+  },
+  "TopAnatMisMeanFull": {
+   "value": "\\ensuremath{+}0.001",
+   "study": "2"
+  },
+  "TopAnatMisMeanHalf": {
+   "value": "\\ensuremath{+}0.041",
+   "study": "2"
+  },
+  "TopAnatMisZeroFull": {
+   "value": "\\ensuremath{+}0.078",
+   "study": "2"
+  },
+  "TopAnatMisZeroHalf": {
+   "value": "\\ensuremath{+}0.079",
+   "study": "2"
+  },
+  "TopAnatRefFull": {
+   "value": "\\ensuremath{+}0.169",
+   "study": "2"
+  },
+  "TopAnatRefHalf": {
+   "value": "\\ensuremath{+}0.214",
+   "study": "2"
+  },
+  "TopAnatSplitRatioFull": {
+   "value": "\\ensuremath{+}0.157",
+   "study": "2"
+  },
+  "TopAnatSplitRatioHalf": {
+   "value": "\\ensuremath{+}0.217",
+   "study": "2"
+  },
+  "TopAnatSplitRespFull": {
+   "value": "\\ensuremath{+}0.197",
+   "study": "2"
+  },
+  "TopAnatSplitRespHalf": {
+   "value": "\\ensuremath{+}0.235",
+   "study": "2"
+  },
+  "TopFirstCFull": {
+   "value": "\\ensuremath{-}0.023",
+   "study": "2"
+  },
+  "TopFirstCHalf": {
+   "value": "\\ensuremath{-}0.031",
+   "study": "2"
+  },
+  "TopFirstCICFull": {
+   "value": "[\\ensuremath{-}0.040, \\ensuremath{-}0.007]",
+   "study": "2"
+  },
+  "TopFirstCICHalf": {
+   "value": "[\\ensuremath{-}0.045, \\ensuremath{-}0.016]",
+   "study": "2"
+  },
+  "TopTenABCFull": {
+   "value": "0.571",
+   "study": "2"
+  },
+  "TopTenABCHalf": {
+   "value": "0.360",
+   "study": "2"
+  },
+  "TopTenABFull": {
+   "value": "0.582",
+   "study": "2"
+  },
+  "TopTenABHalf": {
+   "value": "0.373",
+   "study": "2"
+  },
+  "TopTenACFull": {
+   "value": "0.588",
+   "study": "2"
+  },
+  "TopTenACHalf": {
+   "value": "0.370",
+   "study": "2"
+  },
+  "TopTenAFull": {
+   "value": "0.590",
+   "study": "2"
+  },
+  "TopTenAHalf": {
+   "value": "0.374",
+   "study": "2"
+  },
+  "TopTenBCFull": {
+   "value": "0.792",
+   "study": "2"
+  },
+  "TopTenBCHalf": {
+   "value": "0.676",
+   "study": "2"
+  },
+  "TopTenBFull": {
+   "value": "0.820",
+   "study": "2"
+  },
+  "TopTenBHalf": {
+   "value": "0.732",
+   "study": "2"
+  },
+  "TopTenCFull": {
+   "value": "0.792",
+   "study": "2"
+  },
+  "TopTenCHalf": {
+   "value": "0.691",
+   "study": "2"
+  },
+  "TopTenCIABCFull": {
+   "value": "[0.543, 0.600]",
+   "study": "2"
+  },
+  "TopTenCIABCHalf": {
+   "value": "[0.333, 0.387]",
+   "study": "2"
+  },
+  "TopTenCIABFull": {
+   "value": "[0.553, 0.610]",
+   "study": "2"
+  },
+  "TopTenCIABHalf": {
+   "value": "[0.345, 0.401]",
+   "study": "2"
+  },
+  "TopTenCIACFull": {
+   "value": "[0.562, 0.613]",
+   "study": "2"
+  },
+  "TopTenCIACHalf": {
+   "value": "[0.338, 0.402]",
+   "study": "2"
+  },
+  "TopTenCIAFull": {
+   "value": "[0.559, 0.619]",
+   "study": "2"
+  },
+  "TopTenCIAHalf": {
+   "value": "[0.341, 0.406]",
+   "study": "2"
+  },
+  "TopTenCIBCFull": {
+   "value": "[0.760, 0.823]",
+   "study": "2"
+  },
+  "TopTenCIBCHalf": {
+   "value": "[0.638, 0.711]",
+   "study": "2"
+  },
+  "TopTenCIBFull": {
+   "value": "[0.789, 0.849]",
+   "study": "2"
+  },
+  "TopTenCIBHalf": {
+   "value": "[0.693, 0.771]",
+   "study": "2"
+  },
+  "TopTenCICFull": {
+   "value": "[0.758, 0.823]",
+   "study": "2"
+  },
+  "TopTenCICHalf": {
+   "value": "[0.656, 0.726]",
+   "study": "2"
+  },
+  "TopTenCICfNetFull": {
+   "value": "[0.841, 0.895]",
+   "study": "2"
+  },
+  "TopTenCICfNetHalf": {
+   "value": "[0.725, 0.796]",
+   "study": "2"
+  },
+  "TopTenCICfReadFull": {
+   "value": "[0.808, 0.872]",
+   "study": "2"
+  },
+  "TopTenCICfReadHalf": {
+   "value": "[0.739, 0.811]",
+   "study": "2"
+  },
+  "TopTenCIMisMeanFull": {
+   "value": "[0.442, 0.496]",
+   "study": "2"
+  },
+  "TopTenCIMisMeanHalf": {
+   "value": "[0.287, 0.340]",
+   "study": "2"
+  },
+  "TopTenCIMisZeroFull": {
+   "value": "[0.699, 0.749]",
+   "study": "2"
+  },
+  "TopTenCIMisZeroHalf": {
+   "value": "[0.557, 0.616]",
+   "study": "2"
+  },
+  "TopTenCIRefFull": {
+   "value": "[0.784, 0.845]",
+   "study": "2"
+  },
+  "TopTenCIRefHalf": {
+   "value": "[0.686, 0.757]",
+   "study": "2"
+  },
+  "TopTenCISplitRatioFull": {
+   "value": "[0.771, 0.833]",
+   "study": "2"
+  },
+  "TopTenCISplitRatioHalf": {
+   "value": "[0.687, 0.761]",
+   "study": "2"
+  },
+  "TopTenCISplitRespFull": {
+   "value": "[0.812, 0.871]",
+   "study": "2"
+  },
+  "TopTenCISplitRespHalf": {
+   "value": "[0.703, 0.778]",
+   "study": "2"
+  },
+  "TopTenCfNetFull": {
+   "value": "0.870",
+   "study": "2"
+  },
+  "TopTenCfNetHalf": {
+   "value": "0.762",
+   "study": "2"
+  },
+  "TopTenCfReadFull": {
+   "value": "0.842",
+   "study": "2"
+  },
+  "TopTenCfReadHalf": {
+   "value": "0.776",
+   "study": "2"
+  },
+  "TopTenMisMeanFull": {
+   "value": "0.469",
+   "study": "2"
+  },
+  "TopTenMisMeanHalf": {
+   "value": "0.313",
+   "study": "2"
+  },
+  "TopTenMisZeroFull": {
+   "value": "0.724",
+   "study": "2"
+  },
+  "TopTenMisZeroHalf": {
+   "value": "0.586",
+   "study": "2"
+  },
+  "TopTenRefFull": {
+   "value": "0.815",
+   "study": "2"
+  },
+  "TopTenRefHalf": {
+   "value": "0.722",
+   "study": "2"
+  },
+  "TopTenSplitRatioFull": {
+   "value": "0.804",
+   "study": "2"
+  },
+  "TopTenSplitRatioHalf": {
+   "value": "0.724",
+   "study": "2"
+  },
+  "TopTenSplitRespFull": {
+   "value": "0.843",
+   "study": "2"
+  },
+  "TopTenSplitRespHalf": {
+   "value": "0.742",
+   "study": "2"
+  },
+  "TraceLinMean": {
+   "value": "27",
+   "study": "2"
+  },
+  "TraceLinZero": {
+   "value": "42",
+   "study": "2"
+  },
+  "TraceQuadMean": {
+   "value": "20",
+   "study": "2"
+  },
+  "TraceQuadZero": {
+   "value": "33",
+   "study": "2"
+  },
+  "TraceRatioZero": {
+   "value": "0.93",
+   "study": "2"
+  },
+  "Unresponsive": {
+   "value": "39",
+   "study": "1"
+  },
+  "WindowFast": {
+   "value": "0.43",
+   "study": "1"
+  },
+  "WindowSlow": {
+   "value": "1.72",
+   "study": "1"
+  },
+  "WrongABCFull": {
+   "value": "37.5",
+   "study": "2"
+  },
+  "WrongABCHalf": {
+   "value": "25.4",
+   "study": "2"
+  },
+  "WrongABFull": {
+   "value": "25.1",
+   "study": "2"
+  },
+  "WrongABHalf": {
+   "value": "16.2",
+   "study": "2"
+  },
+  "WrongACFull": {
+   "value": "36.2",
+   "study": "2"
+  },
+  "WrongACHalf": {
+   "value": "22.4",
+   "study": "2"
+  },
+  "WrongAFull": {
+   "value": "27.5",
+   "study": "2"
+  },
+  "WrongAHalf": {
+   "value": "18.0",
+   "study": "2"
+  },
+  "WrongBCFull": {
+   "value": "49.0",
+   "study": "2"
+  },
+  "WrongBCHalf": {
+   "value": "39.2",
+   "study": "2"
+  },
+  "WrongBFull": {
+   "value": "19.2",
+   "study": "2"
+  },
+  "WrongBHalf": {
+   "value": "12.1",
+   "study": "2"
+  },
+  "WrongCFull": {
+   "value": "46.1",
+   "study": "2"
+  },
+  "WrongCHalf": {
+   "value": "36.1",
+   "study": "2"
+  },
+  "WrongCfNetFull": {
+   "value": "20.3",
+   "study": "2"
+  },
+  "WrongCfNetHalf": {
+   "value": "14.5",
+   "study": "2"
+  },
+  "WrongCfReadFull": {
+   "value": "9.9",
+   "study": "2"
+  },
+  "WrongCfReadHalf": {
+   "value": "7.9",
+   "study": "2"
+  },
+  "WrongChangeAFull": {
+   "value": "\\ensuremath{+}0.059",
+   "study": "2"
+  },
+  "WrongChangeAHalf": {
+   "value": "\\ensuremath{+}0.021",
+   "study": "2"
+  },
+  "WrongChangeBFull": {
+   "value": "\\ensuremath{-}0.024",
+   "study": "2"
+  },
+  "WrongChangeBHalf": {
+   "value": "\\ensuremath{-}0.037",
+   "study": "2"
+  },
+  "WrongChangeCFull": {
+   "value": "\\ensuremath{+}0.245",
+   "study": "2"
+  },
+  "WrongChangeCHalf": {
+   "value": "\\ensuremath{+}0.202",
+   "study": "2"
+  },
+  "WrongChangeCIAFull": {
+   "value": "[0.025, 0.096]",
+   "study": "2"
+  },
+  "WrongChangeCIAHalf": {
+   "value": "[\\ensuremath{-}0.016, 0.061]",
+   "study": "2"
+  },
+  "WrongChangeCIBFull": {
+   "value": "[\\ensuremath{-}0.041, \\ensuremath{-}0.008]",
+   "study": "2"
+  },
+  "WrongChangeCIBHalf": {
+   "value": "[\\ensuremath{-}0.061, \\ensuremath{-}0.017]",
+   "study": "2"
+  },
+  "WrongChangeCICFull": {
+   "value": "[0.221, 0.269]",
+   "study": "2"
+  },
+  "WrongChangeCICHalf": {
+   "value": "[0.171, 0.234]",
+   "study": "2"
+  },
+  "WrongFracABCFull": {
+   "value": "0.375",
+   "study": "2"
+  },
+  "WrongFracABCHalf": {
+   "value": "0.254",
+   "study": "2"
+  },
+  "WrongFracABFull": {
+   "value": "0.251",
+   "study": "2"
+  },
+  "WrongFracABHalf": {
+   "value": "0.162",
+   "study": "2"
+  },
+  "WrongFracACFull": {
+   "value": "0.362",
+   "study": "2"
+  },
+  "WrongFracACHalf": {
+   "value": "0.224",
+   "study": "2"
+  },
+  "WrongFracAFull": {
+   "value": "0.275",
+   "study": "2"
+  },
+  "WrongFracAHalf": {
+   "value": "0.180",
+   "study": "2"
+  },
+  "WrongFracBCFull": {
+   "value": "0.490",
+   "study": "2"
+  },
+  "WrongFracBCHalf": {
+   "value": "0.392",
+   "study": "2"
+  },
+  "WrongFracBFull": {
+   "value": "0.192",
+   "study": "2"
+  },
+  "WrongFracBHalf": {
+   "value": "0.121",
+   "study": "2"
+  },
+  "WrongFracCFull": {
+   "value": "0.461",
+   "study": "2"
+  },
+  "WrongFracCHalf": {
+   "value": "0.361",
+   "study": "2"
+  },
+  "WrongFracCfNetFull": {
+   "value": "0.203",
+   "study": "2"
+  },
+  "WrongFracCfNetHalf": {
+   "value": "0.145",
+   "study": "2"
+  },
+  "WrongFracCfReadFull": {
+   "value": "0.099",
+   "study": "2"
+  },
+  "WrongFracCfReadHalf": {
+   "value": "0.079",
+   "study": "2"
+  },
+  "WrongFracMisMeanFull": {
+   "value": "0.328",
+   "study": "2"
+  },
+  "WrongFracMisMeanHalf": {
+   "value": "0.276",
+   "study": "2"
+  },
+  "WrongFracMisZeroFull": {
+   "value": "0.433",
+   "study": "2"
+  },
+  "WrongFracMisZeroHalf": {
+   "value": "0.408",
+   "study": "2"
+  },
+  "WrongFracRefFull": {
+   "value": "0.216",
+   "study": "2"
+  },
+  "WrongFracRefHalf": {
+   "value": "0.159",
+   "study": "2"
+  },
+  "WrongFracSplitRatioFull": {
+   "value": "0.201",
+   "study": "2"
+  },
+  "WrongFracSplitRatioHalf": {
+   "value": "0.146",
+   "study": "2"
+  },
+  "WrongFracSplitRespFull": {
+   "value": "0.104",
+   "study": "2"
+  },
+  "WrongFracSplitRespHalf": {
+   "value": "0.081",
+   "study": "2"
+  },
+  "WrongMisMeanFull": {
+   "value": "32.8",
+   "study": "2"
+  },
+  "WrongMisMeanHalf": {
+   "value": "27.6",
+   "study": "2"
+  },
+  "WrongMisZeroFull": {
+   "value": "43.3",
+   "study": "2"
+  },
+  "WrongMisZeroHalf": {
+   "value": "40.8",
+   "study": "2"
+  },
+  "WrongRefFull": {
+   "value": "21.6",
+   "study": "2"
+  },
+  "WrongRefHalf": {
+   "value": "15.9",
+   "study": "2"
+  },
+  "WrongSignCIFull": {
+   "value": "[19.6, 23.6]",
+   "study": "1"
+  },
+  "WrongSignCIHalf": {
+   "value": "[13.4, 18.4]",
+   "study": "1"
+  },
+  "WrongSignFull": {
+   "value": "21.6",
+   "study": "1"
+  },
+  "WrongSignHalf": {
+   "value": "15.9",
+   "study": "1"
+  },
+  "WrongSignMaxFull": {
+   "value": "35.4",
+   "study": "1"
+  },
+  "WrongSignMaxHalf": {
+   "value": "37.5",
+   "study": "1"
+  },
+  "WrongSignMinFull": {
+   "value": "7.0",
+   "study": "1"
+  },
+  "WrongSignMinHalf": {
+   "value": "0.0",
+   "study": "1"
+  },
+  "WrongSignPooledFull": {
+   "value": "1,192",
+   "study": "1"
+  },
+  "WrongSignPooledHalf": {
+   "value": "631",
+   "study": "1"
+  },
+  "WrongSplitRatioFull": {
+   "value": "20.1",
+   "study": "2"
+  },
+  "WrongSplitRatioHalf": {
+   "value": "14.6",
+   "study": "2"
+  },
+  "WrongSplitRespFull": {
+   "value": "10.4",
+   "study": "2"
+  },
+  "WrongSplitRespHalf": {
+   "value": "8.1",
+   "study": "2"
+  },
+  "ZeroGradAbolitionsRange": {
+   "value": "13--16",
+   "study": "1"
+  },
+  "ZeroGradReadouts": {
+   "value": "51",
+   "study": "1"
+  },
+  "ZeroGradResponsiveSilent": {
+   "value": "9",
+   "study": "1"
+  },
+  "ZeroGradSelective": {
+   "value": "3",
+   "study": "1"
+  },
+  "ZeroPeakChangedCases": {
+   "value": "4,767",
+   "study": "1"
+  },
+  "ZeroPeakSameCases": {
+   "value": "15,058",
+   "study": "1"
+  },
+  "ZeroPredFull": {
+   "value": "0.6",
+   "study": "1"
+  },
+  "ZeroPredHalf": {
+   "value": "0.5",
+   "study": "1"
+  }
+ },
+ "tables": {
+  "generated/s1-table-biology.tex": {
+   "study": "1",
+   "from": "paper/generated/table-biology.tex",
+   "sha256": "9541a5e49a4d1b5a4a35b7b78f1975d6d4a6fd5b76c35a115bf674cad5f9bb21"
+  },
+  "generated/s1-table-clusters.tex": {
+   "study": "1",
+   "from": "paper/generated/table-clusters.tex",
+   "sha256": "bf1cd5fbb695ea03bc2c0331ce833a1dcb3d375b927c3801e3658fc4ee1ea4ff"
+  },
+  "generated/s1-table-coverage.tex": {
+   "study": "1",
+   "from": "paper/generated/table-coverage.tex",
+   "sha256": "81c31403ff1655856c94e3742fe39c92f07017fcc504f3a19b93cfd1f51a56e3"
+  },
+  "generated/s1-table-development.tex": {
+   "study": "1",
+   "from": "paper/generated/table-development.tex",
+   "sha256": "1522c403b1e5f3420a27da3160ed3c7b6ad996b7c42021492100c60f1b45a820"
+  },
+  "generated/s1-table-diagnostics.tex": {
+   "study": "1",
+   "from": "paper/generated/table-diagnostics.tex",
+   "sha256": "2576e1bda0a561ba21b0c4bd05abadf77bdaf171861cfd68f6fa3d288264ad64"
+  },
+  "generated/s1-table-magnitude.tex": {
+   "study": "1",
+   "from": "paper/generated/table-magnitude.tex",
+   "sha256": "a853a64c653a828c13df70ac2ce4610535d0222a32ffe7b00230df14960b475c"
+  },
+  "generated/s1-table-models.tex": {
+   "study": "1",
+   "from": "paper/generated/table-models.tex",
+   "sha256": "47023112cd537e433163e00ad5eacc2d94ec491e76784aaa14cc1497a6f64222"
+  },
+  "generated/s1-table-paired.tex": {
+   "study": "1",
+   "from": "paper/generated/table-paired.tex",
+   "sha256": "40c58934cf1f3c6bbaf964f5daf14e71eae4ea4fac7a707d6b447330610108a7"
+  },
+  "generated/s1-table-pairs.tex": {
+   "study": "1",
+   "from": "paper/generated/table-pairs.tex",
+   "sha256": "ce03d8d8a5ec11003f1535e0820e4d0ba3e6ddcf1a3cb0e6555cb7e5acc51a86"
+  },
+  "generated/s1-table-screen.tex": {
+   "study": "1",
+   "from": "paper/generated/table-screen.tex",
+   "sha256": "798101c8c3d2801831e2f78322ec0b666e7051e3b90017b27b7662de4c0e2354"
+  },
+  "generated/s1-table-sensitivity.tex": {
+   "study": "1",
+   "from": "paper/generated/table-sensitivity.tex",
+   "sha256": "0097959cbc0955e8dc3bc1e2e580f7b794a64d460a62119df30c8271f55a680c"
+  },
+  "generated/s2-table-addendum.tex": {
+   "study": "2",
+   "from": "paper/generated/table-addendum.tex",
+   "sha256": "571705e7b8a6faf8548a680faa1369fc5d0ed91841a710f9f358245ef68c8907"
+  },
+  "generated/s2-table-arms.tex": {
+   "study": "2",
+   "from": "paper/generated/table-arms.tex",
+   "sha256": "7ec8dc8368d6db8775c21774f478b02800301a5c5d185cace05be508c9a56525"
+  },
+  "generated/s2-table-development.tex": {
+   "study": "2",
+   "from": "paper/generated/table-development.tex",
+   "sha256": "6dc5b42ca854e3c714dacf1dc7dbdfe7680ff2d687874a6407e5db98b0795bfd"
+  },
+  "generated/s2-table-factorial.tex": {
+   "study": "2",
+   "from": "paper/generated/table-factorial.tex",
+   "sha256": "eda73de0c8c54a76f7c714b6a3118515191179d01fe1a498f223b427565bcdaa"
+  },
+  "generated/s2-table-flag.tex": {
+   "study": "2",
+   "from": "paper/generated/table-flag.tex",
+   "sha256": "e49b0089eebf9b879d814a809ff8fae509bdd54db7d867f95f183a32918e41b1"
+  },
+  "generated/s2-table-mechanism-all.tex": {
+   "study": "2",
+   "from": "paper/generated/table-mechanism-all.tex",
+   "sha256": "2b4fd503fc63a53acffca3b40045f59675bb966db699ee24ec8a8acafbd5519c"
+  },
+  "generated/s2-table-mechanism.tex": {
+   "study": "2",
+   "from": "paper/generated/table-mechanism.tex",
+   "sha256": "028dde89267e7bea940e661c4a8679eaae2d766fb76f30204a98d4cbb6654dc8"
+  },
+  "generated/s2-table-predictions.tex": {
+   "study": "2",
+   "from": "paper/generated/table-predictions.tex",
+   "sha256": "5e0e3722c6b14c49091876060eabb9587c595ce585b1c256333f5d3a84bf7a77"
+  }
+ },
+ "figures": {
+  "s1-fig1-screening.pdf": {
+   "study": "1",
+   "from": "paper/figures/fig1-screening.pdf",
+   "sha256": "0b515e9bc5f7d3c75768d759a9d05945d639e25d9c373eba5a3667958d7f9262"
+  },
+  "s1-fig2-predicted-vs-exact.pdf": {
+   "study": "1",
+   "from": "paper/figures/fig2-predicted-vs-exact.pdf",
+   "sha256": "2566f92aa284f7e12bdc18dfb5560ad75d319e2fe4c0e8ce2c779295c10c6674"
+  },
+  "s1-fig3-model-errors.pdf": {
+   "study": "1",
+   "from": "paper/figures/fig3-model-errors.pdf",
+   "sha256": "2b77c8b10abe62959d9b57e33266d47bb55238b77b075db02f5dc9b915c12774"
+  },
+  "s1-fig4-strength.pdf": {
+   "study": "1",
+   "from": "paper/figures/fig4-strength.pdf",
+   "sha256": "e09930391c2f7b88bc08ffc6353049c2aa83289fd4ebf35924386b5b9f6b21bf"
+  },
+  "s2-fig1-error-ratios.pdf": {
+   "study": "2",
+   "from": "paper/figures/fig1-error-ratios.pdf",
+   "sha256": "2b0a4497d33e79669d8b1fbe7ac082ba6ad892b2834092f9590c6fc0a887c7d0"
+  },
+  "s2-fig2-predicted-vs-exact.pdf": {
+   "study": "2",
+   "from": "paper/figures/fig2-predicted-vs-exact.pdf",
+   "sha256": "ec5f6e899a6e6f4a14fed007ec735055f449c5f71f37fff7e7cc8a53f6bfc808"
+  },
+  "s2-fig3-per-model.pdf": {
+   "study": "2",
+   "from": "paper/figures/fig3-per-model.pdf",
+   "sha256": "d81924441ca0a2b96ce35f5b8747fa9c257312d3dce83593778c7626343982f7"
+  }
+ },
+ "cross_study": [
+  {
+   "study1": "MaeFOFull",
+   "study2": "MaeRefFull",
+   "value": "0.155"
+  },
+  {
+   "study1": "MaeZeroFull",
+   "study2": "MaeZeroRefFull",
+   "value": "0.101"
+  },
+  {
+   "study1": "PrecFOFull",
+   "study2": "TopTenRefFull",
+   "value": "0.815"
+  },
+  {
+   "study1": "PrecAnatFull",
+   "study2": "AnatRefFull",
+   "value": "0.646"
+  },
+  {
+   "study1": "WrongSignFull",
+   "study2": "WrongRefFull",
+   "value": "21.6"
+  },
+  {
+   "study1": "MainCasesFull",
+   "study2": "NCasesFull",
+   "value": "19,825"
+  },
+  {
+   "study1": "MainCasesFull",
+   "study2": "PostCases",
+   "value": "19,825"
+  },
+  {
+   "study1": "LargeFull",
+   "study2": "NLargeFull",
+   "value": "5,501"
+  },
+  {
+   "study1": "MainReadouts",
+   "study2": "NUnitsEligible",
+   "value": "314"
+  },
+  {
+   "study1": "ReadoutConditions",
+   "study2": "NUnitsAll",
+   "value": "736"
+  },
+  {
+   "study1": "NetNodes",
+   "study2": "NodesFlyVis",
+   "value": "45,669"
+  },
+  {
+   "study1": "NetTypes",
+   "study2": "NTypes",
+   "value": "65"
+  },
+  {
+   "study1": "NetEdges",
+   "study2": "EdgesFlyVis",
+   "value": "1,513,231"
+  },
+  {
+   "study1": "MainDSI",
+   "study2": "SelThreshold",
+   "value": "0.2"
+  },
+  {
+   "study1": "SimulatedTypes",
+   "study2": "NSimTypes",
+   "value": "63"
+  },
+  {
+   "study1": "TimeExactFull",
+   "study2": "TimeExactAIsix",
+   "value": "145.5"
+  },
+  {
+   "study1": "TimeGradient",
+   "study2": "TimeDerivAIsix",
+   "value": "158.2"
+  },
+  {
+   "study1": "BootstrapReps",
+   "study2": "BootReps",
+   "value": "5,000"
+  }
+ ]
+}

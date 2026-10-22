@@ -1,0 +1,1252 @@
+[
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/000/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/000/best_chkpt",
+    "bytes": 49378,
+    "sha256": "d8a57a022aa18ca338599be713af9db29b89cde4b00098ffe42b78f0d583e46a"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/000/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "d0e42857e738d0315897c2d50fde9eb3fb1a3fb1f071d55dfc13d53d72bccc3f"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/000/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "0e8484829430e76fde3b20e76e0369ceb2ac6e9cd22958a3a024a758e3c28025"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/000/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "7baba024c7363f57234771ad103acbdd9e8c107b75464f45f7d249be06248dff"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/001/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/001/best_chkpt",
+    "bytes": 49378,
+    "sha256": "f351b025e25fc02e6ab9e2a80f6fd641fc62f5b3f33210e0a2318af5cc0614ae"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/001/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "d970fa9cd5082cf678cc4ef116728b64b4e7d0bbc99350d36d128f9556b0221a"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/001/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "df95f13c9875dd10f78d224533103fd59e6483c88c10a96cce0d70c36a29ca47"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/001/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "03f39926bfff8ad4c0d3472297c61520953178f5e6281de0639b796b34def1c9"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/002/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/002/best_chkpt",
+    "bytes": 49378,
+    "sha256": "34c70cdc875f9602053f31acf03443cc071982923a9407a367666086637ae866"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/002/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "43e68e8aaddb238b6f522240ba650123c88a42ed7e01d1f378129bea45b771ab"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/002/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "e941694a3907319dd16883f244bf8c46741f1b38b7093c7cde88476ce23ffe57"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/002/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "c9ec00b9c5cd9dfecc65110cca38b83d90e8631e704fe03e3c08d31b04ffd49f"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/003/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/003/best_chkpt",
+    "bytes": 49378,
+    "sha256": "b6764982671b5f0051e682360adc52f8ed6493e478fb9c0edbf66f1d256e1501"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/003/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "f2644780aeaa131437bedcb21038b391ee439f9eacfb5bfc3cd05edd22e6255d"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/003/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "75838bd518ce7eda5c629bdf1045cc8686188504aa6e00b7b9ffaeed7bafe256"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/003/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "5c916d9fabb414602143c647c4a367b4285d66fa20ea992e261ead08d5d8fb98"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/004/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/004/best_chkpt",
+    "bytes": 49378,
+    "sha256": "d3e5ffd015020dec45ccb87c92ceb8091a8f8e65a83a553a9dc3887dd1b6072d"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/004/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "0a8cb1e39d4f594f1ec1518388c448ec32effcc5e10760b403990a18bf9d23be"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/004/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "77a56bd3e08e5817aacefd5093fe0cd99478f30cad0be06a0318a8d301244851"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/004/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "fff9c81e930e3d7a4a8603209122c1bad046c77bfeb701c0c1235764e875b8aa"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/005/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/005/best_chkpt",
+    "bytes": 49378,
+    "sha256": "237db8bd6b015aacd54a0719014ef5a146236a6b4e2ab769b81d314907753ffa"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/005/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "8066e710eb113e4cf4e3f3d218f972b8f17ab922daad8fca358d644b906cc926"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/005/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "f33d71d8b0008103c58b2e502862ee0da725d56beaedff9d56de4434c7b65a57"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/005/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "dba33f0c320c9dd14ed072ed4a6ec307942e9963b72ba3485d21c8e83c79d604"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/006/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/006/best_chkpt",
+    "bytes": 49378,
+    "sha256": "6fb45c35839d04f78073b5a8e67fabcf59131fbf340925459952a5ff1de3b4ea"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/006/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "e802cf3dbdea7d86fd99136393e4a150fab5ee46c36560d0f187063cf191ee4e"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/006/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "88fba0e93c3467d009be85f30d05dc30967a3d53bc3c003bd583723ecce29984"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/006/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "e500792a48aabbc85ecfa6e1864b0417270c66d40ef7db8d5fc8e336a4ac47fd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/007/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/007/best_chkpt",
+    "bytes": 49378,
+    "sha256": "cd1b53eef47db91d3529613a98d0879a739390dcfc53d6148a6953ff9fb13469"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/007/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "bd7a350499b6c223f82e19b02b83fa9e50f6c00f462746da5d2d0e08a95ce393"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/007/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "31fdcaf9fc07680845f1f1c590fbef337a5877d37f5321240397d22683a98ec2"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/007/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "516f5291ad667b886f888e43eb4232263f3eba57227bf202efb57d29b3e847b6"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/008/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/008/best_chkpt",
+    "bytes": 49378,
+    "sha256": "e54b1f0790f97ef791b7aeee056fb88a2bfc7ab4329dd9f7dca10300eb945897"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/008/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "bba5f420ac3812fc92448a8809a5db5906466ec053114fb08b92a65a190a3ec4"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/008/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "fc99f40276b31edcc0c60d979f78ec23dc9c11053c465a7318ea3cb8748fa955"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/008/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "5df9e3b976a5f4d14a496c8876d61e3a50681a9f28cd98a8fb6881bd0da75e2d"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/009/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/009/best_chkpt",
+    "bytes": 49378,
+    "sha256": "37c2676a83587dd7642cbbd3a0d0be219cb999d587ac1830285bdc838f4891f6"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/009/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "0b6f3bb371f0896560cc82bfe05fc200244311cbc8fba167ebb2eb3c4ef8bd85"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/009/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "100a5a6f9e40eb44f8460e7bb20cddb12aaee1a122873ca35affbbcdeb7a8c92"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/009/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "f01b418fe598ab6cc0f68aa1779ac9e7f841ea885d98374409f150162d539d80"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/010/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/010/best_chkpt",
+    "bytes": 49378,
+    "sha256": "ed8be3c396c7a549b2d8b85cd5b14527c43eec58b5ddaae054d18ab9a2b6a300"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/010/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "d25ae1efadb57d6df1c85e67fc1a6ff6ab970bc980af809fb24b380d8dc83d35"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/010/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "15f1ea72a8990b97f80fc09e9446a46afb2d4d13e3e82fdbfce6f4688ca8e0ad"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/010/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "3e8eb76777df724e5caff372e5932b15d0973651faec1cdf91008fc93870b532"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/011/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/011/best_chkpt",
+    "bytes": 49378,
+    "sha256": "bad9dabe0e9432a1f305a4544a847a1fdf7da871021f6d69b1e52a3fa7fcda67"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/011/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "d7066d79621e4f6fe58a329e383e898781a6737f548b48b25ff64582b7c01f77"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/011/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "94aa17d329b5a902baf32ac369d04190b56d381511288155d0f419e189161ad9"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/011/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "72ad4996b8d57a2ad73759275551657d95774fda4c040d2a53a3b24d2e6fac54"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/012/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/012/best_chkpt",
+    "bytes": 49378,
+    "sha256": "d0c816909660cae35811b1631b3ff8cbd40a3acc076b6b083f4c88abbfc19f60"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/012/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "9f05a0de422649b2923749e9c692f5ebae5da7d9148de9122ff8754a47e742ed"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/012/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "7136b2a345a03418b10cdb62b38bb4a69e29cc08fd30e85bd568856843141798"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/012/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "28e84ffc7ebbf0c8ffd9c59727bed78640f84b2441449fb23ae8264cb5d6b459"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/013/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/013/best_chkpt",
+    "bytes": 49378,
+    "sha256": "bde19f62d1a9ce2fce20fce68b72cced1a082a5192c210f4a69c89708e1476d8"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/013/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "b09ea4cb75f56b6753e7eb31c04d844bce2d0850bec76bbb731e8874edc6d114"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/013/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "32ece54772a83241744d35563a1a67b7807f28a943dd9052b1b726179b7855a0"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/013/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "8852e3c1f5c96c3aebca104c34395555b4810908f83656daca49060f40af2556"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/014/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/014/best_chkpt",
+    "bytes": 49378,
+    "sha256": "0bcac347539e36750a00adf71e7c1236a341c4b363cf6b84c0fb6fed349cf967"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/014/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "8b7916b1fdc7b737dd535b4ac9c18e71a6e9b2754aacc2dcfab2bb81596a49e0"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/014/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "1e6958b3c31f0dc3098ce88d13fea55df232b2b632879b1c755f53e9a0dc72e5"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/014/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "45a9ffa94149a60ab11b670249e7f7c83f035d9623f81424f4f80c5a95f6366e"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/015/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/015/best_chkpt",
+    "bytes": 49378,
+    "sha256": "02d2cd384f7f8040582ab33bd52fa2c44edce50ca5be27897d0f105475d819cb"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/015/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "e3a7a95e7be582560ccfd8a553d44597d2525a5db9b4bce20f4966b2aa521a76"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/015/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "898963220442b8a300791b21aab6da3f47e94d69e091fbc6e5c634510c8dbc5b"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/015/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "dedcc6ac29facd79ef5b0d6844a860bee24d315d617abab16c517cd21c4194f4"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/016/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/016/best_chkpt",
+    "bytes": 49378,
+    "sha256": "8fbfc7d39d48eca441e0e23a735dcbedb0a3e364b3a9de48cfa651d0e7c8e7bc"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/016/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "e8a2a50dee28c00ccf611d6402c5336ecc4f30f63e26961cf16958cec49abce2"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/016/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "de3e945a7723e9d49fd46095600cbd120b7258709bbaf9d1b84ad022bc8e9131"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/016/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "4470ae7d6b69823cbc9445cb176b7ec67dde616de6c483e0969ef313c78d6be2"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/017/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/017/best_chkpt",
+    "bytes": 49378,
+    "sha256": "299ac9ab1a50e5dfc5f1716627a9b09f7c5abd8820436eda63f4a178c555e1e1"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/017/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "9118f753f7ba5fbdaedf72d0b170fd82097f94df32a4ec945032fb35a7bc7bc7"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/017/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "6af770db6a750601595efb5714336cfca78431288817bbad6e6514ff47311d2f"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/017/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "235ddf508b079099d74bfc356e731063ee9f957dc35e55932b098f25bff54e46"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/018/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/018/best_chkpt",
+    "bytes": 49378,
+    "sha256": "8c738269fdbecce5da3e4cc5d44718910be1adc61fc693959792eb1817960277"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/018/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "8746384161720d73b3c064e3ac536f37341416390be1b8ce36616a826e614f49"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/018/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "ed4312aede0f14c06d4a002f9e7c76cfa8f5d8e914d5a87870dc8dc9a4b36632"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/018/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "f851e236719b0b81da33d1a590b47e3c71ced41bc97e211414c2051184f3c2d1"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/019/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/019/best_chkpt",
+    "bytes": 49378,
+    "sha256": "6fb18d56f4c014ccf7a53b6914df6fe93f8f594d28b056ebe056a919d70aa596"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/019/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "5296e5bc4e8a7fea9bb845f069833332aa59ec869412f39ec79ceecc76ffa4f1"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/019/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "fe8fbeee35b9226700b9904987054a1df25268c9bad605ee7d6b292cf1dba032"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/019/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "872460344c77ab19eda95a6ee6a776c3817d7788e46271e05e843f0e04ba76a3"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/020/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/020/best_chkpt",
+    "bytes": 49378,
+    "sha256": "03061634c6c83a2b4560005d0e97f40103ef5767d0a831b5205256bc47919ef9"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/020/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "bc3db0f9747677103175597be7f480c1dc31536cd35cc5f3a0d4b583cb6febf6"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/020/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "6c524cd89dd6d6bc68ebb47956b5c9c4e9d9b2403bd65fa6c2e4195af70685d9"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/020/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "7eb6d0da0547c91243e0256615dc5c1728df0472ad4b908c75c81d65bdfdb4aa"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/021/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/021/best_chkpt",
+    "bytes": 49378,
+    "sha256": "9285061e7e0af9b9e23e16a976f3ad158808a0a708c24590de1b85c23aea0727"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/021/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "bf2cde69d7625d1b6ad5da420fab9d3e6d6de87a8aa42b6cc150fe025dd7245d"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/021/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "d34c385120275c21939f7ec6f11c067eb4b3a18962924f3f06d2aad4ac397616"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/021/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "1e05ffe2867636338c57b63b90c084e9af2c146f3b29684c211d87285f2740a4"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/022/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/022/best_chkpt",
+    "bytes": 49378,
+    "sha256": "dd864e23444915ad4bc4fab9d1c401567923c31388c174d3b3caf2b7874d4383"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/022/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "12d15d6d606c3681762d4f6b587b465527fee676f6e7cdb8589ad57333d8c441"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/022/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "88dc39056faf8ec12c6bdd4a25310b37feb8347c73b5449a4697b8ebf4b1e672"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/022/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "b9fe28a3ae59505da240be94da6a4927b7edae7ba048ad226f8a1e4df4d6569d"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/023/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/023/best_chkpt",
+    "bytes": 49378,
+    "sha256": "41a283e29e36ad7dbf2be0604138abd7887b87a1e7d168cf17d3f21103d5b88d"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/023/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "6915c254e4de0f1854f7d5c85440421ea4d10658226560e785fb1606633af3c0"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/023/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "29b2ae5998e7e55e4ef5de3e1415a7573916543d5a0d592ce16c1d73d40b453e"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/023/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "6fc7b57eda8929841c79d8afef876e1dc705f9425483bd1dc4404b921d4d14e6"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/024/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/024/best_chkpt",
+    "bytes": 49378,
+    "sha256": "8400223db1a0702c2ec4eb863e47918fdcc5b998f6718c4f8b0f1a41264f386a"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/024/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "00df16e8308194f16f58db081508154a5df5aad7756193d883a39a4b3ba153c4"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/024/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "7518bd4f9fc2e68e0b2d2c55309c73b51aa0f901b99f56bb36713cf67b559f99"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/024/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "2eb7a8c1445a10b32610945859bb9598052aff049676f966b5a7ecab17e8586d"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/025/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/025/best_chkpt",
+    "bytes": 49378,
+    "sha256": "3c780db8bc7c1d5fa614e2475e4dc42b2ad15375b522f6e7ed8e153fe62847e4"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/025/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "06dea4a4ff6d11aea8036e300c8fa6dcd649367f34f0357bb0f217ca3ab17504"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/025/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "81cbc9ddf66645de5f68ca9666db979afe66bddfa4584a25a164c311049de0be"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/025/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "a3daf284cd74d9eb9008e3276b01fd01d4dcfe9547119df3abc32296476d210d"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/026/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/026/best_chkpt",
+    "bytes": 49378,
+    "sha256": "6981fb1933705bfcb13b072f4c26520e3c3af5cb7e87652efbb6877ddf68b3e9"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/026/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "e3d1896545cbf7c59e5813a11363218f748011ecefa6641e2cf3f038802e1d6d"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/026/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "931f7e4501b5648a375483ca70ffc29079111783d7474cdaf40fa92bf648da2e"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/026/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "fe90bd57cd1c57a343d031075ad83706d27e075dadbf2dae11b562305ecfcdd5"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/027/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/027/best_chkpt",
+    "bytes": 49378,
+    "sha256": "5f3723c0011f6d561ecb3861b2a2b8e13ea923011fd23a10f7c33ff0cbb6b6e7"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/027/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "3432e0a955d8fe38250bc7ca6c989f59b8dbed78c2d6607a1ce1608a9b89147a"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/027/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "4c270698a4c0ffde047829ec14388a18ec0abecd71f30e68c3d7b52167695f61"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/027/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "572c92f1213b617938b02bfb9de69d144efab86e882795da08dd8e95201ef2d7"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/028/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/028/best_chkpt",
+    "bytes": 49378,
+    "sha256": "b19c5c1e94760ec1479bea2adba122441c2c4c95e2ca174526a922d964395b64"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/028/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "386721618cf7679e0e70ab05ae0e6746f83e8af30a4682478e4c2d49429d2dce"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/028/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "9d2d795adb913ab67fa18825e23718cba03f2418a6ed9522b2d6f5b9c6448594"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/028/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "dfeab475f937bdcf07f43b8613aaf012e684fc6ecbacbbbed9232f396cc35ab5"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/029/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/029/best_chkpt",
+    "bytes": 49378,
+    "sha256": "2454e817485656d040fcee69eddc30e6ff7cd587ecd6a908ef3564e03ec95835"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/029/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "3de9d0cfa563cfa1aea1925834bfbc1edac4664dc5aa75e33e99d91959afe639"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/029/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "02157d23bad00de9403cbfd240f69385daf0347b23d879c5d5584b5bdb7c5f9a"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/029/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "96011e973dc84852299f98828b00153d36b8fa507dbbbeed3a6372b87d240c92"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/030/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/030/best_chkpt",
+    "bytes": 49378,
+    "sha256": "2b7a878d5f4328e2a26291522d2807e5b5a47410da16c15fa0fd55c195d464f7"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/030/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "ee7f838f7bb1349f41aecc3b583b8e20585478454dea7b4832da2f092b66bcd4"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/030/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "30e71064bad2514e974547b985fa9af677bbf430796900d77de179726916917f"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/030/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "a4d048b9285272a223076fe7a931e772faa79b672629fea665a9a1adccc5af27"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/031/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/031/best_chkpt",
+    "bytes": 49378,
+    "sha256": "1b6a145b53375ba5eea53c30aacd1ad916f756458acdce1c11dfbf733bb6c49a"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/031/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "6cb3d2f5f2479526c50566646515d62b529988df96538ded24b0cc4a6da050de"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/031/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "9939cc299aa52d626079e24569def483bf615ac2c3bec517fa34042fa598725d"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/031/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "1a0a2e0a40bdec971de400aff8e147e13a169b4eed9c3af6ba7151d965ba71d0"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/032/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/032/best_chkpt",
+    "bytes": 49378,
+    "sha256": "e8b23729a4951ab3584d8d6fb7bf9b54e4a675ab05fa4afb3d49d9dde07ea858"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/032/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "6436dcca73bcf89aea0330b3b929b4173201015589912fd0be7ef2dcda924b6b"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/032/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "798b2c60c254608e902d614ff195df23b9cd81dd6d4d7ba57c3dde8760baaa56"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/032/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "3189a436f318549cf228d86c91f1b8e8e87104f3008a81af07c3c8784ec569a7"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/033/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/033/best_chkpt",
+    "bytes": 49378,
+    "sha256": "4dead734972b429850aca796eb23874e16d449036c892a99cbae0b02856b1ef6"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/033/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "44e097e46926fa381ca519a15abc5aac39ea1d8bd80750bc034c1a0f342bd694"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/033/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "4d8380f07c2d42cfe858da2a630f1b01e0e437507cc83a2b094e36cb8610b588"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/033/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "0c922544cd0a10708874df85885bc5af547c08893eff77529dad3ab4dd9da421"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/034/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/034/best_chkpt",
+    "bytes": 49378,
+    "sha256": "7145f3e4504557d0439ab95c79a1b300fcdef9b8889c65022bd5318db7097980"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/034/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "63c61eedfedd453f7cc71febba7eaaf6fda506917f3066786f0e54da62873ce8"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/034/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "258293789adebaab5c27f16efa166ff8d9a6737358d96b5d6734c4178806cea9"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/034/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "864902a26d99a4744705f27c4ec509453f644a8ab064e861a6c574e7daa2e9a6"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/035/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/035/best_chkpt",
+    "bytes": 49378,
+    "sha256": "2c59918d9bd267330d9a8c2a9f42da1dc5335901a6c1c62fdcfdc10faa3ff737"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/035/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "0871834dbdd7b768b0af2818fc870fe1f65b4f83084d06a3aefff5c80c042653"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/035/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "83c80a960b42014ccbd2690a097ff7d7318f748011df27a269cfc8f4f1cdfb6b"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/035/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "0c821517792c6c2c6c582e34e6efb7a6b9068d6f6ca8751eac787f826752f510"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/036/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/036/best_chkpt",
+    "bytes": 49378,
+    "sha256": "052b7e31cebc6b60f73e37e166911dc6889795abbaa5f38717d5374ab1d0cc6d"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/036/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "a1f462a2b2a2c25eee7a9f531a3569c86aebd39ce3fec4cfc3ec84a17d6f0b27"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/036/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "405b374502a5cf8d10955799e1950658fef54ee8a918ea308f6ebee43e5c70db"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/036/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "ba1e0d224e8f9d5ab1ffedd0580bc18144ed26c47e8a004ebdd2b0854e351e9f"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/037/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/037/best_chkpt",
+    "bytes": 49378,
+    "sha256": "93f25c9d4dc6a6f93d7a8d19fc372a9eeedc5455b388779de8152763337baeee"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/037/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "7f8c22ded9360c593db3c35b0108a6566cf06fd7fd5576c9ab3a651d27f543eb"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/037/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "6ddfb16381e4867f5c6693fa4ad27ce373bb2e4e22fae49c7f9c27816ac1b64d"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/037/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "1cbebc9c2f24190fdc63ab230dc5e58cd5749188c635c4cda327a343385d1df2"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/038/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/038/best_chkpt",
+    "bytes": 49378,
+    "sha256": "a336ca91868486678c4dfbf871ef8f1c009c12974df20289b8697a79f1db86e0"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/038/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "53b23b512decc9731749909573e189d0be8cb2f5fdadcec31e997adf10f8489e"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/038/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "c8fd01f7b9ac7d5df740310856ec5f8e2116794bcb3adad320edaf629a9297c3"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/038/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "a129299af0a2cbc11bcfde74b525b3f715e1d0807bcf237f6a813623ede13f7f"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/039/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/039/best_chkpt",
+    "bytes": 49378,
+    "sha256": "a280006d540ceb2d1e6e0cd25e912500235ea79e3c258cf3f93ea518459083d7"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/039/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "75a17b1c5ef2db42c78a507fc58c1d570efcb340b6803deacf229ab261e5e591"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/039/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "a0a246d0dddb34a5ec30d94fde0c76bab37e2386eba1d13f31b4f98ad4abad08"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/039/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "7ecc55663aa83add09435111352b343610795e5ef01f08579352096eb888ebc1"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/040/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/040/best_chkpt",
+    "bytes": 49378,
+    "sha256": "67a85cdcfb55d9e59fbe750a365c044d333d782ab89c0d44d75ffe9a736fac84"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/040/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "10a676b7bb485a198f9c460f9c19200b2af294e0774a6bc8811f3ca7f634fa0d"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/040/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "15829738662750a9c8003c42d43454ad256a36c828717b9c3521737ce15a1798"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/040/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "2cc1c050e849433d65768f7b45d8fae18a3a32a7d78ccb032135dfb52d5f1db7"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/041/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/041/best_chkpt",
+    "bytes": 49378,
+    "sha256": "76759a8d7d714bf7886000e41eca56b8c02aecd2df7feb630f4aa98f645f6f32"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/041/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "18956d65ef43738df631a337d4cbb70f88a10e7d21a8507099566e61fff168a4"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/041/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "68ac1e6289b659abb333d9ab00135eaf7f305f75f4de0262372ddb7bf809e8a0"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/041/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "00f202484ce120584ba48afcd19923eedd0d83d13761f47bec6859c1515d6b03"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/042/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/042/best_chkpt",
+    "bytes": 49378,
+    "sha256": "d57aa0a374be4f63a2e8d955a73b15fbcc72b799fcb7906ff5cd6366b42a0f6d"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/042/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "84085b7f910ff7687d26a27e985d958fe1ebbdbd06e5979ddd6d8e41ae737bdd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/042/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "8b2c0b43bb10cb50a01404b35535a58b3eb301420980bd7e41b8007710ec9a46"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/042/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "dd6fdf9a391b08d9ffe8f65d85eceb59bd83974ab0021cae765a068eaf4847e7"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/043/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/043/best_chkpt",
+    "bytes": 49378,
+    "sha256": "9536964c530de66dd3356e04c47d4057a2764e25a40faf04a45c8e8083612d76"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/043/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "e65eca2cef34088c0e99579bea4dee91a4405e0b706563a829bed5cc3b0459e3"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/043/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "86d2e42d9d00ae15725b862486c3a33d0c9163cf67a30da58d1b5ee1974456d2"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/043/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "6c06a7c356ac80b29bcfcd53c864dc06868fb4bfff4e09cc1a3aa0375044e442"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/044/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/044/best_chkpt",
+    "bytes": 49378,
+    "sha256": "efc1850265ed305bdc2b6c645fe8a74faa2b2ea2a238d097148ca490b83fcd80"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/044/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "77f3c86e684f4c077467494378c2bc3e2675e7559f563cbddca4886e919c9a44"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/044/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "2ec7f26c828ede1f63a9cb337e47c12151388e42405815065c2b3fac5e0a1a5a"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/044/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "3583ae89afaadb686f24aaf509f032bf86d95a8af89ab089be219f33d5d2e846"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/045/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/045/best_chkpt",
+    "bytes": 49378,
+    "sha256": "19323db328787e33b91ac0473046f0e361ef4dadf0394e3f389b5359b9fdedce"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/045/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "6750358e06586ceb4790e5055cdbdbb1d6ba5f93481fdd531b4aa95e43a25ec0"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/045/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "160c9966ea24126351451f95641bc42781d38d8987f73647cbb041ac34ce0b5b"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/045/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "6b690eef72ba7ccd984d5adeba37c56de37fafafc4d06d7982744f8b28683c35"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/046/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/046/best_chkpt",
+    "bytes": 49378,
+    "sha256": "604b2cf4dddbd7fbaefad7b350903ace541acb1c412242705dccf246cd904750"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/046/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "e070e06fd665b82de3ad1ad1d9464a05949cf888e7ed12494a889a96db8b529b"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/046/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "7c7d4d9afa2d41a321bd4a44ff0100e9a17a4756dea30341fcbd2be416b5d834"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/046/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "ac279d10ba9cfabbdcca6d772636bf2cbe5e8b11d86e12e8d97b375320295570"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/047/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/047/best_chkpt",
+    "bytes": 49378,
+    "sha256": "f5f98dbc53a94606a07e21079268b57a26950be66fe2f879fb06647a35d870fb"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/047/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "01cf80542133a372004f43ce97675a22761e13fbd03de683d27238777a0760d8"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/047/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "00f74cc12246dc5295f4b365cc2e3939946abacc69286228b29af1b99826f5cc"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/047/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "bf83f6b958387fcbd663e81bebeb37919f1c83ce726b41eb61fd25aa9d1840f9"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/048/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/048/best_chkpt",
+    "bytes": 49378,
+    "sha256": "781eae13aaef429af6b98f0e4a436974a41f399ed532aabfc2d7973d28545bfe"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/048/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "a4776f571253ed8023cb55abd78e01ddf416a04ee7718bfa06db8f8c99d1e8b4"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/048/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "ef2498b8f7bd5c2397388f8bb0336c2f495ad3e0590c9730e53b278ca840a019"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/048/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "73731e79045c2a217359aed0e7962c026089b0373b04fe6b3401e7b0f811b4b0"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/049/_meta.yaml",
+    "bytes": 2222,
+    "sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/049/best_chkpt",
+    "bytes": 49378,
+    "sha256": "b0dd6e351eed6b3ac18941fb02760c97426fe71aba1c194b0bd24a09d8d5960f"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/049/chkpts/chkpt_00000",
+    "bytes": 49396,
+    "sha256": "260ea849f4ce1361523d3b43d002017320229b583c76bd4b7cc93ff2550a2e47"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/049/validation/loss.h5",
+    "bytes": 2056,
+    "sha256": "c7e4796b33619933e2621e661842aeed611748868d46d5cc5bf32ebdf031575f"
+  },
+  {
+    "path": "03-Data/flyvis-root/results/flow/0000/049/validation_loss.h5",
+    "bytes": 2056,
+    "sha256": "7730df8a4940c41521384de7b488a1db2a5c7a0268de09b691d9410ec894c922"
+  }
+]

@@ -1,0 +1,392 @@
+{
+ "archives": {
+  "data/saved-outputs/study-results.tar.xz": {
+   "members": {
+    "study/results/GATE-FAILURE-009.md": {
+     "sha256": "baacab6f6766c4726b115bdf36606d2f2b0a3d14186b2f9eea2b5cc29e401ce1",
+     "size": 2136
+    },
+    "study/results/RUNS-LOCATION.md": {
+     "sha256": "5e0bb3b3423fb5147a2b07ee2c6f84c7f9dccfb0d8602d3faa05da9299ab6aaf",
+     "size": 573
+    },
+    "study/results/analysis/confirmation/flag-rule.csv": {
+     "sha256": "6eda693d50e9da411e5664ebd4ed3de44055a1169a835312cd808fd90f657119",
+     "size": 43583
+    },
+    "study/results/analysis/confirmation/models.csv": {
+     "sha256": "525f8978660e15647f415bcca319f452fb0625d70b8e6de0f08fb1739257b809",
+     "size": 730381
+    },
+    "study/results/analysis/confirmation/reference-check.json": {
+     "sha256": "24ac77835db5bec9750c7a30bded7a99977c694e8d157df8363c4521eaf06b06",
+     "size": 113
+    },
+    "study/results/analysis/confirmation/summary.json": {
+     "sha256": "f7d2071dafac3c5d733b37038edab4a126f778cb3f7bcdda7692d8c241811e7a",
+     "size": 251925
+    },
+    "study/results/analysis/confirmation/timing.csv": {
+     "sha256": "786208323e1a17c20963c045114347bbaab8387e44251f2f0bd59dc5dfb3d808",
+     "size": 6331
+    },
+    "study/results/analysis/confirmation/traces.csv": {
+     "sha256": "9d561ff413fe80e30ed173b939a2c3555318ec09b90374106ec76db1983533e8",
+     "size": 1557103
+    },
+    "study/results/analysis/development/models.csv": {
+     "sha256": "5a4df442f6693f1e218392138fa7c2b0ea99ef2f5795c1f8a95db6c3eb28bd8c",
+     "size": 159226
+    },
+    "study/results/analysis/development/reference-check.json": {
+     "sha256": "0d9f5424f2b384c9ee186fd5163251416c770fd8244ab663080dae15ed065d65",
+     "size": 113
+    },
+    "study/results/analysis/development/summary.json": {
+     "sha256": "a2b0182ce72006255cf35799d1515dba953d84deff01283ef8e7034554056be9",
+     "size": 312091
+    },
+    "study/results/analysis/development/timing.csv": {
+     "sha256": "eff568f9efb43b29ddfe61023238c79a1e7cf2924ebacf0a5100c04bcd9c9c09",
+     "size": 716
+    },
+    "study/results/analysis/development/traces.csv": {
+     "sha256": "f6c8b44b7a4f0124db48d5896052ac088e8a33813f67ad0740b3a71785f07600",
+     "size": 341482
+    },
+    "study/results/confirmation-continue-complete.json": {
+     "sha256": "829384298dbb0ad06caded13a12ea8a15b03b525aa1ad84ad33fc58278af8402",
+     "size": 742
+    },
+    "study/results/confirmation-gate-failures.json": {
+     "sha256": "9b09499a4345859decf143c8c6521b51644a7d69bb7632de0ae2755690126470",
+     "size": 229
+    },
+    "study/results/development-complete.json": {
+     "sha256": "969b115cc729d117b862c15d5800c2295c77be03c915d8deff39d741fb58a22e",
+     "size": 226
+    },
+    "study/results/runs/000/dev_fast/complete.json": {
+     "sha256": "3a566c6abb15608a4e885c112d8bb99eda0f2b6f857b6e935a9d676f112770e2",
+     "size": 168
+    },
+    "study/results/runs/000/dev_fast/exact-mean-s010.json": {
+     "sha256": "91148100524551fc7bb2295115c145b445c0cead23ce08c17be564b48865215e",
+     "size": 344
+    },
+    "study/results/runs/000/dev_fast/exact-mean-s025.json": {
+     "sha256": "7fee8b491825426f553f5ba0989c225e640d6f27b8562a2a33ef06d403508368",
+     "size": 345
+    },
+    "study/results/runs/000/dev_fast/exact-mean-s050.json": {
+     "sha256": "10c62c6312b509f079c3c5f31bd7a3fb31a853efdf32475cc1b853aefad873fb",
+     "size": 345
+    },
+    "study/results/runs/000/dev_fast/exact-mean-s075.json": {
+     "sha256": "418fa216d7a903f5344fbb0e2d3e977dd9575d8c300eed4fa2928f7ae9eaa903",
+     "size": 346
+    },
+    "study/results/runs/000/dev_fast/exact-mean-s100.json": {
+     "sha256": "05fede17a2d359c59a25d9e1654cf2b1c2cdcf73b329952124b07342e1594cf4",
+     "size": 344
+    },
+    "study/results/runs/000/dev_fast/gates.json": {
+     "sha256": "86296ccafb20b46d7d08d97e1be2f3c620168d949790d1272afda93588ebb7e3",
+     "size": 324
+    },
+    "study/results/runs/000/dev_fast/means.json": {
+     "sha256": "ac69b920a0991b1f33c1acc61c134e5d75ac51e94b069b394753d87fa8b3ea3c",
+     "size": 267
+    },
+    "study/results/runs/000/dev_fast/tangents-mean.json": {
+     "sha256": "7101efaeda5cee21857541f9b493d632488ebf2edfa1d3e09677fbab44621a5d",
+     "size": 328
+    },
+    "study/results/runs/000/dev_fast/tangents-zero.json": {
+     "sha256": "d646f2cb8c619c748d798d7041a28d74f308a23fed302eb5a61ad11c479e8ff3",
+     "size": 328
+    },
+    "study/results/runs/000/final_slow/complete.json": {
+     "sha256": "a122f16fe54465a0d8570bec51d969caac8cf275ef5654bbc355920cd192cad0",
+     "size": 170
+    },
+    "study/results/runs/000/final_slow/exact-mean-s010.json": {
+     "sha256": "e0d0a1393879d6ffd59bee4a1c51afa343b6f6ec9f3fb4c30648649817ad91a0",
+     "size": 347
+    },
+    "study/results/runs/000/final_slow/exact-mean-s025.json": {
+     "sha256": "03b74e159e862f628cbb653b8d59b7f9bf226d103b4103e696f618e9247e09ef",
+     "size": 347
+    },
+    "study/results/runs/000/final_slow/exact-mean-s050.json": {
+     "sha256": "4613b4f3ae83967465746edeb8f8021a39172ba4340a71a84a167ee1ee6a1491",
+     "size": 345
+    },
+    "study/results/runs/000/final_slow/exact-mean-s075.json": {
+     "sha256": "5576f006ff600cea8e5ff61ea316e47f31731c663056178643d081568e9a7a2b",
+     "size": 348
+    },
+    "study/results/runs/000/final_slow/exact-mean-s100.json": {
+     "sha256": "d840ae52827f9b8509ae55147917259398528c01f3c33f34a0c6b83d7a8eb432",
+     "size": 347
+    },
+    "study/results/runs/000/final_slow/gates.json": {
+     "sha256": "7bbf348ecdd6a2d57dd84ac8032f36024a1e891f14e132c3639c5eb71982dff0",
+     "size": 330
+    },
+    "study/results/runs/000/final_slow/means.json": {
+     "sha256": "307d6ab27696b1fd6f5c29351cfbd45095374de96d29a9f4d05f5c9bbdcff0d0",
+     "size": 269
+    },
+    "study/results/runs/000/final_slow/tangents-mean.json": {
+     "sha256": "e1ce20f0c5457d049191104ee028c6405da4c7ac2f72d10010fe20aafad8aa32",
+     "size": 330
+    },
+    "study/results/runs/000/final_slow/tangents-zero.json": {
+     "sha256": "6f575c8baa31cba5cdb2f7d08a31c8e86a6f771b415559657c4e67b2f28fabe8",
+     "size": 330
+    },
+    "study/results/runs/001/dev_fast/complete.json": {
+     "sha256": "bc0659ca3870a0ed099270c1e75a4ce53a745897cfed7d1af8d042db5829a1ce",
+     "size": 168
+    },
+    "study/results/runs/001/dev_fast/exact-mean-s010.json": {
+     "sha256": "f50543fe9cbebcea3777037f7531dee875a5ab67efed37469dbe1176db004f08",
+     "size": 345
+    },
+    "study/results/runs/001/dev_fast/exact-mean-s025.json": {
+     "sha256": "3563308bf5b9011c9c2921447162b17e98a2480793011dc9470d228aef9aa232",
+     "size": 345
+    },
+    "study/results/runs/001/dev_fast/exact-mean-s050.json": {
+     "sha256": "c8ac38bfa832337ccb19c689b8d53080452a10110711d41432fc2ba525db6065",
+     "size": 345
+    },
+    "study/results/runs/001/dev_fast/exact-mean-s075.json": {
+     "sha256": "206627a40c296c7ad51ff26201be165c3dedcbe206b90acce31ad8457f1649e6",
+     "size": 346
+    },
+    "study/results/runs/001/dev_fast/exact-mean-s100.json": {
+     "sha256": "576f3d4c47a5be00c2caa964faa53f77009c66de5d7801ea7ee4d975163d3e5b",
+     "size": 345
+    },
+    "study/results/runs/001/dev_fast/gates.json": {
+     "sha256": "5567d8dab58c4fb20bd7f5694cea42796b886c377eb9b3604b1b5667ad023f95",
+     "size": 324
+    },
+    "study/results/runs/001/dev_fast/means.json": {
+     "sha256": "aa4bacef9c7a3928b196b326aaed9ae07ea7ba4611f294e916c0a25d2383fba9",
+     "size": 267
+    },
+    "study/results/runs/001/dev_fast/tangents-mean.json": {
+     "sha256": "19f091b6d74886ff2bf59e6a809c50f74ccc37bad5c8224860ab1d17de2fb6a0",
+     "size": 328
+    },
+    "study/results/runs/001/dev_fast/tangents-zero.json": {
+     "sha256": "a447dadc0ac4ce82b8001755144026320d377d47328f13b543beab452ee14edd",
+     "size": 328
+    },
+    "study/results/runs/001/final_slow/complete.json": {
+     "sha256": "cb5ac1fc9865042538eeecb2329f55ed1aaf96f43d553a09b60acdca61112dc3",
+     "size": 170
+    },
+    "study/results/runs/001/final_slow/exact-mean-s010.json": {
+     "sha256": "01847c9749d489009af39acebc6e56c91ff9fa77f1f3160cc68c114e01a4a5bc",
+     "size": 347
+    },
+    "study/results/runs/001/final_slow/exact-mean-s025.json": {
+     "sha256": "2a6a185d25d8989a88132a8d8a303954efd62b90e9b7594eaeb98f22e5475837",
+     "size": 348
+    },
+    "study/results/runs/001/final_slow/exact-mean-s050.json": {
+     "sha256": "283e11d13b41c82291908619c9a4b926ff93ea1a7c93f79c723e75afa581d063",
+     "size": 346
+    },
+    "study/results/runs/001/final_slow/exact-mean-s075.json": {
+     "sha256": "ea7d43bf8dfb81f2f59680b8cc1ef1db11c008533c2b8cb8a1a3a294d9961ee3",
+     "size": 348
+    },
+    "study/results/runs/001/final_slow/exact-mean-s100.json": {
+     "sha256": "19556cbbab8f95cc5089b9598006f5c88526d286e47d2d41cd706accdb716a1d",
+     "size": 347
+    },
+    "study/results/runs/001/final_slow/gates.json": {
+     "sha256": "7614deb09e921d05803adfde395ce15e1a578b77d77fd6329cb24472d690986d",
+     "size": 327
+    },
+    "study/results/runs/001/final_slow/means.json": {
+     "sha256": "0518ab557097b4454c152fd0a0dba18e0f9a01b4c7c9bd0743974553450a7154",
+     "size": 269
+    },
+    "study/results/runs/001/final_slow/tangents-mean.json": {
+     "sha256": "805c6bd1ad806dd74d9021bcd1e56a576fdc38c08e1fd8acbfb4264cd16d5418",
+     "size": 330
+    },
+    "study/results/runs/001/final_slow/tangents-zero.json": {
+     "sha256": "f613848c11c124d2528f3e0ed055e06ea98c67812c37c511bf905022f7059c13",
+     "size": 330
+    },
+    "study/results/runs/004/dev_fast/complete.json": {
+     "sha256": "0ef09ce09c96955567a4457c13ec05fe675c292b140c0d49dc5b63dc1d694135",
+     "size": 168
+    },
+    "study/results/runs/004/dev_fast/exact-mean-s010.json": {
+     "sha256": "3038807de337fdd075ecb0e5907c48cea742ba124f6cdedf3a3931c730afa1bf",
+     "size": 345
+    },
+    "study/results/runs/004/dev_fast/exact-mean-s025.json": {
+     "sha256": "79ce714d2b38e72458d947cb0de6f60202f3ae5b6f0385b650cd1f51fecb329b",
+     "size": 344
+    },
+    "study/results/runs/004/dev_fast/exact-mean-s050.json": {
+     "sha256": "94d227e37f7aa76ee846c044bcdd5c1280aa537288e7271c27bcf5b194e5138b",
+     "size": 344
+    },
+    "study/results/runs/004/dev_fast/exact-mean-s075.json": {
+     "sha256": "339cfa096c00aac49a8554ae43051bd5c19803b752053304ce2e9cbebca998fa",
+     "size": 346
+    },
+    "study/results/runs/004/dev_fast/exact-mean-s100.json": {
+     "sha256": "ce4dc89c4e0189cc9f35422c14f46134e2d745001c950c95d7448523f937c8d2",
+     "size": 345
+    },
+    "study/results/runs/004/dev_fast/gates.json": {
+     "sha256": "6aa02a28a3d154cb1b2b29e81736e718118f59b297a73cf02fac35e2740b485b",
+     "size": 323
+    },
+    "study/results/runs/004/dev_fast/means.json": {
+     "sha256": "7538e7dec6ee6b1265ac6974577e43f9b577da968a7c778473a049eca9910953",
+     "size": 267
+    },
+    "study/results/runs/004/dev_fast/tangents-mean.json": {
+     "sha256": "f0a8deed6c31ca2e0d3fe3f02ae40b2f3ee1878d2ad89fc33f55d4ec2acf1cf4",
+     "size": 327
+    },
+    "study/results/runs/004/dev_fast/tangents-zero.json": {
+     "sha256": "76fc14223e396e0501989d3eba7b08032aad85c3b4b3cedd533c2b4da34894c8",
+     "size": 327
+    },
+    "study/results/runs/004/final_slow/complete.json": {
+     "sha256": "ef5f08fbef5a268665a96f6627d4f2439d28cf4d48999a3e9dd6cd1f4d721088",
+     "size": 170
+    },
+    "study/results/runs/004/final_slow/exact-mean-s010.json": {
+     "sha256": "3773e9cd35a4bb71b671f7fcc999e4481c253daa4106677173ba4fe4dc738958",
+     "size": 347
+    },
+    "study/results/runs/004/final_slow/exact-mean-s025.json": {
+     "sha256": "9b44b164bb1bb0339b990b1480b92e2b3b205a28401e3e392d74e8f7126abf15",
+     "size": 348
+    },
+    "study/results/runs/004/final_slow/exact-mean-s050.json": {
+     "sha256": "7cd7d762062d7d1adb8eedc3e46a5f7c2836f524fec040e7957218cad21c1108",
+     "size": 347
+    },
+    "study/results/runs/004/final_slow/exact-mean-s075.json": {
+     "sha256": "676c31e63120ae05613804d56a1770f5c16b0041976161c0aebfbddf6d4ea5f9",
+     "size": 348
+    },
+    "study/results/runs/004/final_slow/exact-mean-s100.json": {
+     "sha256": "2bed80e353c6cef1319f4d42eba782a239e28f2d8b0b6135b9e058cbde65efcb",
+     "size": 347
+    },
+    "study/results/runs/004/final_slow/gates.json": {
+     "sha256": "cb19f6c4104fed69b750daaf44bd9b563ba82751d8d88fbe993fe51de27d40df",
+     "size": 325
+    },
+    "study/results/runs/004/final_slow/means.json": {
+     "sha256": "d0f2858209b48b972186799a611f6f9a376ddf21de63e70a40bb05401d61256d",
+     "size": 269
+    },
+    "study/results/runs/004/final_slow/tangents-mean.json": {
+     "sha256": "cd8c9c1ce7db65485a95534486e9709296c6b4fa99fa53d93ea159234ad9ae6f",
+     "size": 330
+    },
+    "study/results/runs/004/final_slow/tangents-zero.json": {
+     "sha256": "93e3326c8e5f3fdffbdf082c85289ec2ad74b5f8dbb077b9c960b3d8c76557d4",
+     "size": 330
+    },
+    "study/results/runs/005/dev_fast/complete.json": {
+     "sha256": "83da6d541a3d34c250ec49bcfcb253f694a8128aefcf8244d4168a44a2726a4a",
+     "size": 168
+    },
+    "study/results/runs/005/dev_fast/exact-mean-s010.json": {
+     "sha256": "a770cb25d214ba7b7f93848f84c363c285722d0ed4ba49723e364046dfaf6f54",
+     "size": 344
+    },
+    "study/results/runs/005/dev_fast/exact-mean-s025.json": {
+     "sha256": "b21f3bf18b422201781e16c60d5ba3484c9355c29d01928f100151ef58cbc0a4",
+     "size": 344
+    },
+    "study/results/runs/005/dev_fast/exact-mean-s050.json": {
+     "sha256": "46713298d339ab9214eca4c81fe8667576a16c8a61c301aa90b97ceed6644543",
+     "size": 345
+    },
+    "study/results/runs/005/dev_fast/exact-mean-s075.json": {
+     "sha256": "1ff9db460922503b969617e18b76972e3199909ed65bbdc1be1d296eaaf70d59",
+     "size": 345
+    },
+    "study/results/runs/005/dev_fast/exact-mean-s100.json": {
+     "sha256": "f948b3444839702922f847c7574a8d5d1cdbe95778acf6a6fe419a0e7146330d",
+     "size": 345
+    },
+    "study/results/runs/005/dev_fast/gates.json": {
+     "sha256": "1f62fc569bf5e8f8c5ac97679ece2ab130f816a8a1541d1e5d273d0285067024",
+     "size": 324
+    },
+    "study/results/runs/005/dev_fast/means.json": {
+     "sha256": "34a88d4af90866581d1571845886c33a2461ded4ebd423aff2d239b9246ddb76",
+     "size": 267
+    },
+    "study/results/runs/005/dev_fast/tangents-mean.json": {
+     "sha256": "31f0b1b6469c4a062378bac3f9cb53c3664bfcbbf54d0b9a2d2b345dc636f757",
+     "size": 328
+    },
+    "study/results/runs/005/dev_fast/tangents-zero.json": {
+     "sha256": "06cf6b8696867b22af6b3b68d2abd10341d70d2f9ad8b95b0df402245f6ea5f0",
+     "size": 328
+    },
+    "study/results/runs/005/final_slow/complete.json": {
+     "sha256": "dda20a28252a59b69fbdc649cb28f46e7707cb78f5a160f6e029de970d221d6b",
+     "size": 170
+    },
+    "study/results/runs/005/final_slow/exact-mean-s010.json": {
+     "sha256": "39cfbcbdb0f0c24d2d2b916624dbf0f24c4fafd1be6d890e7a7fcdc825e4e4c4",
+     "size": 347
+    },
+    "study/results/runs/005/final_slow/exact-mean-s025.json": {
+     "sha256": "1cf47e0770713688a1f3710afefc817a4787c851b8e95c5ae7ef7fc6e1916abb",
+     "size": 348
+    },
+    "study/results/runs/005/final_slow/exact-mean-s050.json": {
+     "sha256": "82115e43e8b17c723cc8021f4b47adb7153ad538d0ca457fd4dd0a3a2f5b3cc4",
+     "size": 347
+    },
+    "study/results/runs/005/final_slow/exact-mean-s075.json": {
+     "sha256": "1c8ab82833d9bfe8d06d6d97b4de4092271b3e309bf5fbda52f5403083fd6ef5",
+     "size": 348
+    },
+    "study/results/runs/005/final_slow/exact-mean-s100.json": {
+     "sha256": "9836e30ddd3b3e09e46a3607abbf97954d4c03cc47add736962dee2625f3cf01",
+     "size": 347
+    },
+    "study/results/runs/005/final_slow/gates.json": {
+     "sha256": "e89ad3a6abd8b7f6a248cdc880f2fb899da0c4b98158072f9a1223e8b73c86f3",
+     "size": 326
+    },
+    "study/results/runs/005/final_slow/means.json": {
+     "sha256": "cd77aabd427c025f658fa1d84eb045af8382b1159f4931ebdaf2b8ee16527aeb",
+     "size": 269
+    },
+    "study/results/runs/005/final_slow/tangents-mean.json": {
+     "sha256": "e0dc04951fb9b53734087763babb3669edef9cc7f005a8ba28cbc09c2f3abfba",
+     "size": 330
+    },
+    "study/results/runs/005/final_slow/tangents-zero.json": {
+     "sha256": "d29469c50145498bb06f75b9aefaa4065b2afcd0a1402875fbbe7518af7f3804",
+     "size": 330
+    }
+   }
+  }
+ }
+}

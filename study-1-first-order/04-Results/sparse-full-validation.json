@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "finite": true,
+  "n_ommatidia": 721,
+  "ppo": 25,
+  "frames": 4,
+  "reference": "receptor-chunked complete-pixel dense reduction",
+  "atol": 1e-12,
+  "rtol": 1e-12,
+  "close": true,
+  "bitwise_equal": true,
+  "max_absolute_error": 0.0,
+  "memberships": 382999,
+  "stimulus_sha256": "0c92cb44e9dffe673faaf4c1a342f61657c5a97adc38eb9011b446e2604d73dc",
+  "elapsed_seconds": 22.62062524099747
+}

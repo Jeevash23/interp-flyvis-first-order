@@ -1,0 +1,35 @@
+{
+  "status": "projection_not_executed",
+  "models": 4,
+  "stimuli": 48,
+  "strengths": 2,
+  "model_types": 65,
+  "type_pair_edges": 604,
+  "joint_pairs": 8,
+  "exact_trajectories": 260160,
+  "seconds_per_same_stimulus_trial_observed": [
+    2.511834467000881,
+    2.6914127909985837,
+    3.2765303179985494
+  ],
+  "projected_exact_wall_hours": [
+    181.521904148597,
+    194.49943102949766,
+    236.7839243140285
+  ],
+  "projected_exact_wall_days": [
+    7.563412672858209,
+    8.104142959562402,
+    9.865996846417854
+  ],
+  "excludes": [
+    "gradient methods",
+    "decoder",
+    "naturalistic stimuli",
+    "additional numerical checks",
+    "parameter-dependent runtime variation",
+    "adaptation/setup"
+  ],
+  "scope": "naive serial scaling of the draft full reference from one same-speed development trial, not a runtime confidence interval",
+  "timing_scope": "two primary-environment repeats plus one clean-environment replay; same machine/input"
+}

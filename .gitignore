@@ -1,0 +1,42 @@
+# Unpacked from the release attachments (README.md, "Release files")
+# per-run-outputs.tar.gz
+/study-1-first-order/data/saved-outputs/stage1-results.tar.xz
+/study-1-first-order/data/saved-outputs/study-results.tar.xz
+/study-2-causes/data/saved-outputs/study-results.tar.xz
+# frozen-protocols.tar.gz
+/study-1-first-order/06-Study-History/QUALIFICATION-PROTOCOL-FROZEN.md
+/study-1-first-order/06-Study-History/VERIFICATION-PROTOCOL-FROZEN.md
+/study-1-first-order/06-Study-History/qualification-protocol-final.sha256
+/study-1-first-order/06-Study-History/qualification-protocol.sha256
+/study-1-first-order/06-Study-History/stage1/DEVELOPMENT-AMENDMENT-01.md
+/study-1-first-order/06-Study-History/stage1/REPORTING-AMENDMENT-02-2026-10-03.md
+/study-1-first-order/06-Study-History/stage1/STAGE1-PROTOCOL-FROZEN.md
+/study-1-first-order/06-Study-History/stage1/benchmark-protocol.sha256
+/study-1-first-order/06-Study-History/stage1/freeze-manifest.json
+/study-1-first-order/06-Study-History/verification-protocol.sha256
+/study-1-first-order/study/AMENDMENTS.md
+/study-1-first-order/study/PROTOCOL.md
+/study-1-first-order/study/freeze.json
+/study-2-causes/provenance/
+/study-2-causes/reference/flyvis-first-order/study/freeze.json
+/study-2-causes/study/PREDICTIONS-ADDENDUM-RECORD.json
+/study-2-causes/study/PREDICTIONS-ADDENDUM.md
+/study-2-causes/study/PREDICTIONS-RECORD.json
+/study-2-causes/study/PREDICTIONS.md
+/study-2-causes/study/PROTOCOL-approved-2026-10-16.md
+/study-2-causes/study/PROTOCOL.md
+/study-2-causes/study/freeze-2.json
+/study-2-causes/study/freeze.json
+# Written by `make unpack` from the saved outputs and the compressed inputs
+/study-1-first-order/04-Results/qualification/native-responses.npz
+/study-1-first-order/04-Results/stage1/
+/study-1-first-order/study/results/
+/study-2-causes/study/results/
+# Environments, caches, downloaded checkpoints, figures and rerun copies
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+/paper/build/
+/paper/main.pdf
+/reruns/

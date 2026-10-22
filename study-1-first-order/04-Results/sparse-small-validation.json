@@ -1,0 +1,22 @@
+{
+  "status": "pass",
+  "checks": {
+    "geometry_mask_equal": true,
+    "kernel_count_equal": true,
+    "mean_close": true,
+    "sum_close": true,
+    "finite": true,
+    "original_methods_restored": true
+  },
+  "n_ommatidia": 19,
+  "ppo": 5,
+  "atol": 1e-12,
+  "rtol": 1e-12,
+  "mean_bitwise_equal": false,
+  "sum_bitwise_equal": false,
+  "max_mean_absolute_error": 1.1102230246251565e-16,
+  "max_sum_absolute_error": 3.552713678800501e-15,
+  "memberships": 391,
+  "stimulus_sha256": "0fb00f889e443a7281858bf8b27736d8c1ef3e4495112ebd3527fd1d6fc4c7f5",
+  "elapsed_seconds": 0.02373546799935866
+}

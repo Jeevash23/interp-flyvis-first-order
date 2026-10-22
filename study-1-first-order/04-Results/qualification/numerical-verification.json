@@ -1,0 +1,48 @@
+{
+  "status": "pass",
+  "native_stream_close": true,
+  "native_stream_max_absolute_error": 0.0,
+  "deterministic_bitwise": true,
+  "float64_normalized_max_error": 2.456474619830764e-07,
+  "half_step_normalized_max_error": 0.00695874231416294,
+  "half_step_normalized_rms_error": 0.0003624612263090097,
+  "tau_min": 0.01943179965019226,
+  "nodes_tau_below_dt": 0,
+  "cost": {
+    "adaptation_seconds": 0.98416679300135,
+    "trajectory_seconds": 2.511834467000881,
+    "frames": 485,
+    "dt": 0.005
+  },
+  "repeat_cost": {
+    "adaptation_seconds": 0.9847412010021799,
+    "trajectory_seconds": 2.6914127909985837,
+    "frames": 485,
+    "dt": 0.005
+  },
+  "double_cost": {
+    "adaptation_seconds": 1.7721666430006735,
+    "trajectory_seconds": 3.645316645001003,
+    "frames": 485,
+    "dt": 0.005
+  },
+  "fine_cost": {
+    "adaptation_seconds": 1.9984131609999167,
+    "trajectory_seconds": 5.071536597999511,
+    "frames": 970,
+    "dt": 0.0025
+  },
+  "census": {
+    "n_nodes": 45669,
+    "n_edges": 1513231,
+    "model_types": 65,
+    "realized_type_pairs": 604,
+    "missing_source_pairs": [
+      [
+        "Lawf1",
+        "Lawf1"
+      ]
+    ]
+  },
+  "scope": "one development model; one ON60degree trial; all central outputs; no method ranking"
+}

@@ -1,0 +1,536 @@
+[
+  {
+    "name": "typing_extensions",
+    "version": "4.16.0",
+    "license_expression": "PSF-2.0",
+    "license": ""
+  },
+  {
+    "name": "MarkupSafe",
+    "version": "3.0.3",
+    "license_expression": "BSD-3-Clause",
+    "license": ""
+  },
+  {
+    "name": "filelock",
+    "version": "3.32.3",
+    "license_expression": "MIT",
+    "license": ""
+  },
+  {
+    "name": "Jinja2",
+    "version": "3.1.6",
+    "license_expression": null,
+    "license": ""
+  },
+  {
+    "name": "fsspec",
+    "version": "2026.7.0",
+    "license_expression": "BSD-3-Clause",
+    "license": ""
+  },
+  {
+    "name": "mpmath",
+    "version": "1.3.0",
+    "license_expression": null,
+    "license": "BSD"
+  },
+  {
+    "name": "setuptools",
+    "version": "78.1.0",
+    "license_expression": null,
+    "license": ""
+  },
+  {
+    "name": "networkx",
+    "version": "3.6.1",
+    "license_expression": "BSD-3-Clause",
+    "license": ""
+  },
+  {
+    "name": "sympy",
+    "version": "1.13.1",
+    "license_expression": null,
+    "license": "BSD"
+  },
+  {
+    "name": "torch",
+    "version": "2.5.1+cpu",
+    "license_expression": null,
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "pillow",
+    "version": "12.3.0",
+    "license_expression": "MIT-CMU",
+    "license": ""
+  },
+  {
+    "name": "torchvision",
+    "version": "0.20.1+cpu",
+    "license_expression": null,
+    "license": "BSD"
+  },
+  {
+    "name": "cycler",
+    "version": "0.12.1",
+    "license_expression": null,
+    "license": "Copyright (c) 2015, matplotlib project\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n* Redistributions of source code must retain the above copyright notice, this\n  list of conditions and the following disclaimer.\n\n* Redistributions in binary form must reproduce the above copyright notice,\n  this list of conditions and the following disclaimer in the documentation\n  and/or other materials provided with the distribution.\n\n* Neither the name of the matplotlib project nor the na"
+  },
+  {
+    "name": "certifi",
+    "version": "2026.7.22",
+    "license_expression": null,
+    "license": "MPL-2.0"
+  },
+  {
+    "name": "cachetools",
+    "version": "7.2.0",
+    "license_expression": "MIT",
+    "license": ""
+  },
+  {
+    "name": "httplib2",
+    "version": "0.32.0",
+    "license_expression": null,
+    "license": "MIT"
+  },
+  {
+    "name": "umap-learn",
+    "version": "0.5.12",
+    "license_expression": null,
+    "license": "BSD"
+  },
+  {
+    "name": "ipython_pygments_lexers",
+    "version": "1.1.1",
+    "license_expression": null,
+    "license": ""
+  },
+  {
+    "name": "requests",
+    "version": "2.34.2",
+    "license_expression": null,
+    "license": "Apache-2.0"
+  },
+  {
+    "name": "omegaconf",
+    "version": "2.3.1",
+    "license_expression": null,
+    "license": ""
+  },
+  {
+    "name": "python-dateutil",
+    "version": "2.9.0.post0",
+    "license_expression": null,
+    "license": "Dual License"
+  },
+  {
+    "name": "iniconfig",
+    "version": "2.3.0",
+    "license_expression": "MIT",
+    "license": ""
+  },
+  {
+    "name": "stack-data",
+    "version": "0.6.3",
+    "license_expression": null,
+    "license": "MIT"
+  },
+  {
+    "name": "proto-plus",
+    "version": "1.29.0",
+    "license_expression": null,
+    "license": "Apache 2.0"
+  },
+  {
+    "name": "tqdm",
+    "version": "4.70.1",
+    "license_expression": null,
+    "license": "MPL-2.0 AND MIT"
+  },
+  {
+    "name": "cloudpickle",
+    "version": "3.1.2",
+    "license_expression": null,
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "contourpy",
+    "version": "1.3.3",
+    "license_expression": null,
+    "license": "BSD 3-Clause License\n\n Copyright (c) 2021-2025, ContourPy Developers.\n All rights reserved.\n\n Redistribution and use in source and binary forms, with or without\n modification, are permitted provided that the following conditions are met:\n\n 1. Redistributions of source code must retain the above copyright notice, this\n    list of conditions and the following disclaimer.\n\n 2. Redistributions in binary form must reproduce the above copyright notice,\n    this list of conditions and the following disclaimer in the documentation\n    and/or other materials provided with the distribution.\n\n 3. Neither"
+  },
+  {
+    "name": "pynndescent",
+    "version": "0.6.0",
+    "license_expression": "BSD-2-Clause",
+    "license": ""
+  },
+  {
+    "name": "python-dotenv",
+    "version": "1.2.4",
+    "license_expression": null,
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "idna",
+    "version": "3.20",
+    "license_expression": "BSD-3-Clause",
+    "license": ""
+  },
+  {
+    "name": "ruamel.yaml",
+    "version": "0.19.1",
+    "license_expression": null,
+    "license": "MIT"
+  },
+  {
+    "name": "antlr4-python3-runtime",
+    "version": "4.9.3",
+    "license_expression": null,
+    "license": "BSD"
+  },
+  {
+    "name": "cffi",
+    "version": "2.1.1",
+    "license_expression": "MIT-0",
+    "license": ""
+  },
+  {
+    "name": "pluggy",
+    "version": "1.6.0",
+    "license_expression": null,
+    "license": "MIT"
+  },
+  {
+    "name": "six",
+    "version": "1.17.0",
+    "license_expression": null,
+    "license": "MIT"
+  },
+  {
+    "name": "pure_eval",
+    "version": "0.2.4",
+    "license_expression": null,
+    "license": "MIT"
+  },
+  {
+    "name": "traitlets",
+    "version": "5.16.1",
+    "license_expression": null,
+    "license": "BSD 3-Clause License\n\n- Copyright (c) 2001-, IPython Development Team\n\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this\n   list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice,\n   this list of conditions and the following disclaimer in the documentation\n   and/or other materials provided with the distribution.\n\n3. Neither the nam"
+  },
+  {
+    "name": "pyparsing",
+    "version": "3.3.3",
+    "license_expression": "MIT",
+    "license": ""
+  },
+  {
+    "name": "pexpect",
+    "version": "4.9.0",
+    "license_expression": null,
+    "license": "ISC license"
+  },
+  {
+    "name": "toolz",
+    "version": "1.1.0",
+    "license_expression": "BSD-3-Clause",
+    "license": ""
+  },
+  {
+    "name": "charset-normalizer",
+    "version": "3.5.2",
+    "license_expression": null,
+    "license": "MIT"
+  },
+  {
+    "name": "uritemplate",
+    "version": "4.2.0",
+    "license_expression": null,
+    "license": "BSD 3-Clause OR Apache-2.0"
+  },
+  {
+    "name": "packaging",
+    "version": "26.3",
+    "license_expression": "Apache-2.0 OR BSD-2-Clause",
+    "license": ""
+  },
+  {
+    "name": "ptyprocess",
+    "version": "0.7.0",
+    "license_expression": null,
+    "license": "UNKNOWN"
+  },
+  {
+    "name": "colorama",
+    "version": "0.4.6",
+    "license_expression": null,
+    "license": ""
+  },
+  {
+    "name": "protobuf",
+    "version": "7.36.2",
+    "license_expression": null,
+    "license": "3-Clause BSD License"
+  },
+  {
+    "name": "google-api-core",
+    "version": "2.40.0",
+    "license_expression": null,
+    "license": "Apache 2.0"
+  },
+  {
+    "name": "pyasn1",
+    "version": "0.6.4",
+    "license_expression": null,
+    "license": "BSD-2-Clause"
+  },
+  {
+    "name": "ffmpeg-python",
+    "version": "0.2.0",
+    "license_expression": null,
+    "license": "UNKNOWN"
+  },
+  {
+    "name": "cryptography",
+    "version": "50.0.2",
+    "license_expression": "Apache-2.0 OR BSD-3-Clause",
+    "license": ""
+  },
+  {
+    "name": "opentelemetry-api",
+    "version": "1.45.0",
+    "license_expression": "Apache-2.0",
+    "license": ""
+  },
+  {
+    "name": "narwhals",
+    "version": "2.26.0",
+    "license_expression": "MIT",
+    "license": ""
+  },
+  {
+    "name": "parso",
+    "version": "0.8.7",
+    "license_expression": null,
+    "license": "MIT"
+  },
+  {
+    "name": "urllib3",
+    "version": "2.8.0",
+    "license_expression": "MIT",
+    "license": ""
+  },
+  {
+    "name": "google-api-python-client",
+    "version": "2.201.0",
+    "license_expression": null,
+    "license": "Apache 2.0"
+  },
+  {
+    "name": "psutil",
+    "version": "7.2.2",
+    "license_expression": null,
+    "license": "BSD-3-Clause"
+  },
+  {
+    "name": "prompt_toolkit",
+    "version": "3.0.53",
+    "license_expression": null,
+    "license": ""
+  },
+  {
+    "name": "pycparser",
+    "version": "3.0",
+    "license_expression": "BSD-3-Clause",
+    "license": ""
+  },
+  {
+    "name": "googleapis-common-protos",
+    "version": "1.75.5",
+    "license_expression": "Apache-2.0",
+    "license": ""
+  },
+  {
+    "name": "asttokens",
+    "version": "3.0.2",
+    "license_expression": null,
+    "license": "Apache 2.0"
+  },
+  {
+    "name": "threadpoolctl",
+    "version": "3.7.0",
+    "license_expression": "BSD-3-Clause",
+    "license": ""
+  },
+  {
+    "name": "pyasn1_modules",
+    "version": "0.4.2",
+    "license_expression": null,
+    "license": "BSD"
+  },
+  {
+    "name": "google-auth-httplib2",
+    "version": "0.4.4",
+    "license_expression": null,
+    "license": "Apache 2.0"
+  },
+  {
+    "name": "datamate",
+    "version": "1.0.0",
+    "license_expression": null,
+    "license": "MIT License\n\nCopyright (c) 2022 Janne Lappalainen\nCopyright (c) 2018 Mason McGill\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copi"
+  },
+  {
+    "name": "h5py",
+    "version": "3.16.0",
+    "license_expression": "BSD-3-Clause",
+    "license": ""
+  },
+  {
+    "name": "matplotlib-inline",
+    "version": "0.2.2",
+    "license_expression": "BSD-3-Clause",
+    "license": ""
+  },
+  {
+    "name": "google-auth",
+    "version": "2.59.1",
+    "license_expression": null,
+    "license": "Apache 2.0"
+  },
+  {
+    "name": "hydra-core",
+    "version": "1.3.7",
+    "license_expression": null,
+    "license": "MIT"
+  },
+  {
+    "name": "ipython",
+    "version": "9.17.1",
+    "license_expression": "BSD-3-Clause",
+    "license": ""
+  },
+  {
+    "name": "flyvis",
+    "version": "1.2.0",
+    "license_expression": null,
+    "license": ""
+  },
+  {
+    "name": "future",
+    "version": "1.0.0",
+    "license_expression": null,
+    "license": "MIT"
+  },
+  {
+    "name": "executing",
+    "version": "2.2.1",
+    "license_expression": null,
+    "license": "MIT"
+  },
+  {
+    "name": "joblib",
+    "version": "1.6.0",
+    "license_expression": "BSD-3-Clause",
+    "license": ""
+  },
+  {
+    "name": "wcwidth",
+    "version": "0.9.1",
+    "license_expression": null,
+    "license": ""
+  },
+  {
+    "name": "Pygments",
+    "version": "2.21.0",
+    "license_expression": "BSD-2-Clause",
+    "license": ""
+  },
+  {
+    "name": "pytest",
+    "version": "9.1.1",
+    "license_expression": "MIT",
+    "license": ""
+  },
+  {
+    "name": "PyYAML",
+    "version": "6.0.3",
+    "license_expression": null,
+    "license": "MIT"
+  },
+  {
+    "name": "kiwisolver",
+    "version": "1.5.1",
+    "license_expression": null,
+    "license": "=========================\n The Kiwi licensing terms\n=========================\nKiwi is licensed under the terms of the Modified BSD License (also known as\nNew or Revised BSD), as follows:\n\nCopyright (c) 2013-2026, Nucleic Development Team\n\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\nRedistributions of source code must retain the above copyright notice, this\nlist of conditions and the following disclaimer.\n\nRedistributions in binary form must reproduce the above copyright not"
+  },
+  {
+    "name": "xarray",
+    "version": "2026.9.0",
+    "license_expression": "Apache-2.0",
+    "license": ""
+  },
+  {
+    "name": "fonttools",
+    "version": "4.66.1",
+    "license_expression": null,
+    "license": "MIT"
+  },
+  {
+    "name": "llvmlite",
+    "version": "0.50.0",
+    "license_expression": "BSD-2-Clause AND Apache-2.0 WITH LLVM-exception",
+    "license": ""
+  },
+  {
+    "name": "pytz",
+    "version": "2026.4",
+    "license_expression": null,
+    "license": "MIT"
+  },
+  {
+    "name": "numpy",
+    "version": "1.26.4",
+    "license_expression": null,
+    "license": "Copyright (c) 2005-2023, NumPy Developers.\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are\nmet:\n\n    * Redistributions of source code must retain the above copyright\n       notice, this list of conditions and the following disclaimer.\n\n    * Redistributions in binary form must reproduce the above\n       copyright notice, this list of conditions and the following\n       disclaimer in the documentation and/or other materials provided\n       with the distribution.\n\n    * Neither the nam"
+  },
+  {
+    "name": "matplotlib",
+    "version": "3.11.2",
+    "license_expression": null,
+    "license": "License agreement for matplotlib versions 1.3.0 and later\n =========================================================\n\n 1. This LICENSE AGREEMENT is between the Matplotlib Development Team\n (\"MDT\"), and the Individual or Organization (\"Licensee\") accessing and\n otherwise using matplotlib software in source or binary form and its\n associated documentation.\n\n 2. Subject to the terms and conditions of this License Agreement, MDT\n hereby grants Licensee a nonexclusive, royalty-free, world-wide license\n to reproduce, analyze, test, perform and/or display publicly, prepare\n derivative works, distribu"
+  },
+  {
+    "name": "numba",
+    "version": "0.68.0",
+    "license_expression": null,
+    "license": "BSD"
+  },
+  {
+    "name": "scikit-learn",
+    "version": "1.9.1",
+    "license_expression": "BSD-3-Clause",
+    "license": ""
+  },
+  {
+    "name": "pandas",
+    "version": "3.0.6",
+    "license_expression": null,
+    "license": "BSD 3-Clause License\n\n Copyright (c) 2008-2011, AQR Capital Management, LLC, Lambda Foundry, Inc. and PyData Development Team\n All rights reserved.\n\n Copyright (c) 2011-2026, Open source contributors.\n\n Redistribution and use in source and binary forms, with or without\n modification, are permitted provided that the following conditions are met:\n\n * Redistributions of source code must retain the above copyright notice, this\n   list of conditions and the following disclaimer.\n\n * Redistributions in binary form must reproduce the above copyright notice,\n   this list of conditions and the followin"
+  },
+  {
+    "name": "scipy",
+    "version": "1.17.1",
+    "license_expression": null,
+    "license": "Copyright (c) 2001-2002 Enthought, Inc. 2003, SciPy Developers.\n All rights reserved.\n\n Redistribution and use in source and binary forms, with or without\n modification, are permitted provided that the following conditions\n are met:\n\n 1. Redistributions of source code must retain the above copyright\n    notice, this list of conditions and the following disclaimer.\n\n 2. Redistributions in binary form must reproduce the above\n    copyright notice, this list of conditions and the following\n    disclaimer in the documentation and/or other materials provided\n    with the distribution.\n\n 3. Neither "
+  },
+  {
+    "name": "jedi",
+    "version": "0.20.0",
+    "license_expression": null,
+    "license": "MIT"
+  }
+]

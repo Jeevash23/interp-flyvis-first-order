@@ -1,0 +1,12 @@
+{
+  "n_nodes": 45669,
+  "n_edges": 1513231,
+  "model_types": 65,
+  "realized_type_pairs": 604,
+  "missing_source_pairs": [
+    [
+      "Lawf1",
+      "Lawf1"
+    ]
+  ]
+}

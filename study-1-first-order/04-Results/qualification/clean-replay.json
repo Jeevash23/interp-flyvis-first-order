@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "exact_equal": true,
+  "cost": {
+    "adaptation_seconds": 1.3437629510008264,
+    "trajectory_seconds": 3.2765303179985494,
+    "frames": 485,
+    "dt": 0.005
+  }
+}

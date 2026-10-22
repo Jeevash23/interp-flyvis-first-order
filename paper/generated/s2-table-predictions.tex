@@ -1,0 +1,27 @@
+\texttt{a.\allowbreak{}change\_\allowbreak{}from\_\allowbreak{}reference.\allowbreak{}decision} & = improves on the reference & improves on the reference & holds \\
+\texttt{a.\allowbreak{}ratio.\allowbreak{}mean} & 0.8 to 1.3 & 1.094 & holds \\
+\texttt{a.\allowbreak{}zero.\allowbreak{}decision} & not beats zero & not distinguishable from zero & holds \\
+\texttt{a.\allowbreak{}wrong\_\allowbreak{}sign.\allowbreak{}rate} & 0.08 to 0.20 & 0.275 & \textbf{fails} \\
+\texttt{a.\allowbreak{}top10.\allowbreak{}precision} & 0.55 to 0.85 & 0.590 & holds \\
+\texttt{a.\allowbreak{}screen.\allowbreak{}decision} & = screen kept & screen kept & holds \\
+\texttt{b.\allowbreak{}change\_\allowbreak{}from\_\allowbreak{}reference.\allowbreak{}decision} & not improves on the reference & no detectable change & holds \\
+\texttt{b.\allowbreak{}ratio.\allowbreak{}mean} & 1.2 to 1.7 & 1.523 & holds \\
+\texttt{b.\allowbreak{}zero.\allowbreak{}decision} & = worse than zero & worse than zero & holds \\
+\texttt{b.\allowbreak{}wrong\_\allowbreak{}sign.\allowbreak{}rate} & 0.15 to 0.30 & 0.192 & holds \\
+\texttt{b.\allowbreak{}top10.\allowbreak{}precision} & 0.6 to 0.85 & 0.820 & holds \\
+\texttt{b.\allowbreak{}screen.\allowbreak{}decision} & = screen kept & screen kept & holds \\
+\texttt{c.\allowbreak{}change\_\allowbreak{}from\_\allowbreak{}reference.\allowbreak{}decision} & not improves on the reference & worse than the reference & holds \\
+\texttt{c.\allowbreak{}ratio.\allowbreak{}mean} & 1.2 to 2.2 & 10.142 & \textbf{fails} \\
+\texttt{c.\allowbreak{}zero.\allowbreak{}decision} & = worse than zero & worse than zero & holds \\
+\texttt{c.\allowbreak{}wrong\_\allowbreak{}sign.\allowbreak{}rate} & 0.15 to 0.35 & 0.461 & \textbf{fails} \\
+\texttt{c.\allowbreak{}top10.\allowbreak{}minus\_\allowbreak{}first\_\allowbreak{}order} & \ensuremath{-}0.05 to 0.05 & \ensuremath{-}0.023 & holds \\
+\texttt{c.\allowbreak{}screen.\allowbreak{}decision} & = screen kept & screen kept & holds \\
+\texttt{bias.\allowbreak{}all\_\allowbreak{}arms} & $|$mean signed error$|$ $\le$ 0.03 in arms a, b and c & a: 0.022; b: \ensuremath{-}0.002; c: 1.074 & \textbf{fails} \\
+\texttt{dominance.\allowbreak{}decision} & = (a) dominates & (a) dominates & holds \\
+\texttt{mechanism.\allowbreak{}decision} & = readout dominates & readout dominates & holds \\
+\texttt{mechanism.\allowbreak{}exact\_\allowbreak{}readout\_\allowbreak{}on\_\allowbreak{}linear\_\allowbreak{}trajectory.\allowbreak{}ratio} & 0.5 to 1.2 & 0.554 & holds \\
+\texttt{trace.\allowbreak{}quadratic\_\allowbreak{}over\_\allowbreak{}linear\_\allowbreak{}error} & ensemble mean of per-model median (quadratic / linear relative trajectory error) above 0.75 & 0.929 & holds \\
+\texttt{mismatch.\allowbreak{}zero\_\allowbreak{}derivative\_\allowbreak{}for\_\allowbreak{}mean\_\allowbreak{}effects} & ratio above the matched estimate's and top-10 above anatomy (both intervals above 0) & zero\_\allowbreak{}derivative\_\allowbreak{}on\_\allowbreak{}mean\_\allowbreak{}target\_\allowbreak{}minus\_\allowbreak{}matched\_\allowbreak{}ratio: 2.209; zero\_\allowbreak{}derivative\_\allowbreak{}on\_\allowbreak{}mean\_\allowbreak{}target\_\allowbreak{}top10\_\allowbreak{}minus\_\allowbreak{}anatomy: 0.001; mean\_\allowbreak{}derivative\_\allowbreak{}on\_\allowbreak{}zero\_\allowbreak{}target\_\allowbreak{}minus\_\allowbreak{}reference\_\allowbreak{}ratio: \ensuremath{-}0.294 & \textbf{fails} \\
+\texttt{runtime.\allowbreak{}c\_\allowbreak{}estimate\_\allowbreak{}over\_\allowbreak{}exact} & above 1 in every model & 2.366 & holds \\
+\texttt{runtime.\allowbreak{}a\_\allowbreak{}exact\_\allowbreak{}over\_\allowbreak{}reference\_\allowbreak{}exact} & 0.8 to 1.25 & 1.075 & holds \\
+\texttt{d.\allowbreak{}rule\_\allowbreak{}pays} & = false at k = 5, 10 and 20 & 5: no; 10: no; 20: no & holds \\

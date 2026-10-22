@@ -1,0 +1,83 @@
+{
+ "release": "first-order-silencing-estimates-flyvis",
+ "changed_files": {
+  "paper/sections/study2.tex": {
+   "kind": "redacted",
+   "original_sha256": "bfcb13c338971bb555d98dadc9b8df38db0c680a0a00ab9cd98420f178adda6d",
+   "release_sha256": "50936d0a5cea0384c7f7018f32f5abef1a0bac7269fa55b31a3df8ef4bc7e87a",
+   "source_path": "P6-flyvis-first-order/paper/sections/study2.tex",
+   "redactions": {
+    "machine details": 1
+   }
+  }
+ },
+ "frozen_files_not_shipped": {},
+ "parts": {
+  "study-1-first-order": {
+   "from_release": "flyvis-first-order",
+   "files": 151,
+   "SHA256SUMS_sha256": "6955411be64f63ac979b2f3d9146f19596e16dd669b598f4a0f5d51643c9782f"
+  },
+  "study-2-causes": {
+   "from_release": "flyvis-first-order-causes",
+   "files": 72,
+   "SHA256SUMS_sha256": "185cc84b20783ecb44dcdeba7fbe22aa9805f04791caf1cfa4a73bce3931e1b2"
+  }
+ },
+ "files_in_both_parts": [
+  {
+   "path": "study-2-causes/reference/flyvis-first-order/02-Code/stage1/common.py",
+   "same_as": "study-1-first-order/02-Code/stage1/common.py",
+   "sha256": "9834aeb2355a31a04faf0cc7611047f02983b6f0b72e118196f94f4884980f41",
+   "size": 1698
+  },
+  {
+   "path": "study-2-causes/reference/flyvis-first-order/02-Code/stage1/core.py",
+   "same_as": "study-1-first-order/02-Code/stage1/core.py",
+   "sha256": "9fb699d94d28c5d85198c2e62c31a1c622c807c2adf0e23eb85350ea371c8fc3",
+   "size": 6906
+  },
+  {
+   "path": "study-2-causes/reference/flyvis-first-order/03-Data/stage1/model-selection.json",
+   "same_as": "study-1-first-order/03-Data/stage1/model-selection.json",
+   "sha256": "2d39050910867b819731bcedfb1d8745c98d6b9a2854d9554f18dfe1cda1c657",
+   "size": 10399
+  },
+  {
+   "path": "study-2-causes/reference/flyvis-first-order/03-Data/stage1/network-structure.json",
+   "same_as": "study-1-first-order/03-Data/stage1/network-structure.json",
+   "sha256": "004f8ba5fda2aa0ca6aead990916383f4612508bfcbd6a21256f11c13f89b7fe",
+   "size": 24333
+  },
+  {
+   "path": "study-2-causes/reference/flyvis-first-order/03-Data/stage1/stimulus-manifest.json",
+   "same_as": "study-1-first-order/03-Data/stage1/stimulus-manifest.json",
+   "sha256": "828a2a7bed2f871f6b7d8040dd156bbbcc9e173aa8e134a19e32cbc9ad333c6f",
+   "size": 2361
+  },
+  {
+   "path": "study-2-causes/reference/flyvis-first-order/study/code/analyse_revision.py",
+   "same_as": "study-1-first-order/study/code/analyse_revision.py",
+   "sha256": "5fef364dc80e40de92fd635caec26393c73f9ab2c180ecd1dc3738368ff72117",
+   "size": 26448
+  },
+  {
+   "path": "study-2-causes/reference/flyvis-first-order/study/code/revision_common.py",
+   "same_as": "study-1-first-order/study/code/revision_common.py",
+   "sha256": "3bd2f420ae8749f067cd7e0940ee2d00311557fb5e2c703a3e70fe9f1d018999",
+   "size": 4689
+  },
+  {
+   "path": "study-2-causes/reference/flyvis-first-order/study/config.json",
+   "same_as": "study-1-first-order/study/config.json",
+   "sha256": "af777baf2860284326e0e8d19fb68a96965febc5a1771a5550e5bce0f4385d47",
+   "size": 872
+  },
+  {
+   "path": "study-2-causes/reference/flyvis-first-order/study/freeze.json",
+   "same_as": "study-1-first-order/study/freeze.json",
+   "sha256": "9cf9c7f0c4f599810d2a3d2d97fcb0c8c676c017efd9acd470c186996b0eed12",
+   "size": 24252
+  }
+ ]
+}

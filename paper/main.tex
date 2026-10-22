@@ -1,0 +1,87 @@
+\documentclass[11pt]{article}
+% Reproducible PDF bytes: no creation date, no random trailer identifier, no producer banner.
+\pdfinfoomitdate=1
+\pdftrailerid{}
+\pdfsuppressptexinfo=-1
+
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage[scaled=0.92]{helvet}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb,bm}
+\usepackage{graphicx}
+\usepackage{booktabs,tabularx,multirow,array,makecell,longtable}
+\usepackage[font=small,labelfont=bf,skip=4pt]{caption}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage[section]{placeins}
+\usepackage{needspace}
+\usepackage[numbers,sort&compress]{natbib}
+\setlength{\bibsep}{1.5pt}
+\renewcommand{\bibfont}{\small\raggedright}
+\usepackage[hidelinks,pdftitle={First-order estimates find the influential cell types in the FlyVis models but misjudge their silencing effects: the nonlinearity is in the readout},pdfauthor={Richard Jeevash},pdfcreator={},pdfproducer={}]{hyperref}
+\usepackage[nameinlink,capitalise]{cleveref}
+
+\setlist{itemsep=2pt,topsep=3pt,parsep=0pt}
+\setlength{\parskip}{3pt}
+\renewcommand{\arraystretch}{1.12}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\crefname{appendix}{Appendix}{Appendices}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.07}
+\renewcommand{\floatpagefraction}{0.8}
+\setcounter{topnumber}{3}
+\setcounter{totalnumber}{5}
+
+\newcommand{\DSI}{\mathrm{DSI}}
+\newcommand{\relu}{\operatorname{relu}}
+% Generated table bodies are read with the TeX primitive: LaTeX's \input runs file hooks, which inside a
+% tabular would add an empty row.
+\makeatletter\newcommand{\tableinput}[1]{\@@input #1 }\makeatother
+
+% The macros of both studies (paper/make_numbers.py).
+\input{generated/numbers.tex}
+
+\title{\textbf{First-order estimates find the influential cell types\\ in the FlyVis models but misjudge their silencing effects:\\ the nonlinearity is in the readout}}
+\author{Richard Jeevash\\[2pt]
+\small University of Westminster (Informatics Institute of Technology, Sri Lanka)\\
+\small \href{mailto:jeevash@richardjeevash.com}{jeevash@richardjeevash.com}\quad
+ORCID \href{https://orcid.org/0009-0005-7812-0939}{0009-0005-7812-0939}}
+\date{October 2026}
+
+\begin{document}
+\maketitle
+\vspace{-2em}
+
+\begin{abstract}
+\noindent
+\input{sections/abstract}
+\end{abstract}
+
+\input{sections/introduction}
+\input{sections/methods}
+\input{sections/study1}
+\input{sections/study2}
+\input{sections/related}
+\input{sections/discussion}
+
+% The same statement, in the same place, in every paper of the set.
+\paragraph{Use of AI assistants.}
+Language-model assistants (Claude, Anthropic; Codex, OpenAI) were used throughout this work, under the author's direction, to help design the studies, to write and run the code for the experiments and analyses, to draft and revise the text and to check the references against their online records. All reported results come from the saved study outputs, and the numbers in the text were generated from those outputs or checked against them.
+
+\FloatBarrier
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\appendix
+% The appendix has little text between its tables: let the tables float past section headings and share pages.
+\let\FloatBarrier\relax
+\crefalias{section}{appendix}
+\renewcommand{\floatpagefraction}{0.6}
+\renewcommand{\bottomfraction}{0.9}
+\input{sections/appendix}
+
+\end{document}

@@ -1,0 +1,5 @@
+# CPU PyTorch packages must be installed from https://download.pytorch.org/whl/cpu first.
+torch==2.5.1+cpu
+torchvision==0.20.1+cpu
+flyvis==1.2.0
+numpy==1.26.4

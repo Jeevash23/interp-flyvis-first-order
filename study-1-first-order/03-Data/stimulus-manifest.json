@@ -1,0 +1,217 @@
+{
+  "source": "native FlyVis tutorial synthetic moving edges; sparse renderer verified",
+  "container": "04-Results/qualification/native-responses.npz",
+  "container_sha256": "5ee7e274c1d7de7259ce0da08a8dd88dcec2bcb9eda20e5d6ec7d621fa71ac37",
+  "input_shape": [
+    24,
+    485,
+    1,
+    721
+  ],
+  "input_dtype": "float64",
+  "response_shape": [
+    1,
+    24,
+    485,
+    65
+  ],
+  "response_dtype": "float32",
+  "dt_seconds": 0.005,
+  "extra_grey_adaptation_seconds": 1,
+  "dataset_pre_seconds": 1,
+  "dataset_post_seconds": 1,
+  "stimuli": [
+    {
+      "id": 0,
+      "angle_degrees": 0,
+      "intensity": 0,
+      "speed_parameter": 19,
+      "speed_degrees_per_second": 110.2,
+      "input_sha256": "f1bae89675eecc69ea68a47fd2333eec8ca75390a101d0e04e6b8ad197455cbd"
+    },
+    {
+      "id": 1,
+      "angle_degrees": 0,
+      "intensity": 1,
+      "speed_parameter": 19,
+      "speed_degrees_per_second": 110.2,
+      "input_sha256": "ac7f1d7cf48d54f1a6227236b2f5e2abae293d8e1edc9306427cd90a3160501d"
+    },
+    {
+      "id": 2,
+      "angle_degrees": 30,
+      "intensity": 0,
+      "speed_parameter": 19,
+      "speed_degrees_per_second": 110.2,
+      "input_sha256": "fc1695c3c9e1a3acf190ecba36862594f6f238e037ad5451b2c766204ea89e75"
+    },
+    {
+      "id": 3,
+      "angle_degrees": 30,
+      "intensity": 1,
+      "speed_parameter": 19,
+      "speed_degrees_per_second": 110.2,
+      "input_sha256": "875632d09cd61b544135d794214acfc6a65d452ee8113cb71b3672e47dfadd79"
+    },
+    {
+      "id": 4,
+      "angle_degrees": 60,
+      "intensity": 0,
+      "speed_parameter": 19,
+      "speed_degrees_per_second": 110.2,
+      "input_sha256": "900b3a3d583f4b8c94cf272c021f116b459f41995088cb22ba31086c549044da"
+    },
+    {
+      "id": 5,
+      "angle_degrees": 60,
+      "intensity": 1,
+      "speed_parameter": 19,
+      "speed_degrees_per_second": 110.2,
+      "input_sha256": "5fc06f8037f7a1e406c962fa96da0e8891793c4387e0237d918d8ede9085259b"
+    },
+    {
+      "id": 6,
+      "angle_degrees": 90,
+      "intensity": 0,
+      "speed_parameter": 19,
+      "speed_degrees_per_second": 110.2,
+      "input_sha256": "f37051e5d7955b1dd01dcecb9dd469101a1a846dcf112c2741cb9588b7abd6eb"
+    },
+    {
+      "id": 7,
+      "angle_degrees": 90,
+      "intensity": 1,
+      "speed_parameter": 19,
+      "speed_degrees_per_second": 110.2,
+      "input_sha256": "44aa895298c1c4d6229b5977f6998f6b99e4873ed26befdb358396a9aca0c8d7"
+    },
+    {
+      "id": 8,
+      "angle_degrees": 120,
+      "intensity": 0,
+      "speed_parameter": 19,
+      "speed_degrees_per_second": 110.2,
+      "input_sha256": "4557753d9f80bfc1c957ca4f6a0c161d99e59d9071a428528c24d154e7c74fee"
+    },
+    {
+      "id": 9,
+      "angle_degrees": 120,
+      "intensity": 1,
+      "speed_parameter": 19,
+      "speed_degrees_per_second": 110.2,
+      "input_sha256": "746a53f5707fc203d067ef3631bdd59759c32a88eb21f5713166a6055cfe31c3"
+    },
+    {
+      "id": 10,
+      "angle_degrees": 150,
+      "intensity": 0,
+      "speed_parameter": 19,
+      "speed_degrees_per_second": 110.2,
+      "input_sha256": "3122c6346b8d5c6cb271cffafbc9968ad2da458ff35286b998c7648a40fd426b"
+    },
+    {
+      "id": 11,
+      "angle_degrees": 150,
+      "intensity": 1,
+      "speed_parameter": 19,
+      "speed_degrees_per_second": 110.2,
+      "input_sha256": "b9ccf9115816338d1c7e9ef6bcb7c38dcf1698ca9b9d95d73439e333111af0ba"
+    },
+    {
+      "id": 12,
+      "angle_degrees": 180,
+      "intensity": 0,
+      "speed_parameter": 19,
+      "speed_degrees_per_second": 110.2,
+      "input_sha256": "c37d096976c05c3c33e5e309c621ae99a181e03a137bb734bf4478a1d3374d71"
+    },
+    {
+      "id": 13,
+      "angle_degrees": 180,
+      "intensity": 1,
+      "speed_parameter": 19,
+      "speed_degrees_per_second": 110.2,
+      "input_sha256": "33ef803f2bb6e498701eb77022a5af1bf9a17c070b58a025bd78d48282f947b9"
+    },
+    {
+      "id": 14,
+      "angle_degrees": 210,
+      "intensity": 0,
+      "speed_parameter": 19,
+      "speed_degrees_per_second": 110.2,
+      "input_sha256": "ec6f0c8e2c26f9da4625cda86fa03f14f7e14298cecef99ef1e550a73b3d43ad"
+    },
+    {
+      "id": 15,
+      "angle_degrees": 210,
+      "intensity": 1,
+      "speed_parameter": 19,
+      "speed_degrees_per_second": 110.2,
+      "input_sha256": "acec440c375f6316377c1ab0fd9f241c9e2d786a7372a1e7422b2e90f57e024f"
+    },
+    {
+      "id": 16,
+      "angle_degrees": 240,
+      "intensity": 0,
+      "speed_parameter": 19,
+      "speed_degrees_per_second": 110.2,
+      "input_sha256": "3480049270ef42318f5b6da6f8d797e80754fe96a666f3c906ddf53c64498e3c"
+    },
+    {
+      "id": 17,
+      "angle_degrees": 240,
+      "intensity": 1,
+      "speed_parameter": 19,
+      "speed_degrees_per_second": 110.2,
+      "input_sha256": "0525de389bcb6499b1963aa94c9fe95f679ee73d55123ee2eb5ac04dc0a67dd3"
+    },
+    {
+      "id": 18,
+      "angle_degrees": 270,
+      "intensity": 0,
+      "speed_parameter": 19,
+      "speed_degrees_per_second": 110.2,
+      "input_sha256": "f4cd9ec0869c1f7b634245f649cf0752eacbb1c77740ef69ece9fced49b6e9b1"
+    },
+    {
+      "id": 19,
+      "angle_degrees": 270,
+      "intensity": 1,
+      "speed_parameter": 19,
+      "speed_degrees_per_second": 110.2,
+      "input_sha256": "23b1cb89d16f14760832d25249d6f435571b0f460651fb491cfd54936eedebf3"
+    },
+    {
+      "id": 20,
+      "angle_degrees": 300,
+      "intensity": 0,
+      "speed_parameter": 19,
+      "speed_degrees_per_second": 110.2,
+      "input_sha256": "f0d31c559c1d447dc1c47f219435ed2294591ca0191be8441d97f7898ca06242"
+    },
+    {
+      "id": 21,
+      "angle_degrees": 300,
+      "intensity": 1,
+      "speed_parameter": 19,
+      "speed_degrees_per_second": 110.2,
+      "input_sha256": "3bb9066bcf0a78848a1bf94586296d7cf51bc7e6b3e6efa75fa86c815dfc7847"
+    },
+    {
+      "id": 22,
+      "angle_degrees": 330,
+      "intensity": 0,
+      "speed_parameter": 19,
+      "speed_degrees_per_second": 110.2,
+      "input_sha256": "8a479d903b9bddad955a1e560800e53e25827401c44bfe2280f7ad67f9ba5390"
+    },
+    {
+      "id": 23,
+      "angle_degrees": 330,
+      "intensity": 1,
+      "speed_parameter": 19,
+      "speed_degrees_per_second": 110.2,
+      "input_sha256": "910ba217e65f4589b4edb076c3b0864fa9480d5bc333e561efc64b0c6950eea2"
+    }
+  ]
+}

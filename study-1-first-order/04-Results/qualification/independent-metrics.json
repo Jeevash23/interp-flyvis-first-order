@@ -1,0 +1,67 @@
+{
+  "status": "pass",
+  "independent_of_flyvis": true,
+  "dtype": "float32",
+  "finite": true,
+  "max_dsi_error": 2.864582526740378e-08,
+  "max_angle_error_degrees": 0.0,
+  "peak_max_error": 0.0,
+  "rows": [
+    {
+      "cell_type": "T4a",
+      "dsi": 0.42978009890194857,
+      "pd_degrees": 176.47592150162615,
+      "dsi_error": 7.838042381802524e-09,
+      "pd_error_degrees": 0.0
+    },
+    {
+      "cell_type": "T4b",
+      "dsi": 0.5379665316797624,
+      "pd_degrees": -9.272384385907174,
+      "dsi_error": 1.5828811150697675e-08,
+      "pd_error_degrees": 0.0
+    },
+    {
+      "cell_type": "T4c",
+      "dsi": 0.6273615470086914,
+      "pd_degrees": 56.235793273890025,
+      "dsi_error": 2.864582526740378e-08,
+      "pd_error_degrees": 0.0
+    },
+    {
+      "cell_type": "T4d",
+      "dsi": 0.09875701399987757,
+      "pd_degrees": -86.33555107626006,
+      "dsi_error": 3.929268979629974e-09,
+      "pd_error_degrees": 0.0
+    },
+    {
+      "cell_type": "T5a",
+      "dsi": 0.7783227953886589,
+      "pd_degrees": -174.3093570378297,
+      "dsi_error": 1.0745529799294218e-08,
+      "pd_error_degrees": 0.0
+    },
+    {
+      "cell_type": "T5b",
+      "dsi": 0.748802530584203,
+      "pd_degrees": -10.855531158006624,
+      "dsi_error": 1.5780666218212502e-08,
+      "pd_error_degrees": 0.0
+    },
+    {
+      "cell_type": "T5c",
+      "dsi": 0.5792285896060221,
+      "pd_degrees": 104.39747945488318,
+      "dsi_error": 1.1977526748196965e-08,
+      "pd_error_degrees": 0.0
+    },
+    {
+      "cell_type": "T5d",
+      "dsi": 0.5296319299982652,
+      "pd_degrees": -111.54310903017335,
+      "dsi_error": 5.467639119238754e-09,
+      "pd_error_degrees": 0.0
+    }
+  ]
+}

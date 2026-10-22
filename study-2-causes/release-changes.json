@@ -1,0 +1,206 @@
+{
+ "release": "flyvis-first-order-causes",
+ "changed_files": {
+  "Makefile": {
+   "kind": "replaced",
+   "original_sha256": "20e24e24542a41500982af4415b26e4190fe76cc979e45951f67a7ebffdea230",
+   "release_sha256": "2262404eb6a20c415152c68ade274d65fd23d0f01c9de8ffb9647de7268edf8c",
+   "frozen_in": [
+    "study/freeze.json",
+    "study/freeze-2.json"
+   ],
+   "reasons": [
+    "this release's Makefile replaces the project's; the original is kept, redacted, as provenance/Makefile-at-freeze"
+   ]
+  },
+  "provenance/Makefile-at-freeze": {
+   "kind": "redacted",
+   "original_sha256": "20e24e24542a41500982af4415b26e4190fe76cc979e45951f67a7ebffdea230",
+   "release_sha256": "768cefd672394f7ee294ef0bafd032068280590f1c8d903d74f43e06bc63448f",
+   "source_path": "Makefile",
+   "frozen_in": [
+    "study/freeze.json",
+    "study/freeze-2.json"
+   ],
+   "redactions": {
+    "environment path": 1
+   }
+  },
+  "reference/flyvis-first-order/02-Code/stage1/common.py": {
+   "kind": "redacted",
+   "original_sha256": "e465cb2e1e16b52433e9a642365f2ca6c910ef8d60dbe1bbe91146de648fff50",
+   "release_sha256": "9834aeb2355a31a04faf0cc7611047f02983b6f0b72e118196f94f4884980f41",
+   "redactions": {
+    "time zone": 1
+   },
+   "frozen_in": [
+    "study/freeze.json",
+    "study/freeze-2.json"
+   ]
+  },
+  "study/DEVELOPMENT-NOTES.md": {
+   "kind": "redacted",
+   "original_sha256": "30b85cc6ff0fea5bcbeb4faf6b36650542a4d1da67b8a226acdc39798b1a5980",
+   "release_sha256": "e5e3825cc4b1bd9e9096d2dc8c69a3aaa62a519dae836b450474b44463eacd19",
+   "frozen_in": [
+    "study/freeze.json",
+    "study/freeze-2.json"
+   ],
+   "redactions": {
+    "approval wording": 2
+   }
+  },
+  "study/PREDICTIONS-RECORD.json": {
+   "kind": "redacted",
+   "original_sha256": "4b4f9bcc513435200c58a1e55e250af8045c6450382c36388c6c78d5ff832135",
+   "release_sha256": "f0752b63da3633e01bdb4c476616213a8418e6be891fe320cf206960765c2548",
+   "frozen_in": [
+    "study/freeze.json",
+    "study/freeze-2.json"
+   ],
+   "redactions": {
+    "reference project": 1,
+    "approval wording": 1
+   }
+  },
+  "study/PREDICTIONS.md": {
+   "kind": "redacted",
+   "original_sha256": "9f3436bae8ac86adae83d257b9c56f515c39a6ebdf473ebd8caa931de0f0c00c",
+   "release_sha256": "fbc84425d6e1d16f6a0ddcd64bfc5293d1288ccfbd87622f93850f5bd3c16bae",
+   "frozen_in": [
+    "study/freeze.json",
+    "study/freeze-2.json"
+   ],
+   "redactions": {
+    "reference project": 1,
+    "approval wording": 1
+   }
+  },
+  "study/PROTOCOL-approved-2026-10-16.md": {
+   "kind": "redacted",
+   "original_sha256": "b2f5c5b4720a5deaf6ffc238dfcb5253aa640308ad146939e878b400ffd46c93",
+   "release_sha256": "eb8f2368a3c1e8e62f768fe2d444453955bb3812813b443874fe560275974353",
+   "frozen_in": [
+    "study/freeze.json",
+    "study/freeze-2.json"
+   ],
+   "redactions": {
+    "reference project": 2,
+    "approval wording": 2,
+    "machine details": 1
+   }
+  },
+  "study/PROTOCOL.md": {
+   "kind": "redacted",
+   "original_sha256": "84822c671692b5569cc64f36f1bb3db64cc8216c84dc2ea556861cd945ed1af2",
+   "release_sha256": "68d45720d4e808acbfe5ee9cd88cbe41859a6591f8190f8f9b7b1eadb55b8e4c",
+   "frozen_in": [
+    "study/freeze.json",
+    "study/freeze-2.json"
+   ],
+   "redactions": {
+    "reference project": 2,
+    "AI tool": 1,
+    "local clock time": 1,
+    "approval wording": 3,
+    "machine details": 1
+   }
+  },
+  "study/amendment-2/apply_amendment2.py": {
+   "kind": "adapted and redacted",
+   "original_sha256": "7781dd8262d8e02813a66214b8e70ed96f15ad3ff229bd6baacbcb05403ed5cb",
+   "release_sha256": "5b69c5434662ff62d1551ff9b84c35ec17eca5edd9992b1d252496126b412f08",
+   "frozen_in": [
+    "study/freeze-2.json"
+   ],
+   "redactions": {
+    "approval wording": 2
+   },
+   "reasons": [
+    "AI tool",
+    "local clock time"
+   ]
+  },
+  "study/amendment-2/run_confirmation.sh": {
+   "kind": "adapted",
+   "original_sha256": "4c4987ecb22e64e3985e22cef4726d1d40311e07d5d08c26a8e52e7a8cf5daab",
+   "release_sha256": "6e56a99dce3b9a1d79d4f1e8f1a9ef82e7731b2c13cd90176014afb6e0de712b",
+   "reasons": [
+    "AI tool and local clock time",
+    "absolute path replaced by the release environment",
+    "absolute path replaced by the release root"
+   ]
+  },
+  "study/code/gpu_lock.py": {
+   "kind": "adapted",
+   "original_sha256": "b9b970351f54310db4fe4e8a157ef82f7f336862420a2c1f67050328c0bb26ce",
+   "release_sha256": "4b0f34a239b0cd1f1e5d4e152396806dfc2fe6c61e8f2b2b5269272d9d6be013",
+   "frozen_in": [
+    "study/freeze.json",
+    "study/freeze-2.json"
+   ],
+   "reasons": [
+    "the GPU lock file comes from GPU_LOCK (default gpu.lock in the release root)"
+   ]
+  },
+  "study/config.json": {
+   "kind": "adapted",
+   "original_sha256": "b17aa076d5fe74ab57740b189efea44724cead0b8ad51e28927525f2a50629e8",
+   "release_sha256": "ace6fa77f9dcdee47a78d8da3edf45bd92b4e91c4eea3a6da2c473c6e421f3ca",
+   "frozen_in": [
+    "study/freeze.json",
+    "study/freeze-2.json"
+   ],
+   "reasons": [
+    "the reference study's files that the code imports are shipped in reference/flyvis-first-order"
+   ]
+  },
+  "study/results/GATE-FAILURE-009.md": {
+   "kind": "redacted",
+   "original_sha256": "b92c42a4972c5f987d0db45c64f6d0dcbe311158c6803e72e64fbacc86b60e26",
+   "release_sha256": "baacab6f6766c4726b115bdf36606d2f2b0a3d14186b2f9eea2b5cc29e401ce1",
+   "redactions": {
+    "approval wording": 1
+   },
+   "archive": "data/saved-outputs/study-results.tar.xz",
+   "frozen_in": [
+    "study/freeze-2.json"
+   ]
+  },
+  "study/results/RUNS-LOCATION.md": {
+   "kind": "redacted",
+   "original_sha256": "5097074de6a0eb66f4a4161cb8921f932ff54cd90b8280d9c22d77afdf1cef49",
+   "release_sha256": "5e0bb3b3423fb5147a2b07ee2c6f84c7f9dccfb0d8602d3faa05da9299ab6aaf",
+   "redactions": {
+    "external drive": 3,
+    "sibling project": 1,
+    "machine details": 2
+   },
+   "archive": "data/saved-outputs/study-results.tar.xz"
+  }
+ },
+ "frozen_files_not_shipped": {},
+ "freeze_records": [
+  {
+   "path": "study/freeze.json",
+   "base": ".",
+   "superseded_by": [
+    "study/freeze-2.json"
+   ]
+  },
+  {
+   "path": "study/freeze.json",
+   "base": "reference/flyvis-first-order",
+   "field": "ai06_inputs"
+  },
+  {
+   "path": "study/freeze-2.json",
+   "base": "."
+  },
+  {
+   "path": "study/freeze-2.json",
+   "base": "reference/flyvis-first-order",
+   "field": "ai06_inputs"
+  }
+ ]
+}

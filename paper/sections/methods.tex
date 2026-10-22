@@ -1,0 +1,113 @@
+%======================================================================
+\section{Models, interventions and measurements}
+\label{sec:methods}
+
+Both studies use the same models, stimuli, readouts, scoring rules and simulator. Study 1 defined them; Study 2 imported Study 1's code and saved records unchanged and added the interventions, readouts and estimators of \cref{sec:interventions,sec:dsi,sec:estimators,sec:counterfactual} that are marked as its own.
+
+\subsection{Models and stimuli}
+\label{sec:models}
+
+The FlyVis ensemble~\citep{lappalainen2024connectome} consists of \NModels{} trained networks with a common architecture: \NetNodes{} neurons of \NetTypes{} cell types on a hexagonal lattice of columns, connected by \NetEdges{} synapses. Which types connect, and with how many synapses at each column offset, comes from the connectome. Training on optic-flow estimation set the time constant and resting potential of each type and one synaptic strength for each of the \NetTypePairs{} connected pairs of types. The neuron CT1 is represented by two compartments, one in the lobula and one in the medulla; we treat them as two of the \NetTypes{} types. Models \DevModelList{} had been examined in an earlier four-model study and form the development set of both studies; the other \NConfModels{} models form the confirmation set. No model was removed or replaced.
+
+The stimuli were ON and OFF edges moving in \NDirections{} evenly spaced directions, \NTrajectories{} stimuli in all, at \SpeedFast{} and \SpeedSlow{} degrees per second, rendered onto the model eye with the FlyVis package. Each model first settled for 1~s on a uniform grey input, and each stimulus began with a 1-s period before the edge started to move. Responses were measured from the start of motion over the analysis window that FlyVis uses for these stimuli: \WindowFast{}~s for fast edges and \WindowSlow{}~s for slow edges, that is \FramesFast{} and \FramesSlow{} time steps of 5~ms. The readouts are the voltages of the central cell of each of the eight T4 and T5 subtypes: T4a--d, which respond to ON edges, and T5a--d, which respond to OFF edges. We call one readout at one speed in one model a \emph{readout condition}; the confirmation set has \ReadoutConditions{} of them.
+
+\subsection{Silencing and mean replacement}
+\label{sec:interventions}
+
+The network state is the vector of voltages $v_i$, updated with the explicit Euler step of the FlyVis implementation,
+\begin{equation}
+  v_i(t+\delta) = v_i(t) + \frac{\delta}{\max(\tau_i,\delta)}\Big[-v_i(t) + b_i + \sum_j w_{ij}\,\big(1-s_{c(j)}\big)\,[v_j(t)]_+ + x_i(t)\Big],
+  \label{eq:dynamics}
+\end{equation}
+with time step $\delta=5$~ms, time constant $\tau_i$, resting potential $b_i$, synaptic weight $w_{ij}$, visual input $x_i(t)$, $[v]_+=\relu(v)=\max(v,0)$, and $s_{c(j)}$ the silencing strength of the type $c(j)$ of cell $j$ (zero in the intact network). Silencing cell type $c$ with strength $s$ multiplies the rectified output of every cell of that type by $1-s$, so that $s=1$ removes the type's synaptic output entirely and $s=0.5$ halves it, while the silenced cells' own voltages continue to evolve. This is how the FlyVis authors silenced cell types: they clamped all outputs of the silenced type to zero~\citep{lappalainen2024review}. Silencing started at motion onset and lasted to the end of the measurement window. Two types, Mi11 and Tm30, have no synaptic path to any readout, so their silencing leaves every readout unchanged; they were scored with an exact change of zero and not simulated.
+
+Study 2's arm~(a) replaces the output of each cell $j$ of the intervened type by its own average instead of zero:
+\begin{equation}
+  \text{output}_j = (1-s)\,[v_j]_+ + s\,m_j ,
+  \label{eq:mean}
+\end{equation}
+where $m_j$ is the cell's rectified output in the intact network, averaged over the \NTrajectories{} trajectories of the stimulus and over the intervention period. At $s=1$ every cell of the type sends its average output whatever the stimulus. Mean replacement keeps the cell's average drive to its targets and removes only its stimulus-dependent part, so it is a smaller perturbation than silencing.
+
+\subsection{Direction selectivity}
+\label{sec:dsi}
+
+The direction-selectivity index has two stages. The \emph{response stage} turns each trajectory's voltage trace into one response: for readout $r$, $p_{r,\theta,q}$ is the peak of the rectified voltage $[v_r]_+$ during the measurement window for an edge moving in direction $\theta$ with polarity $q$ (ON or OFF). The \emph{ratio stage} combines the responses with the FlyVis definition
+\begin{equation}
+  \DSI_r = \frac{\big|\sum_\theta p_{r,\theta,q_r}\,e^{\mathrm{i}\theta}\big|}{\max_q \sum_\theta p_{r,\theta,q}},
+  \label{eq:dsi}
+\end{equation}
+the length of the vector sum of the preferred-polarity responses over the directions $\theta$, divided by the larger of the two polarities' summed responses; $q_r$ is ON for T4 and OFF for T5. The index lies between 0, for equal responses in all directions, and 1, for a response to a single direction. The exact effect of silencing type $c$ with strength $s$ is $\Delta_{rc}(s)=\DSI_r(s\,\bm e_c)-\DSI_r(\bm 0)$. When silencing removes every response of the readout to both polarities (denominator at most \DenomThreshold{}), the index after silencing is undefined; we call the response \emph{abolished} and count it separately. For every case we also record the amplitude ratio, the summed peak responses to the preferred polarity after silencing divided by the same sum before.
+
+Study 2's arm~(b) replaces the temporal peak by the temporal mean of the rectified voltage over the same window and leaves everything else unchanged. It removes the temporal maximum and keeps the rectification and the ratio. Both indices are computed from the stored voltage traces.
+
+\subsection{Estimators}
+\label{sec:estimators}
+
+For one case, let $F(a)$ be the index of the readout as a function of the strength $a$ applied to one cell type, so that the exact effect is $F(s)-F(0)$. The \emph{first-order estimate} is $s\,F'(0)$, with the derivative taken at the intact network; for silencing and the peak index it is $\hat\Delta_{rc}(s)=s\,\partial\DSI_r/\partial s_c$, the estimate that Study 1 evaluates and that Study 2 calls the \emph{reference}.
+
+Study 1 computed it by reverse-mode automatic differentiation through the simulated recurrence, from motion onset to the end of the measurement window (backpropagation through time). One forward pass serves all readouts, and one backward pass per readout gives the derivatives for all \NetTypes{} types at once; during the backward pass the forward simulation is recomputed in blocks of four time steps to limit memory. The index is not smooth everywhere: the peak is a maximum over time, and rectification makes zero responses insensitive to small changes. At exactly tied peaks the derivative is shared equally among the tied time steps, and a zero peak contributes zero derivative. Exact ties occurred in \ExactTieReadouts{} of the \ReadoutConditions{} confirmation readout conditions and near ties (two peaks within $10^{-6}$) in \NearTieReadouts{}. In the earlier four-model study the derivatives for three cell types agreed with an independent forward-mode calculation in double precision to within \TangentMaxErr{}; central finite differences agreed with both except at a near-tied peak, where the index has no single derivative.
+
+Two simple predictors are evaluated on the same cases. \emph{Zero change} predicts $\hat\Delta=0$. The \emph{clipped estimate} keeps the predicted index inside its possible range, $\min\{1,\max\{0,\DSI_r(\bm 0)+\hat\Delta_{rc}\}\}-\DSI_r(\bm 0)$; clipping can only reduce the error when the true index lies in $[0,1]$, so it is a control for impossible predictions.
+
+Study 2's arm~(c), the \emph{second-order estimate}, adds the next term of the Taylor expansion in the strength, $s\,F'(0)+\tfrac12 s^2 F''(0)$, the correction that \citet{zhang2026attribution} add to attribution patching. Writing $J=\mathrm{d}v/\mathrm{d}a$ and $K=\mathrm{d}^2v/\mathrm{d}a^2$ for the derivatives of the readout traces,
+\begin{equation}
+F'(0) = \nabla F\cdot J, \qquad F''(0) = \nabla F\cdot K + J^{\top}(\nabla^2 F)\,J ,
+\label{eq:second}
+\end{equation}
+so the second-order term includes the readout's own curvature.
+
+\paragraph{Computing the derivatives in Study 2.} Differentiating the Euler update once and twice along one cell type's strength at $a=0$ gives two linear recursions driven by the intact trajectory. With $c$ marking the cells of the intervened type and $\relu'(v)=1$ where $v>0$, the derivatives of the outputs are
+\begin{align}
+\mathrm{d}\,\text{output} &= \relu'(v)\,J - c\,\relu(v) \quad\text{(silencing)}, \qquad \relu'(v)\,J + c\,(m-\relu(v)) \quad\text{(mean replacement)},\\
+\mathrm{d}^2\text{output} &= \relu'(v)\,K - 2\,c\,\relu'(v)\,J \quad\text{(both)},
+\end{align}
+and $J$ and $K$ evolve with the network's linearised dynamics, starting from zero at the intervention onset. One pass per cell type gives $J$ and $K$ for all eight readout traces at once. On development model 000 the recursion agreed with nested automatic differentiation of Study 1's update to within \PilotAutodiffMax{}, and its first derivatives reproduced Study 1's saved reverse-mode derivatives to within \PilotGradMax{}. During every run, each model's first derivatives were checked against the saved ones (\cref{sec:records}).
+
+The rectifier has zero second derivative away from its threshold, so $F''(0)$ contains two kinds of curvature only: the readout's (the ratio and the vector length in \cref{eq:dsi}), and the product of the strength with the voltages of the intervened type itself, which change when the type feeds back on itself. It does not contain the effect of neurons crossing their thresholds. Such crossings lie very close to the intact operating point: on the development model, central differences of the exact simulation gave second derivatives of the readout traces of \PilotFDKMin{}--\PilotFDKMax{}, against at most \PilotAutoKMax{} from automatic differentiation, while the first derivatives agreed to within \PilotFDJMax{} (\cref{app:checks}). Arm~(c) therefore tests the curvature that a Hessian-based correction can capture in this network. Each Study 2 estimate is also reported clipped to the range of the index.
+
+\subsection{Where the nonlinearity lies}
+\label{sec:counterfactual}
+
+Two further estimators of Study 2, prespecified, each remove one source of nonlinearity from the reference on Study 1's own target:
+\begin{itemize}
+  \item \textbf{exact trajectory, linearised readout:} $\nabla F(v_0)\cdot(v_s-v_0)$, with $v_0$ and $v_s$ the intact and the exactly simulated traces;
+  \item \textbf{linearised trajectory, exact readout:} $F(v_0+s\,J)-F(v_0)$.
+\end{itemize}
+The error of the first contains only the readout's nonlinearity, and the error of the second only the network's. A further prespecified split (Amendment~1 of Study 2, \cref{sec:records}) separates the two stages of the readout on the linearised trajectory. Writing $P$ for the response stage, $G$ for the ratio stage and $p_0=P(v_0)$:
+\begin{itemize}
+  \item \textbf{exact responses, linearised ratio:} $\nabla G(p_0)\cdot\big(P(v_0+s\,J)-p_0\big)$;
+  \item \textbf{floored linear responses, exact ratio:} $G\big(\max(0,\ p_0+s\,\nabla P(v_0)\,J)\big)-G(p_0)$.
+\end{itemize}
+The linear responses are floored at zero because the index is defined only for non-negative responses: without the floor, the denominator of \cref{eq:dsi} reached zero or below in the development models and the estimate was undefined. The floor is itself a rectification at the level of each trajectory's response, so this split compares the ratio stage with the rest of the response stage, the rectification and temporal peak inside each trajectory. For each of these estimators the \emph{share of error removed} is $1-\text{MAE}/\text{MAE}_{\text{first order}}$ per model.
+
+\subsection{Rankings from connectivity and from the intact model}
+\label{sec:comparators}
+
+For screening we compare the magnitude of the first-order estimate with rankings that require no silencing. Let $A$ be the type-level connectome, with $A_{ab}$ the number of synapses from cells of type $b$ onto cells of type $a$, and let $P$ be $A$ normalised so that each row sums to one ($P_{ab}$ is the fraction of type $a$'s input synapses that come from type $b$). \emph{Anatomical path weights through $h$ steps} rank type $b$ by the entry $(r,b)$ of $\sum_{k=1}^{h}P^k$, the summed weight of all paths of up to $h$ synaptic steps from $b$ to the readout type $r$; we report $h=1$ to 4, and three steps was the prespecified comparator. \emph{Graph distance} ranks types by the length of their shortest synaptic path to the readout type. \emph{Trained-weight path weights} repeat the three-step calculation with each $A_{ab}$ multiplied by the magnitude of the pair's trained synaptic strength, so that each model has its own ranking. \emph{Input current} ranks types by the magnitude of the synaptic current that their cells deliver to the readout cell in the intact model, integrated over the measurement window and averaged over the stimuli of the readout's preferred polarity. \emph{Direct synapse counts} rank types by their synapses onto the readout cell. These rankings carry no sign or size, so they enter only the screening and ranking comparisons.
+
+\subsection{Scored cases}
+\label{sec:scored}
+
+A \emph{silencing case} is one cell type silenced at one strength, evaluated at one readout condition. The main analysis of both studies uses readout conditions in which the readout is direction selective: it responds to the edges (denominator above \DenomThreshold{}) and its intact DSI is at least \MainDSI{}. This holds for \MainReadouts{} of the \ReadoutConditions{} confirmation readout conditions; \Unresponsive{} have no response to either polarity and \LowDSI{} respond with DSI below \MainDSI{}. Within these readout conditions, a case is scored when the readout still responds after silencing, so that its DSI is defined, and when every readout's voltage stays below \AmpLimit{} times the largest voltage of the intact readouts; larger excursions mark an extreme response of the model rather than a change in tuning. At full silencing this leaves \MainCasesFull{} scored cases (\cref{app:coverage}), of which \LargeFull{} are large effects. Study 2 scores the same cases and also requires every quantity it computes to be finite; at full silencing it scores the same \NCasesFull{} cases. The thresholds were set on the development models before Study 1's confirmation; \cref{app:sensitivity} varies the DSI threshold over \DSIThresholdsOther{} and the amplification limit over \AmpLimitLow{}, \AmpLimitHigh{} and none.
+
+Abolition and amplification are known only after silencing, so the main screen is scored on cases selected with knowledge of the outcome. Study 1's \emph{inclusive screen} avoids this selection: it scores all \Responsive{} responsive readout conditions, whatever their DSI, and all \NetTypes{} types, counts an abolished response as a large effect, and excludes no amplified case.
+
+\subsection{Measures, statistics and decisions}
+\label{sec:measures}
+
+A \emph{large effect} is an exact change with $|\Delta|\ge\LargeThreshold$. \emph{Top-10 precision} is the fraction of the ten highest-ranked cell types that have large effects, where the first-order estimate ranks by $|\hat\Delta|$; types tied at the boundary receive fractional credit, so a constant ranking scores like a random one. \emph{Recall} is the fraction of all large effects that are among the ten. A random ranking would score the fraction of scored types with large effects. The \emph{Spearman correlation} compares the ranking with $|\Delta|$, over all scored types of a readout condition or over its large effects only; it is undefined when a ranking is constant, and paired differences use the readout conditions where both correlations exist. For the size of effects we report the mean absolute error (MAE), the mean signed error ($\hat\Delta-\Delta$) and, among large effects, the fraction of estimates with the wrong sign.
+
+Every measure is first computed per model: screening and correlations are averaged over the model's readout conditions, and errors are pooled over its scored cases. Ensemble values are means over models, with each model weighted equally, and 95\% intervals come from a percentile bootstrap over the \NConfModels{} confirmation models (\BootstrapReps{} resamples; Study 1 used seed \BootstrapSeed{}, and Study 2 shared its resamples across quantities so that paired differences are resampled together). These intervals describe variation within the released ensemble. When Study 1 counts models in which one method beats another, differences within \TieTolerance{} count as ties.
+
+Study 2 compares estimators by the \emph{error ratio}: the MAE of the estimate divided by that of predicting zero change (the mean absolute exact effect) on the same cases, computed per model and then averaged, so that a ratio below 1 beats predicting zero change. Because arms~(a) and~(b) change the quantity being predicted, arms are compared by their error ratios, each on its own target. Its primary strength is 1, and strength 0.5 is reported in the same way. An arm \emph{improves on the reference} if the interval for its paired change in error ratio lies below zero, and it \emph{beats predicting zero change} if the interval for its MAE minus that of predicting zero change lies below zero. Among the arms that improve, the one with the largest reduction in error ratio \emph{dominates} if the interval for its lead over the next lies above zero; if only one arm improves, it dominates. For the estimators of \cref{sec:counterfactual}, the readout (or the ratio stage) dominates if the interval for the difference between the shares of error removed lies above zero. Study 2 also scores top-10 precision against three-step anatomy on the same cases, and the GPU time per model of each estimate and of exact simulation. The development models are summarised by means and ranges only.
+
+\subsection{Prespecification and records}
+\label{sec:records}
+
+\paragraph{Study 1.} The analysis code, thresholds and comparators were frozen (SHA-256 hashes of \FrozenFiles{} files) at \FreezeTime{} UTC on 7 October 2026, before any confirmation response was computed, and the confirmation models finished at \ConfirmationDoneTime{} UTC the same day. Quantities described as post hoc were computed after the confirmation results had been read; they summarise saved outputs.
+
+\paragraph{Study 2.} Study 2 was designed after Study 1's results were known. Its protocol was approved and its \PredPrimaryTotal{} predictions were hashed on 16 October 2026, before any run of this study. The four development models were then simulated and analysed. After reading the development results we added, before freezing, the split of the readout into its two stages, \PredAddendumTotal{} predictions informed by the development results (hashed separately and scored separately), and a disk guard (Amendment~1). The protocol, predictions, configuration and code were then frozen (\FreezeFiles{} files with the hashes of \FreezeAISixInputs{} inputs from Study 1) before any confirmation model was simulated.
+
+Each confirmation model was checked against Study 1's saved records before its outcomes were used: its intact traces, its first derivatives through the peak index, and its fully silenced traces of two cell types (Mi1 and Tm3). During the run, the check of the silenced Tm3 traces of one model failed by a small margin. The two trace checks used an absolute tolerance of $10^{-5}$, ten times stricter than Study 1's own replay check, and in models with large voltages the GPU's unordered summation produces absolute differences of that size. Amendment~2, made before any confirmation outcome was computed, applied Study 1's rule instead: the largest absolute difference divided by the larger of 1 and the largest absolute reference voltage must not exceed $10^{-4}$. Over all confirmation models the largest such difference was \GateNormMax{}. The run was also interrupted once, when the job running it was stopped; incomplete records were set aside and those simulations repeated. Both amendments, the records set aside and a second freeze are listed in \cref{app:records}.
+
+Arm~(a)'s exact effects and all of Study 2's derivatives are new simulations. Arms~(b) and~(c), the estimators of \cref{sec:counterfactual} and the flag rule of \cref{sec:cost} use Study 1's saved simulations of the confirmation models, which Study 1 had already analysed: they were prespecified, but they are not blind confirmations.

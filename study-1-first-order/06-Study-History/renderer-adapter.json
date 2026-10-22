@@ -1,0 +1,13 @@
+{
+  "adapter": "native_flyvis_receptor_chunking",
+  "native_geometry_dtype": "torch.float16",
+  "native_bar_dtype": "torch.float64",
+  "receptor_chunk": 8,
+  "frame_chunk": 1,
+  "pixel_reduction": "complete native pixel vector per receptor",
+  "changes_resolution": false,
+  "changes_rasterization": false,
+  "changes_installed_package_files": false,
+  "full_size_boolean_mask_bytes": 433050625,
+  "maximum_float64_product_bytes": 38440000
+}

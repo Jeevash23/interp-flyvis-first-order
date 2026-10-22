@@ -1,0 +1,58 @@
+[
+  {
+    "path": "01-Papers/sources/flyvis/flyvis/network/network.py",
+    "sha256": "eb172be7db1727a2b1af9f4211c2e1a8655004e8602a4db677e56702a3dfeb43",
+    "source": "installed flyvis1.2.0/g92b3845cc",
+    "license": "MIT (upstream code)",
+    "bytes": 32126
+  },
+  {
+    "path": "01-Papers/sources/flyvis/flyvis/network/dynamics.py",
+    "sha256": "e77d9e049661321798f213b9c7e98b58945214ad94ab11c5c1ee930bfaacbc86",
+    "source": "installed flyvis1.2.0/g92b3845cc",
+    "license": "MIT (upstream code)",
+    "bytes": 8291
+  },
+  {
+    "path": "01-Papers/sources/flyvis/flyvis/analysis/moving_bar_responses.py",
+    "sha256": "015456c35ed9a3523702d0315342740358872f5fcf1e6aeae0ce644f0e13158f",
+    "source": "installed flyvis1.2.0/g92b3845cc",
+    "license": "MIT (upstream code)",
+    "bytes": 28345
+  },
+  {
+    "path": "01-Papers/sources/flyvis/flyvis/datasets/rendering/eye.py",
+    "sha256": "7be1a81423bdf3b9bb8a9a3a106fd949a57786ce798cc55cf7b06b4140f901cf",
+    "source": "installed flyvis1.2.0/g92b3845cc",
+    "license": "MIT (upstream code)",
+    "bytes": 25128
+  },
+  {
+    "path": "01-Papers/sources/flyvis/flyvis/datasets/rendering/utils.py",
+    "sha256": "0ac556fe996b0298772575f0388f26713517840dcb9912552f66d306e5f97b7e",
+    "source": "installed flyvis1.2.0/g92b3845cc",
+    "license": "MIT (upstream code)",
+    "bytes": 19371
+  },
+  {
+    "path": "01-Papers/sources/flyvis/flyvis/datasets/moving_bar.py",
+    "sha256": "c91a0fa3440dfaa8d8ed3419a048539d830d591598771bd1be2b7f6a45420aa4",
+    "source": "installed flyvis1.2.0/g92b3845cc",
+    "license": "MIT (upstream code)",
+    "bytes": 25925
+  },
+  {
+    "path": "01-Papers/sources/flyvis/flyvis_cli/download_pretrained_models.py",
+    "sha256": "ce48e7d6571f0738aafda6ab2e38614899b6fb699814f0c2b2696d29dc490be9",
+    "source": "installed flyvis1.2.0/g92b3845cc",
+    "license": "MIT (upstream code)",
+    "bytes": 4692
+  },
+  {
+    "path": "01-Papers/sources/flyvis/flyvis/connectome/fib25-fib19_v2.2.json",
+    "sha256": "bfbb0766251ff09e22723d0ebbf7b14793e70b3ae8ad0eea64eac9d28223351a",
+    "source": "installed flyvis1.2.0/g92b3845cc",
+    "license": "MIT (upstream code)",
+    "bytes": 618148
+  }
+]

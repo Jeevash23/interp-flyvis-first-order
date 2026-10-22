@@ -1,0 +1,278 @@
+%======================================================================
+\section{Scored cases and exclusions}
+\label{app:coverage}
+
+\Cref{tab:coverage} accounts for every confirmation readout condition and silencing case. Readout conditions are the same at both strengths; abolition and amplification depend on the strength. The \ZeroGradReadouts{} readout conditions whose first-order estimates are all exactly zero are discussed in \cref{sec:abolition}.
+
+\begin{table}[btp]
+  \centering
+  \small
+  \caption{Readout conditions and silencing cases in the \NConfModels{} confirmation models. A case is one cell type silenced at one strength and evaluated at one readout condition (\NetTypes{} cases per readout condition). The main analysis scores cases in direction-selective readout conditions (intact DSI at least \MainDSI{}) whose DSI after silencing is defined and whose readout voltages stay below \AmpLimit{} times the largest intact readout voltage.}
+  \label{tab:coverage}
+  \begin{tabular}{lcc}
+    \toprule
+    & Half strength & Full silencing \\
+    \midrule
+    \tableinput{generated/s1-table-coverage.tex}
+  \end{tabular}
+\end{table}
+
+%======================================================================
+\section{Sensitivity to the thresholds}
+\label{app:sensitivity}
+
+\Cref{tab:sensitivity} repeats Study 1's main comparisons at full silencing for every combination of the prespecified DSI thresholds and amplification limits. Precision rises with the DSI threshold for both rankings, because direction-selective readouts have more large changes. In every row the first-order estimate leads anatomy, and the errors are ordered the same way: clipped estimate, then zero change, then first-order estimate. With a DSI threshold of 0 and no amplification limit, the columns with abolitions reproduce the inclusive screen.
+
+\begin{table}[btp]
+  \centering
+  \footnotesize
+  \setlength{\tabcolsep}{3.6pt}
+  \caption{Full-silencing results for each combination of minimum intact DSI and amplification limit (\emph{none}: no limit), means over the \NConfModels{} confirmation models. Precision counts large changes among the ten highest-ranked cell types; the columns marked \emph{with abolitions} also score abolished responses and count them as large effects. Bold: the prespecified main analysis.}
+  \label{tab:sensitivity}
+  \begin{tabular}{ccrrcccccccc}
+    \toprule
+    & & & & \multicolumn{2}{c}{Top-10 precision} & \multicolumn{2}{c}{With abolitions} & \multicolumn{3}{c}{Mean absolute error} \\
+    \cmidrule(lr){5-6}\cmidrule(lr){7-8}\cmidrule(lr){9-11}
+    Min.\ DSI & Amp.\ limit & Readouts & Cases & First-order & Anatomy & First-order & Anatomy & First-order & Zero & Clipped \\
+    \midrule
+    \tableinput{generated/s1-table-sensitivity.tex}
+  \end{tabular}
+\end{table}
+
+%======================================================================
+\section{Tuning groups}
+\label{app:clusters}
+
+\citet{lappalainen2024connectome} grouped the released models by the tuning of T4c: in the confirmation set, \ClusterUpModels{} prefer upward motion, \ClusterDownModels{} downward motion and \ClusterWeakModels{} are weakly tuned (\cref{tab:clusters}). The first-order estimate screened well in all three groups. At full silencing its error exceeded that of zero change in every group; at half strength it was slightly smaller in the upward-tuned group (\ClusterUpMaeFOHalf{} against \ClusterUpMaeZeroHalf{}) and larger in the other two. Errors were largest in the downward and weakly tuned groups, whose T4c tuning differs from that measured in flies; the group describes T4c only, and a model's other seven readouts can be tuned well or poorly.
+
+\begin{table}[btp]
+  \centering
+  \small
+  \caption{Study 1's main results by T4c tuning group, means over the confirmation models in each group.}
+  \label{tab:clusters}
+  \begin{tabular}{clcccccc}
+    \toprule
+    & & & Top-10 & \multicolumn{3}{c}{Mean absolute error} \\
+    \cmidrule(lr){5-7}
+    $s$ & T4c tuning & Models & precision & First-order & Zero & Clipped \\
+    \midrule
+    \tableinput{generated/s1-table-clusters.tex}
+  \end{tabular}
+\end{table}
+
+%======================================================================
+\section{Development models across strengths}
+\label{app:development}
+
+The four development models were silenced at five strengths on the same stimuli as the confirmation models. Each strength is scored on its own cases, because the set of large changes, abolitions and amplified responses changes with strength. With four models, the tables give means, and Study 1's table also ranges, rather than intervals. \Cref{tab:s1-development} gives Study 1's measures and \cref{tab:s2-development} the error ratios of Study 2's estimators.
+
+\begin{table}[btp]
+  \centering
+  \small
+  \setlength{\tabcolsep}{4.5pt}
+  \caption{Study 1 in the development models (\DevModelList{}) at five silencing strengths: top-10 precision of the first-order estimate and of three-step anatomy, the Spearman correlation of the first-order ranking among large effects, mean absolute errors, the difference between first-order and zero-change errors (mean and range over the four models) and the percentage of large changes predicted with the wrong sign.}
+  \label{tab:s1-development}
+  \begin{tabular}{cccccccccc}
+    \toprule
+    & \multicolumn{2}{c}{Top-10 precision} & & \multicolumn{3}{c}{Mean absolute error} & First-order & Wrong \\
+    \cmidrule(lr){2-3}\cmidrule(lr){5-7}
+    $s$ & First-order & Anatomy & $\rho$, large & First-order & Zero & Clipped & minus zero [range] & sign (\%) \\
+    \midrule
+    \tableinput{generated/s1-table-development.tex}
+  \end{tabular}
+\end{table}
+
+\begin{table}[btp]
+\centering
+\caption{Error ratios of Study 2's estimators across five strengths in the four development models (means over models).}
+\label{tab:s2-development}
+\small
+\begin{tabular}{@{}llllll@{}}
+\toprule
+& \multicolumn{5}{c}{Silencing strength $s$} \\
+\cmidrule(l){2-6}
+Estimator & 0.1 & 0.25 & 0.5 & 0.75 & 1 \\
+\midrule
+\tableinput{generated/s2-table-development.tex}
+\bottomrule
+\end{tabular}
+\end{table}
+
+%======================================================================
+\section{Pairs of silenced cell types}
+\label{app:pairs}
+
+The earlier four-model study silenced eight pairs of input types to T4 and T5 together, on its own stimuli. For each pair we compare the joint effect with the sum of the two single effects: the interaction is the joint change minus both single changes, computed on the DSI and, separately, on the mean voltage of each preferred-polarity response. \Cref{tab:pairs} summarises the interactions at full silencing in the direction-selective readout conditions, as medians with quartiles over readout conditions (post hoc quartiles). The pairs of T4 inputs interact strongly on the DSI, most of all Mi1 with Mi4 (median absolute interaction \PairMiOneMiFourDSI{}), while the pairs of T5 inputs interact weakly (medians at most \PairTmMaxDSI{}). When both single effects had the same sign, the joint effect was usually smaller than their sum: in most such readout conditions for every pair of T4 inputs, and for \PairTmSubadditiveMajority{} of the \PairTmCount{} pairs of T5 inputs. A bounded index can produce such subadditivity by itself, so these interactions describe the models' output rather than identify interacting circuit elements.
+
+\begin{table}[btp]
+  \centering
+  \footnotesize
+  \setlength{\tabcolsep}{4pt}
+  \caption{Interactions between pairs of silenced cell types at full silencing in the development models, median [quartiles] over direction-selective readout conditions. Voltage interactions are root-mean-square values over the preferred-polarity stimuli in model units; the relative value divides by the sum of the two single effects' root-mean-square values. Last column: readout conditions with a subadditive DSI change among those whose two single effects have the same sign.}
+  \label{tab:pairs}
+  \begin{tabular}{lccccc}
+    \toprule
+    Pair & Readouts (models) & $|$DSI interaction$|$ & Voltage interaction & Relative voltage & Subadditive \\
+    \midrule
+    \tableinput{generated/s1-table-pairs.tex}
+  \end{tabular}
+\end{table}
+
+%======================================================================
+\section{Biological context}
+\label{app:biology}
+
+\Cref{tab:biology} lists, for the four development models and the fast stimulus, the effect of fully silencing cell types that have been silenced in flies. The amplitude ratio compares the summed preferred-polarity peak responses after and before silencing. Silencing Mi1 abolished the responses of T4 in most readout conditions (DSI defined after silencing in \BioMiOneTFourDefined{} of \BioMiOneTFourConditions{}), and silencing Tm3 reduced them (median ratio \BioTmThreeTFourRatio{}). These two results agree in direction with the silencing simulations of the FlyVis authors, in which removing Mi1 removed the T4c response and removing Tm3 reduced it~\citep{lappalainen2024review}. Silencing Mi4 and Mi9 increased the T4 responses (median ratios \BioMiFourTFourRatio{} and \BioMiNineTFourRatio{}) and lowered their DSI (median changes \BioMiFourTFourDSI{} and \BioMiNineTFourDSI{}), whereas the FlyVis authors found that removing Mi4 left the T4c response in place and removing Mi9 had no effect on it. Their comparison averaged one tuning group and showed standardised responses, so the two analyses measure different quantities. Taking the median over all \NModels{} models, \citet{ryan2026silencing} found the same behaviour for Mi1 and Mi4 and compared it with experiments: silencing Mi1 nearly abolished the T4 response and silencing Mi4 increased it, where flies showed a reduction and no change. Silencing both CT1 compartments together roughly doubled the responses of T4 and T5 (median ratios \BioCTOneTFourRatio{} and \BioCTOneTFiveRatio{}) and lowered their DSI (median changes \BioCTOneTFourDSI{} and \BioCTOneTFiveDSI{}). None of these model results is a test against biology: the experiments silence neurons genetically for much longer, and they measure calcium signals or the responses of other cells~\citep{strother2017emergence,ammer2015functional,serbe2016comprehensive,braun2023disynaptic,henning2026inhibitory}.
+
+\begin{table}[btp]
+  \centering
+  \footnotesize
+  \setlength{\tabcolsep}{5pt}
+  \caption{Full silencing of selected cell types in the four development models (fast edges): median amplitude ratio, number of readout conditions with a defined DSI after silencing out of all, and median DSI change, for the T4 and T5 readouts. The CT1 row silences both of its compartments together.}
+  \label{tab:biology}
+  \begin{tabular}{lcccccc}
+    \toprule
+    & \multicolumn{3}{c}{T4 readouts} & \multicolumn{3}{c}{T5 readouts} \\
+    \cmidrule(lr){2-4}\cmidrule(lr){5-7}
+    Silenced & Amplitude ratio & DSI defined & DSI change & Amplitude ratio & DSI defined & DSI change \\
+    \midrule
+    \tableinput{generated/s1-table-biology.tex}
+  \end{tabular}
+\end{table}
+
+%======================================================================
+\section{Results of Study 1 for every model}
+\label{app:models}
+
+\Cref{tab:models} lists Study 1's main results at full silencing for every model. In the confirmation models, the first-order error exceeds the zero-change error in \MaeWorseFull{} of \NConfModels{}, and its screening precision exceeds that of anatomy in \PrecWinsAnatFull{}.
+
+\begin{table}[bp]
+  \centering
+  \scriptsize
+  \setlength{\tabcolsep}{3.4pt}
+  \renewcommand{\arraystretch}{0.97}
+  \caption{Full-silencing results per model in Study 1's main analysis. Group: T4c tuning (up, down, weak). Readouts: direction-selective readout conditions; cases: scored silencing cases. Precision: top-10 precision of the first-order estimate (FO) and three-step anatomy; $\rho$: Spearman correlation among large effects (--: undefined in every readout condition); errors: mean absolute error of the first-order estimate, zero change and the clipped estimate; bias: mean signed error of the first-order estimate; wrong sign: percentage of large changes.}
+  \label{tab:models}
+  \begin{tabular}{llrrcccccccrr}
+    \toprule
+    & & & & \multicolumn{2}{c}{Precision} & \multicolumn{2}{c}{$\rho$, large} & \multicolumn{3}{c}{Mean absolute error} & & Wrong \\
+    \cmidrule(lr){5-6}\cmidrule(lr){7-8}\cmidrule(lr){9-11}
+    Model & Group & Readouts & Cases & FO & Anatomy & FO & Anatomy & FO & Zero & Clipped & Bias & sign \\
+    \midrule
+    \tableinput{generated/s1-table-models.tex}
+  \end{tabular}
+\end{table}
+
+%======================================================================
+\section{Verification and checks}
+\label{app:verification}
+
+\paragraph{Study 1.} The analysis code, thresholds, comparators and model inputs were frozen with SHA-256 hashes of \FrozenFiles{} files at \FreezeTime{} UTC on 7 October 2026, before any response of a confirmation model was computed; the confirmation models finished at \ConfirmationDoneTime{} UTC the same day. All frozen files still match their hashes, as do the \OriginalFiles{} files of the earlier study. Every saved response record (\CheckedFilesConf{} files for the confirmation models and \CheckedFilesDev{} for the development models) matched its checksum, and its peaks, denominators and DSI values were recomputed in double precision from the stored voltage traces by code separate from the simulation; the largest DSI difference was \DsiRecomputeMaxErr{}. One silencing case per model, chosen with a fixed seed, was replayed on the CPU with the FlyVis package's own update step, silencing by scaling the weights of the type's outgoing synapses; across the \ReplayCount{} replays the largest difference from the saved trace was \ReplayMaxErr{} of the trace's scale. The trained synaptic strengths used for the trained-weight ranking were matched to the FlyVis parameter interface for all \IndexedTypePairs{} type pairs in every model. Simulations end at the last measured time step. Where the development models reused traces from the earlier study, the traces were cut at that step and their recomputed metrics matched the original ones.
+
+\paragraph{Study 2.}
+\label{app:checks}
+Before its protocol was approved, a pilot on development model 000 checked the code that computes the derivatives and simulates mean replacement against Study 1's saved results; it computed no outcome. The derivative recursion of \cref{sec:estimators} agreed with nested forward-mode automatic differentiation of Study 1's own update to within \PilotAutodiffMax{} (double precision, three cell types under silencing and two under mean replacement). The first derivatives through the peak index reproduced Study 1's saved reverse-mode derivatives to within \PilotGradMax{}, every one within that study's tolerance. Central differences of the exact simulation with a step of $10^{-6}$ reproduced the first derivatives to within \PilotFDJMax{}, but gave second derivatives of the readout traces of \PilotFDKMin{}--\PilotFDKMax{} at their largest, against at most \PilotAutoKMax{} from automatic differentiation: neurons cross their thresholds within that small a change of the strength, and automatic differentiation, which gives the rectifier zero second derivative, does not see the crossings.
+
+During the runs each confirmation model was checked again before its outcomes were used: its intact traces and its fully silenced Mi1 and Tm3 traces against Study 1's saved traces, and its first derivatives against the saved derivatives. Under the rule of Amendment~2 the largest normalised trace difference over the \NConfModels{} models was \GateNormMax{} (tolerance $10^{-4}$); the largest absolute difference, \GateAbsTmThreeMax{} for the silenced Tm3 traces of model \GateAbsTmThreeModel{}, shows why the original absolute tolerance of $10^{-5}$ was too strict. The case-level file behind \cref{fig:s2-scatter} and \cref{sec:second} reproduces the frozen model-level errors exactly.
+
+%======================================================================
+\section{Further results of Study 2}
+\label{app:tables}
+
+\begin{table}[H]
+\centering
+\caption{Every combination of intervention, index and estimator (confirmation models). Error ratio with 95\% bootstrap interval at full and half strength; wrong signs and top-10 precision at full strength. The first, second, third and fifth rows are the reference and arms~(c), (b) and~(a).}
+\label{tab:factorial}
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lllllll@{}}
+\toprule
+Intervention & Index & Estimator & Error ratio, $s=1$ & Error ratio, $s=0.5$ & Wrong signs & Top-10 \\
+\midrule
+\tableinput{generated/s2-table-factorial.tex}
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Share of the first-order error removed by each estimator of \cref{sec:counterfactual}, for every combination of intervention and index (confirmation models, full strength; means over models), and the prespecified decisions: which source of nonlinearity dominates (readout or network), and which stage of the readout (ratio or responses).}
+\label{tab:mechanism-all}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}llllllll@{}}
+\toprule
+Intervention & Index & \makecell[l]{Exact\\ trajectory,\\ linearised\\ readout} & \makecell[l]{Linearised\\ trajectory,\\ exact\\ readout} & \makecell[l]{Exact\\ responses,\\ linearised\\ ratio} & \makecell[l]{Floored\\ linear\\ responses,\\ exact ratio} & \makecell[l]{Readout\\ or\\ network} & \makecell[l]{Ratio\\ or\\ responses} \\
+\midrule
+\tableinput{generated/s2-table-mechanism-all.tex}
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{Screening, flagging and simulating (confirmation models, full silencing). For each model and stimulus the $k$ cell types with the largest absolute first-order estimate over the scored readouts are simulated, and the rest are predicted by zero or by the clipped first-order estimate. Error removed: $1-\mathrm{MAE}/\mathrm{MAE}_{\text{zero change}}$. Seconds: Study 1's recorded derivative time plus the recorded simulation times of the flagged types, per model. The rule pays if its error removed per second exceeds that of simulating every type.}
+\label{tab:flag}
+\small
+\begin{tabular}{@{}lllllll@{}}
+\toprule
+$k$ & Rest predicted by & MAE & Error removed & Seconds & Removed per second & Pays \\
+\midrule
+\tableinput{generated/s2-table-flag.tex}
+\bottomrule
+\end{tabular}
+\end{table}
+
+%======================================================================
+\section{The predictions of Study 2}
+\label{app:predictions}
+
+\Cref{tab:predictions} lists the \PredPrimaryTotal{} predictions hashed before the development phase, and \cref{tab:addendum} the \PredAddendumTotal{} predictions informed by the development results, hashed separately before the freeze. Each is evaluated by the frozen analysis code at full strength in the confirmation models. Quantities, predictions and outcomes are printed as recorded, except that the records' label for Study 1's estimate is printed as ``the reference''. In the labels, a, b and c are the three arms and d is the flag rule of \cref{sec:cost}.
+
+{\small
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.3\linewidth}>{\raggedright\arraybackslash}p{0.25\linewidth}>{\raggedright\arraybackslash}p{0.3\linewidth}l@{}}
+\caption{The predictions of Study 2 hashed before the development phase.}\label{tab:predictions}\\
+\toprule
+Quantity & Prediction & Observed & \\
+\midrule
+\endfirsthead
+\toprule
+Quantity & Prediction & Observed & \\
+\midrule
+\endhead
+\tableinput{generated/s2-table-predictions.tex}
+\bottomrule
+\end{longtable}
+
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.3\linewidth}>{\raggedright\arraybackslash}p{0.25\linewidth}>{\raggedright\arraybackslash}p{0.3\linewidth}l@{}}
+\caption{The predictions of Study 2 informed by the development results (Amendment~1).}\label{tab:addendum}\\
+\toprule
+Quantity & Prediction & Observed & \\
+\midrule
+\endfirsthead
+\toprule
+Quantity & Prediction & Observed & \\
+\midrule
+\endhead
+\tableinput{generated/s2-table-addendum.tex}
+\bottomrule
+\end{longtable}
+}
+
+%======================================================================
+\section{The records of Study 2}
+\label{app:records}
+
+All times are UTC on 16 and 17 October 2026.
+\begin{itemize}
+  \item 09:51, 16 October: the predictions were hashed after the protocol was approved, before any run of the study.
+  \item 09:52--12:03: the four development models were simulated and analysed. A fault in the runner (a thread setting applied twice) stopped it after the first model; it was corrected and the run resumed.
+  \item 13:40: Amendment~1 (the split of the readout into its two stages, the development-informed predictions and the disk guard) was recorded, and the study was frozen (\FreezeFiles{} files and the hashes of \FreezeAISixInputs{} inputs from Study 1). The approved protocol is kept unchanged beside the amended one.
+  \item 13:45: the confirmation run started. The run records were written to an external drive.
+  \item 15:16: the run stopped at model 009, whose silenced Tm3 traces differed from the saved ones by slightly more than the absolute tolerance of $10^{-5}$ (\cref{sec:records}). The remaining models were run with the frozen code, which applies the checks per model; model 013 failed the same check.
+  \item 17:37: the run was interrupted partway through model 019, when the job running it was stopped.
+  \item 17:53: Amendment~2 replaced the absolute tolerance of the two trace checks by Study 1's normalised replay rule, and the study was frozen a second time (\FreezeTwoFiles{} files, including the hash of the first freeze); run records then existed for \FreezeTwoRecordModels{} confirmation models. The incomplete records of models 009, 013 and 019 were set aside and kept, and those simulations were repeated.
+  \item 03:22, 17 October: all \NConfModels{} confirmation models were complete, with no failed check; the analysis followed.
+\end{itemize}
+The post hoc analyses (\cref{sec:second}, \cref{fig:s2-scatter}) were written after the confirmation results were read and read the saved records only.

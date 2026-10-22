@@ -1,0 +1,743 @@
+{
+ "release": "flyvis-first-order",
+ "changed_files": {
+  "02-Code/runtime.env": {
+   "kind": "redacted",
+   "original_sha256": "4228ff9c17d286f604d7079555727183a329c8dc5c6379f5dfa6079174dd99b5",
+   "release_sha256": "b69706fb5a28d2e3d0b441af1332a7fcf789429a78193af267b75f1d5aad435a",
+   "redactions": {
+    "time zone": 1
+   }
+  },
+  "02-Code/stage1/build_report.py": {
+   "kind": "redacted",
+   "original_sha256": "4c7e32b6cb6662d1531fd8dbdd0154ee0a42031f2b7ea4a07c84dbb057b3bc76",
+   "release_sha256": "3c64611654df6443c713327e20e2db514b83e37e57da87be9e17c7441aa938ef",
+   "redactions": {
+    "machine details": 1
+   }
+  },
+  "02-Code/stage1/common.py": {
+   "kind": "adapted",
+   "original_sha256": "e465cb2e1e16b52433e9a642365f2ca6c910ef8d60dbe1bbe91146de648fff50",
+   "release_sha256": "9834aeb2355a31a04faf0cc7611047f02983b6f0b72e118196f94f4884980f41",
+   "frozen_in": [
+    "study/freeze.json",
+    "06-Study-History/stage1/freeze-manifest.json"
+   ],
+   "reasons": [
+    "flyvis's TIMEZONE, used only for the time stamps of its log messages, is UTC (it was the local time zone)"
+   ]
+  },
+  "02-Code/stage1/gpu_lock.py": {
+   "kind": "adapted",
+   "original_sha256": "b7e61acb3312a21ee9af93a96c5972eb49d43e9b493c9f32646a66a51e88c390",
+   "release_sha256": "2f97c9eadb2febff9cb163ba0accba669e39281ad29e43690bf6667082d5c553",
+   "frozen_in": [
+    "study/freeze.json",
+    "06-Study-History/stage1/freeze-manifest.json"
+   ],
+   "reasons": [
+    "the GPU lock file comes from GPU_LOCK (default gpu.lock in the release root)"
+   ]
+  },
+  "06-Study-History/environment.json": {
+   "kind": "redacted",
+   "original_sha256": "aa7f3d5d0d2f1aaf4de599aa867cf5d44d740a7a4de2c8a744d7c8c616c68828",
+   "release_sha256": "c097502a20dcaceca92246942c72fba70b2d0f4fcfaec68b688efa23e6f924e7",
+   "redactions": {
+    "absolute path": 1,
+    "platform string": 1
+   }
+  },
+  "06-Study-History/qualification-protocol.sha256": {
+   "kind": "redacted",
+   "original_sha256": "cc9479f6d23a44666e9d0abf3ceb9611059b741215470f6fd66121890ca9c834",
+   "release_sha256": "b0b5b175bd850c7265c97f555fd3d47c7d65b38d722701a3df003f5d9f465659",
+   "redactions": {
+    "project folder": 1,
+    "portfolio folder": 1
+   }
+  },
+  "06-Study-History/stage1/gpu-resource-final-model.txt": {
+   "kind": "redacted",
+   "original_sha256": "4216bc2b73a613f5ee53f3bdd45b3e9a363953d9809ae919fe0b404880c4bc95",
+   "release_sha256": "50c91bbc486e77128efb8e33d8b19da308e71c2276b925da223984ccd748cdb7",
+   "redactions": {
+    "local clock time": 1
+   }
+  },
+  "RESULTS.md": {
+   "kind": "redacted",
+   "original_sha256": "6bf1db5e9e67c5226456e5cc3accd0b336035c2313b07eeb627a24bd920a6612",
+   "release_sha256": "d6bfd75dbfe740dcf6c0484edab0d4e99323cb72d2a243612f01dfed060cf324",
+   "redactions": {
+    "sibling project": 1
+   }
+  },
+  "provenance/revision-environment.json": {
+   "kind": "redacted",
+   "original_sha256": "32605e8b1044d66d90af128ad5ee08c469d291a2f4c36b0f8ce0198ced10a20f",
+   "release_sha256": "90ae2961908e362fbd3e806ed68823ce2f4431d79549f2c7d8f7ace3e9038148",
+   "frozen_in": [
+    "study/freeze.json"
+   ],
+   "redactions": {
+    "absolute path": 1,
+    "platform string": 1
+   }
+  },
+  "study/AMENDMENTS.md": {
+   "kind": "redacted",
+   "original_sha256": "2c2429117dbc3d5c2d11c4cb9f096456882ab376f5c0665f43d4ba8e445a62aa",
+   "release_sha256": "79f59d2b7b4b6f892ecf99c68e1b86ad5f16c81fcea863ac17c104304feaf172",
+   "redactions": {
+    "sibling project": 1
+   }
+  },
+  "study/STATUS.md": {
+   "kind": "redacted",
+   "original_sha256": "9df345f8843d47cc58ac3633fc1e6b9d47eae5b71f17af384c87df41c242ad4a",
+   "release_sha256": "2dd825c2a9c14899c411455eb149b948365b74a7e0d492a8e7a54c4392fbd6c5",
+   "redactions": {
+    "approval wording": 1
+   }
+  },
+  "study/code/finish_study.py": {
+   "kind": "adapted",
+   "original_sha256": "38dc76f9ceddc21129c9f571167ff87dea68d74e3c898af7f9c6d285bb0bf68a",
+   "release_sha256": "04163188ea86051cb9f52cc8e65cff6fc5a2c5a521dfe3aedf374eb577fcf14b",
+   "reasons": [
+    "the GPU lock file comes from GPU_LOCK (default gpu.lock in the release root)"
+   ]
+  }
+ },
+ "frozen_files_not_shipped": {
+  ".venv-stage1/lib/python3.12/site-packages/flyvis/network/dynamics.py": {
+   "original_sha256": "e77d9e049661321798f213b9c7e98b58945214ad94ab11c5c1ee930bfaacbc86",
+   "reason": "file of the installed flyvis 1.2.0 package (pip install flyvis==1.2.0)"
+  },
+  ".venv-stage1/lib/python3.12/site-packages/flyvis/network/initialization.py": {
+   "original_sha256": "5ae82fdaa0361afb0f1646aba1f8abfeb89870c6747ccdd968d5f88eda3ab82c",
+   "reason": "file of the installed flyvis 1.2.0 package (pip install flyvis==1.2.0)"
+  },
+  ".venv-stage1/lib/python3.12/site-packages/flyvis/network/network.py": {
+   "original_sha256": "eb172be7db1727a2b1af9f4211c2e1a8655004e8602a4db677e56702a3dfeb43",
+   "reason": "file of the installed flyvis 1.2.0 package (pip install flyvis==1.2.0)"
+  },
+  "01-Papers/sources/flyvis/flyvis/connectome/fib25-fib19_v2.2.json": {
+   "original_sha256": "bfbb0766251ff09e22723d0ebbf7b14793e70b3ae8ad0eea64eac9d28223351a",
+   "reason": "file of the FlyVis source distribution kept by the earlier stage (part of flyvis 1.2.0)"
+  },
+  "03-Data/flyvis-root/results/flow/0000/000/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/000/best_chkpt": {
+   "original_sha256": "d8a57a022aa18ca338599be713af9db29b89cde4b00098ffe42b78f0d583e46a",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/000/chkpts/chkpt_00000": {
+   "original_sha256": "d0e42857e738d0315897c2d50fde9eb3fb1a3fb1f071d55dfc13d53d72bccc3f",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/001/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/001/best_chkpt": {
+   "original_sha256": "f351b025e25fc02e6ab9e2a80f6fd641fc62f5b3f33210e0a2318af5cc0614ae",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/001/chkpts/chkpt_00000": {
+   "original_sha256": "d970fa9cd5082cf678cc4ef116728b64b4e7d0bbc99350d36d128f9556b0221a",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/002/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/002/best_chkpt": {
+   "original_sha256": "34c70cdc875f9602053f31acf03443cc071982923a9407a367666086637ae866",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/002/chkpts/chkpt_00000": {
+   "original_sha256": "43e68e8aaddb238b6f522240ba650123c88a42ed7e01d1f378129bea45b771ab",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/003/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/003/best_chkpt": {
+   "original_sha256": "b6764982671b5f0051e682360adc52f8ed6493e478fb9c0edbf66f1d256e1501",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/003/chkpts/chkpt_00000": {
+   "original_sha256": "f2644780aeaa131437bedcb21038b391ee439f9eacfb5bfc3cd05edd22e6255d",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/004/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/004/best_chkpt": {
+   "original_sha256": "d3e5ffd015020dec45ccb87c92ceb8091a8f8e65a83a553a9dc3887dd1b6072d",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/004/chkpts/chkpt_00000": {
+   "original_sha256": "0a8cb1e39d4f594f1ec1518388c448ec32effcc5e10760b403990a18bf9d23be",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/005/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/005/best_chkpt": {
+   "original_sha256": "237db8bd6b015aacd54a0719014ef5a146236a6b4e2ab769b81d314907753ffa",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/005/chkpts/chkpt_00000": {
+   "original_sha256": "8066e710eb113e4cf4e3f3d218f972b8f17ab922daad8fca358d644b906cc926",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/006/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/006/best_chkpt": {
+   "original_sha256": "6fb45c35839d04f78073b5a8e67fabcf59131fbf340925459952a5ff1de3b4ea",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/006/chkpts/chkpt_00000": {
+   "original_sha256": "e802cf3dbdea7d86fd99136393e4a150fab5ee46c36560d0f187063cf191ee4e",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/007/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/007/best_chkpt": {
+   "original_sha256": "cd1b53eef47db91d3529613a98d0879a739390dcfc53d6148a6953ff9fb13469",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/007/chkpts/chkpt_00000": {
+   "original_sha256": "bd7a350499b6c223f82e19b02b83fa9e50f6c00f462746da5d2d0e08a95ce393",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/008/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/008/best_chkpt": {
+   "original_sha256": "e54b1f0790f97ef791b7aeee056fb88a2bfc7ab4329dd9f7dca10300eb945897",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/008/chkpts/chkpt_00000": {
+   "original_sha256": "bba5f420ac3812fc92448a8809a5db5906466ec053114fb08b92a65a190a3ec4",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/009/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/009/best_chkpt": {
+   "original_sha256": "37c2676a83587dd7642cbbd3a0d0be219cb999d587ac1830285bdc838f4891f6",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/009/chkpts/chkpt_00000": {
+   "original_sha256": "0b6f3bb371f0896560cc82bfe05fc200244311cbc8fba167ebb2eb3c4ef8bd85",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/010/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/010/best_chkpt": {
+   "original_sha256": "ed8be3c396c7a549b2d8b85cd5b14527c43eec58b5ddaae054d18ab9a2b6a300",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/010/chkpts/chkpt_00000": {
+   "original_sha256": "d25ae1efadb57d6df1c85e67fc1a6ff6ab970bc980af809fb24b380d8dc83d35",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/011/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/011/best_chkpt": {
+   "original_sha256": "bad9dabe0e9432a1f305a4544a847a1fdf7da871021f6d69b1e52a3fa7fcda67",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/011/chkpts/chkpt_00000": {
+   "original_sha256": "d7066d79621e4f6fe58a329e383e898781a6737f548b48b25ff64582b7c01f77",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/012/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/012/best_chkpt": {
+   "original_sha256": "d0c816909660cae35811b1631b3ff8cbd40a3acc076b6b083f4c88abbfc19f60",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/012/chkpts/chkpt_00000": {
+   "original_sha256": "9f05a0de422649b2923749e9c692f5ebae5da7d9148de9122ff8754a47e742ed",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/013/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/013/best_chkpt": {
+   "original_sha256": "bde19f62d1a9ce2fce20fce68b72cced1a082a5192c210f4a69c89708e1476d8",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/013/chkpts/chkpt_00000": {
+   "original_sha256": "b09ea4cb75f56b6753e7eb31c04d844bce2d0850bec76bbb731e8874edc6d114",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/014/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/014/best_chkpt": {
+   "original_sha256": "0bcac347539e36750a00adf71e7c1236a341c4b363cf6b84c0fb6fed349cf967",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/014/chkpts/chkpt_00000": {
+   "original_sha256": "8b7916b1fdc7b737dd535b4ac9c18e71a6e9b2754aacc2dcfab2bb81596a49e0",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/015/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/015/best_chkpt": {
+   "original_sha256": "02d2cd384f7f8040582ab33bd52fa2c44edce50ca5be27897d0f105475d819cb",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/015/chkpts/chkpt_00000": {
+   "original_sha256": "e3a7a95e7be582560ccfd8a553d44597d2525a5db9b4bce20f4966b2aa521a76",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/016/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/016/best_chkpt": {
+   "original_sha256": "8fbfc7d39d48eca441e0e23a735dcbedb0a3e364b3a9de48cfa651d0e7c8e7bc",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/016/chkpts/chkpt_00000": {
+   "original_sha256": "e8a2a50dee28c00ccf611d6402c5336ecc4f30f63e26961cf16958cec49abce2",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/017/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/017/best_chkpt": {
+   "original_sha256": "299ac9ab1a50e5dfc5f1716627a9b09f7c5abd8820436eda63f4a178c555e1e1",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/017/chkpts/chkpt_00000": {
+   "original_sha256": "9118f753f7ba5fbdaedf72d0b170fd82097f94df32a4ec945032fb35a7bc7bc7",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/018/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/018/best_chkpt": {
+   "original_sha256": "8c738269fdbecce5da3e4cc5d44718910be1adc61fc693959792eb1817960277",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/018/chkpts/chkpt_00000": {
+   "original_sha256": "8746384161720d73b3c064e3ac536f37341416390be1b8ce36616a826e614f49",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/019/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/019/best_chkpt": {
+   "original_sha256": "6fb18d56f4c014ccf7a53b6914df6fe93f8f594d28b056ebe056a919d70aa596",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/019/chkpts/chkpt_00000": {
+   "original_sha256": "5296e5bc4e8a7fea9bb845f069833332aa59ec869412f39ec79ceecc76ffa4f1",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/020/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/020/best_chkpt": {
+   "original_sha256": "03061634c6c83a2b4560005d0e97f40103ef5767d0a831b5205256bc47919ef9",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/020/chkpts/chkpt_00000": {
+   "original_sha256": "bc3db0f9747677103175597be7f480c1dc31536cd35cc5f3a0d4b583cb6febf6",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/021/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/021/best_chkpt": {
+   "original_sha256": "9285061e7e0af9b9e23e16a976f3ad158808a0a708c24590de1b85c23aea0727",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/021/chkpts/chkpt_00000": {
+   "original_sha256": "bf2cde69d7625d1b6ad5da420fab9d3e6d6de87a8aa42b6cc150fe025dd7245d",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/022/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/022/best_chkpt": {
+   "original_sha256": "dd864e23444915ad4bc4fab9d1c401567923c31388c174d3b3caf2b7874d4383",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/022/chkpts/chkpt_00000": {
+   "original_sha256": "12d15d6d606c3681762d4f6b587b465527fee676f6e7cdb8589ad57333d8c441",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/023/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/023/best_chkpt": {
+   "original_sha256": "41a283e29e36ad7dbf2be0604138abd7887b87a1e7d168cf17d3f21103d5b88d",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/023/chkpts/chkpt_00000": {
+   "original_sha256": "6915c254e4de0f1854f7d5c85440421ea4d10658226560e785fb1606633af3c0",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/024/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/024/best_chkpt": {
+   "original_sha256": "8400223db1a0702c2ec4eb863e47918fdcc5b998f6718c4f8b0f1a41264f386a",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/024/chkpts/chkpt_00000": {
+   "original_sha256": "00df16e8308194f16f58db081508154a5df5aad7756193d883a39a4b3ba153c4",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/025/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/025/best_chkpt": {
+   "original_sha256": "3c780db8bc7c1d5fa614e2475e4dc42b2ad15375b522f6e7ed8e153fe62847e4",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/025/chkpts/chkpt_00000": {
+   "original_sha256": "06dea4a4ff6d11aea8036e300c8fa6dcd649367f34f0357bb0f217ca3ab17504",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/026/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/026/best_chkpt": {
+   "original_sha256": "6981fb1933705bfcb13b072f4c26520e3c3af5cb7e87652efbb6877ddf68b3e9",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/026/chkpts/chkpt_00000": {
+   "original_sha256": "e3d1896545cbf7c59e5813a11363218f748011ecefa6641e2cf3f038802e1d6d",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/027/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/027/best_chkpt": {
+   "original_sha256": "5f3723c0011f6d561ecb3861b2a2b8e13ea923011fd23a10f7c33ff0cbb6b6e7",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/027/chkpts/chkpt_00000": {
+   "original_sha256": "3432e0a955d8fe38250bc7ca6c989f59b8dbed78c2d6607a1ce1608a9b89147a",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/028/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/028/best_chkpt": {
+   "original_sha256": "b19c5c1e94760ec1479bea2adba122441c2c4c95e2ca174526a922d964395b64",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/028/chkpts/chkpt_00000": {
+   "original_sha256": "386721618cf7679e0e70ab05ae0e6746f83e8af30a4682478e4c2d49429d2dce",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/029/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/029/best_chkpt": {
+   "original_sha256": "2454e817485656d040fcee69eddc30e6ff7cd587ecd6a908ef3564e03ec95835",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/029/chkpts/chkpt_00000": {
+   "original_sha256": "3de9d0cfa563cfa1aea1925834bfbc1edac4664dc5aa75e33e99d91959afe639",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/030/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/030/best_chkpt": {
+   "original_sha256": "2b7a878d5f4328e2a26291522d2807e5b5a47410da16c15fa0fd55c195d464f7",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/030/chkpts/chkpt_00000": {
+   "original_sha256": "ee7f838f7bb1349f41aecc3b583b8e20585478454dea7b4832da2f092b66bcd4",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/031/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/031/best_chkpt": {
+   "original_sha256": "1b6a145b53375ba5eea53c30aacd1ad916f756458acdce1c11dfbf733bb6c49a",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/031/chkpts/chkpt_00000": {
+   "original_sha256": "6cb3d2f5f2479526c50566646515d62b529988df96538ded24b0cc4a6da050de",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/032/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/032/best_chkpt": {
+   "original_sha256": "e8b23729a4951ab3584d8d6fb7bf9b54e4a675ab05fa4afb3d49d9dde07ea858",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/032/chkpts/chkpt_00000": {
+   "original_sha256": "6436dcca73bcf89aea0330b3b929b4173201015589912fd0be7ef2dcda924b6b",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/033/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/033/best_chkpt": {
+   "original_sha256": "4dead734972b429850aca796eb23874e16d449036c892a99cbae0b02856b1ef6",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/033/chkpts/chkpt_00000": {
+   "original_sha256": "44e097e46926fa381ca519a15abc5aac39ea1d8bd80750bc034c1a0f342bd694",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/034/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/034/best_chkpt": {
+   "original_sha256": "7145f3e4504557d0439ab95c79a1b300fcdef9b8889c65022bd5318db7097980",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/034/chkpts/chkpt_00000": {
+   "original_sha256": "63c61eedfedd453f7cc71febba7eaaf6fda506917f3066786f0e54da62873ce8",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/035/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/035/best_chkpt": {
+   "original_sha256": "2c59918d9bd267330d9a8c2a9f42da1dc5335901a6c1c62fdcfdc10faa3ff737",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/035/chkpts/chkpt_00000": {
+   "original_sha256": "0871834dbdd7b768b0af2818fc870fe1f65b4f83084d06a3aefff5c80c042653",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/036/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/036/best_chkpt": {
+   "original_sha256": "052b7e31cebc6b60f73e37e166911dc6889795abbaa5f38717d5374ab1d0cc6d",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/036/chkpts/chkpt_00000": {
+   "original_sha256": "a1f462a2b2a2c25eee7a9f531a3569c86aebd39ce3fec4cfc3ec84a17d6f0b27",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/037/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/037/best_chkpt": {
+   "original_sha256": "93f25c9d4dc6a6f93d7a8d19fc372a9eeedc5455b388779de8152763337baeee",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/037/chkpts/chkpt_00000": {
+   "original_sha256": "7f8c22ded9360c593db3c35b0108a6566cf06fd7fd5576c9ab3a651d27f543eb",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/038/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/038/best_chkpt": {
+   "original_sha256": "a336ca91868486678c4dfbf871ef8f1c009c12974df20289b8697a79f1db86e0",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/038/chkpts/chkpt_00000": {
+   "original_sha256": "53b23b512decc9731749909573e189d0be8cb2f5fdadcec31e997adf10f8489e",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/039/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/039/best_chkpt": {
+   "original_sha256": "a280006d540ceb2d1e6e0cd25e912500235ea79e3c258cf3f93ea518459083d7",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/039/chkpts/chkpt_00000": {
+   "original_sha256": "75a17b1c5ef2db42c78a507fc58c1d570efcb340b6803deacf229ab261e5e591",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/040/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/040/best_chkpt": {
+   "original_sha256": "67a85cdcfb55d9e59fbe750a365c044d333d782ab89c0d44d75ffe9a736fac84",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/040/chkpts/chkpt_00000": {
+   "original_sha256": "10a676b7bb485a198f9c460f9c19200b2af294e0774a6bc8811f3ca7f634fa0d",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/041/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/041/best_chkpt": {
+   "original_sha256": "76759a8d7d714bf7886000e41eca56b8c02aecd2df7feb630f4aa98f645f6f32",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/041/chkpts/chkpt_00000": {
+   "original_sha256": "18956d65ef43738df631a337d4cbb70f88a10e7d21a8507099566e61fff168a4",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/042/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/042/best_chkpt": {
+   "original_sha256": "d57aa0a374be4f63a2e8d955a73b15fbcc72b799fcb7906ff5cd6366b42a0f6d",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/042/chkpts/chkpt_00000": {
+   "original_sha256": "84085b7f910ff7687d26a27e985d958fe1ebbdbd06e5979ddd6d8e41ae737bdd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/043/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/043/best_chkpt": {
+   "original_sha256": "9536964c530de66dd3356e04c47d4057a2764e25a40faf04a45c8e8083612d76",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/043/chkpts/chkpt_00000": {
+   "original_sha256": "e65eca2cef34088c0e99579bea4dee91a4405e0b706563a829bed5cc3b0459e3",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/044/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/044/best_chkpt": {
+   "original_sha256": "efc1850265ed305bdc2b6c645fe8a74faa2b2ea2a238d097148ca490b83fcd80",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/044/chkpts/chkpt_00000": {
+   "original_sha256": "77f3c86e684f4c077467494378c2bc3e2675e7559f563cbddca4886e919c9a44",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/045/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/045/best_chkpt": {
+   "original_sha256": "19323db328787e33b91ac0473046f0e361ef4dadf0394e3f389b5359b9fdedce",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/045/chkpts/chkpt_00000": {
+   "original_sha256": "6750358e06586ceb4790e5055cdbdbb1d6ba5f93481fdd531b4aa95e43a25ec0",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/046/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/046/best_chkpt": {
+   "original_sha256": "604b2cf4dddbd7fbaefad7b350903ace541acb1c412242705dccf246cd904750",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/046/chkpts/chkpt_00000": {
+   "original_sha256": "e070e06fd665b82de3ad1ad1d9464a05949cf888e7ed12494a889a96db8b529b",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/047/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/047/best_chkpt": {
+   "original_sha256": "f5f98dbc53a94606a07e21079268b57a26950be66fe2f879fb06647a35d870fb",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/047/chkpts/chkpt_00000": {
+   "original_sha256": "01cf80542133a372004f43ce97675a22761e13fbd03de683d27238777a0760d8",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/048/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/048/best_chkpt": {
+   "original_sha256": "781eae13aaef429af6b98f0e4a436974a41f399ed532aabfc2d7973d28545bfe",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/048/chkpts/chkpt_00000": {
+   "original_sha256": "a4776f571253ed8023cb55abd78e01ddf416a04ee7718bfa06db8f8c99d1e8b4",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/049/_meta.yaml": {
+   "original_sha256": "2aa8a9505324c82bbb4011ee2f7c375b5f8b1bddde1a5281e038baecf91fc5dd",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/049/best_chkpt": {
+   "original_sha256": "b0dd6e351eed6b3ac18941fb02760c97426fe71aba1c194b0bd24a09d8d5960f",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  },
+  "03-Data/flyvis-root/results/flow/0000/049/chkpts/chkpt_00000": {
+   "original_sha256": "260ea849f4ce1361523d3b43d002017320229b583c76bd4b7cc93ff2550a2e47",
+   "reason": "FlyVis release file (checkpoints, connectome and renderings of the 50 models); download it with flyvis (see README.md), checked against this digest"
+  }
+ },
+ "freeze_records": [
+  {
+   "path": "study/freeze.json",
+   "base": "."
+  },
+  {
+   "path": "06-Study-History/stage1/freeze-manifest.json",
+   "base": "."
+  }
+ ]
+}
