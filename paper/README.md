@@ -1,7 +1,7 @@
 # The preprint's source
 
 *First-order estimates find the influential cell types in the FlyVis models but misjudge their silencing effects: the
-nonlinearity is in the readout* (the preprint, October 2026). Files that differ from the preprint's source, by the same wording rules as the rest of the release: `sections/study2.tex` (machine details x1).
+nonlinearity is in the readout* (the preprint, version of 19 November 2026). Files that differ from the preprint's source, by the same wording rules as the rest of the release: `sections/study2.tex` (machine details x1).
 
 | Path | What it is |
 |---|---|
