@@ -71,7 +71,7 @@ The freezes are local hash records written by the study code, not public preregi
 
 ## Licence
 
-MIT (`LICENSE`), covering the code and the studies' records and saved outputs; each part carries the same file.
+MIT (`LICENSE`), covering the code and the studies' records and saved outputs; each part carries the same file. Model weights, tokenisers and packages are not included and keep their own licences.
 
 ## Study codes
 
